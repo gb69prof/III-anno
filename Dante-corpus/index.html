@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#071217" />
+  <meta name="description" content="PWA didattica sulle opere complete di Dante Alighieri: testi originali, temi, ricerche, sintesi e percorsi." />
+  <title>Dante Alighieri · Le opere complete · gbprof</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/icon-192.png">
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <header class="topbar" id="topbar">
+      <a class="brand" href="#home" aria-label="gbprof home"><span class="quill">✒</span><span>gbprof</span></a>
+      <nav class="nav" aria-label="Navigazione principale">
+        <a href="#home" data-nav="home">Home</a>
+        <a href="#opere" data-nav="opere">Opere</a>
+        <a href="#temi" data-nav="temi">Temi</a>
+        <a href="#vita" data-nav="vita">Vita</a>
+        <a href="#mappe" data-nav="mappe">Mappa concetti</a>
+        <a href="#ricerca" data-nav="ricerca">Ricerca</a>
+        <a href="#archivio" data-nav="archivio">Archivio</a>
+      </nav>
+      <button class="hamb" id="hamb" aria-label="Apri menu">☰</button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-layer"></div>
+        <div class="hero-content reveal">
+          <p class="eyebrow">Corpus digitale · PWA didattica</p>
+          <h1>Dante Alighieri</h1>
+          <div class="ornament">◇ ◆ ◇</div>
+          <h2>Le opere complete</h2>
+          <p class="hero-sub">Poesia, pensiero, lingua e visione del mondo in un percorso digitale interattivo.</p>
+          <div class="hero-actions">
+            <a class="btn gold" href="#opere">▣ Entra nell’indice</a>
+            <a class="btn blue" href="#opere">▤ Esplora le opere</a>
+            <a class="btn teal" href="#ricerca">⌕ Cerca per parole</a>
+            <a class="btn violet" href="#mappe">◇ Percorsi e mappe</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-section reveal">
+        <div class="dante-medallion" aria-hidden="true">D</div>
+        <div>
+          <h2>La PWA delle opere di Dante</h2>
+          <p>Questo spazio raccoglie le principali opere di Dante Alighieri: testi originali, introduzioni, temi, contesto storico, ricerca per parole e argomenti, traduzione/parafrasi didattica in italiano moderno e riassunti per sezioni.</p>
+          <p>Non è una vetrina: è un laboratorio di lettura. Si parte dal testo, si attraversano i temi, si confrontano le opere, si torna al problema vivo: che cosa significa ancora leggere Dante?</p>
+        </div>
+        <div class="diagram" aria-hidden="true"></div>
+      </section>
+
+      <section class="section reveal" id="opere">
+        <div class="section-head">
+          <p class="eyebrow">Indice visivo</p>
+          <h2>Le opere</h2>
+          <p>Scegli un’opera: ogni scheda contiene introduzione, tematiche, fase della vita, collegamenti interni, testo originale, parafrasi moderna e riassunti.</p>
+        </div>
+        <div class="cards-grid" id="worksGrid"></div>
+      </section>
+
+      <section class="section band reveal" id="temi">
+        <div class="section-head">
+          <p class="eyebrow">Ricerca per argomenti</p>
+          <h2>Percorsi tematici</h2>
+          <p>Le opere non sono isole. Amore, lingua, politica, esilio, filosofia e cosmologia ritornano, si trasformano e si rispondono.</p>
+        </div>
+        <div class="topic-cloud" id="topicCloud"></div>
+      </section>
+
+      <section class="section reveal" id="ricerca">
+        <div class="section-head">
+          <p class="eyebrow">Motore interno</p>
+          <h2>Ricerca per parole</h2>
+          <p>Cerca dentro tutto il corpus originale. Puoi usare termini, nomi, parole antiche o moderne: “Beatrice”, “virtù”, “impero”, “amor”, “Firenze”.</p>
+        </div>
+        <div class="search-panel">
+          <div class="search-row">
+            <input id="searchInput" type="search" placeholder="Cerca una parola o un’espressione…" autocomplete="off">
+            <button id="searchBtn" class="btn gold small">Cerca</button>
+          </div>
+          <div class="filters" id="searchFilters"></div>
+          <div id="searchStatus" class="muted"></div>
+          <div id="searchResults" class="results"></div>
+        </div>
+      </section>
+
+      <section class="section band reveal" id="mappe">
+        <div class="section-head">
+          <p class="eyebrow">Orientarsi nel corpus</p>
+          <h2>Mappa concettuale</h2>
+          <p>Una rete essenziale per passare da un’opera all’altra senza perdere il filo.</p>
+        </div>
+        <div class="map-grid" id="conceptMap"></div>
+      </section>
+
+      <section class="section reveal" id="vita">
+        <div class="section-head">
+          <p class="eyebrow">Biografia e opere</p>
+          <h2>Fasi della vita</h2>
+        </div>
+        <div class="timeline">
+          <div><strong>Giovinezza fiorentina</strong><span>Vita nuova: amore, memoria, Beatrice, Stilnovo.</span></div>
+          <div><strong>Crisi politica ed esilio</strong><span>Convivio, De vulgari eloquentia, Epistole: il sapere, la lingua, la città perduta.</span></div>
+          <div><strong>Maturità poetica e politica</strong><span>Monarchia e Commedia: ordine del mondo, giustizia, salvezza, visione.</span></div>
+          <div><strong>Ultima fase</strong><span>Egloghe, Quaestio e compimento della Commedia: autorappresentazione, scienza, cosmologia.</span></div>
+        </div>
+      </section>
+
+      <section class="section band reveal" id="archivio">
+        <div class="section-head">
+          <p class="eyebrow">Corpus</p>
+          <h2>Archivio e uso didattico</h2>
+          <p>I testi originali provengono dal corpus pulito fornito da gbprof e sono conservati nella cartella <code>data/texts</code>. La PWA funziona offline dopo il primo caricamento.</p>
+        </div>
+        <div class="tools-grid">
+          <article><span>⌕</span><h3>Ricerca per parole</h3><p>Trova rapidamente versi, formule, personaggi e temi in tutte le opere.</p></article>
+          <article><span>✣</span><h3>Ricerca per argomenti</h3><p>Entra nel corpus attraverso amore, lingua, politica, esilio, filosofia e molto altro.</p></article>
+          <article><span>▤</span><h3>Originale e parafrasi</h3><p>Affianca il testo originale a una guida in italiano moderno per sezioni.</p></article>
+          <article><span>☰</span><h3>Riassunti</h3><p>Segui canti, capitoli e sezioni con sintesi leggibili e progressive.</p></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="brand"><span class="quill">✒</span><span>gbprof</span></div>
+      <p>Leggere Dante non come reliquia, ma come viaggio da attraversare.</p>
+      <small>© 2024 gbprof – Le opere di Dante Alighieri · PWA didattica</small>
+    </footer>
+  </div>
+
+  <aside id="workDrawer" class="drawer" aria-hidden="true">
+    <div class="drawer-panel">
+      <button class="close" id="closeDrawer" aria-label="Chiudi">×</button>
+      <div id="workDetail"></div>
+    </div>
+  </aside>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
