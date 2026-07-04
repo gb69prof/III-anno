@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#160b0b" />
+  <title>Inferno di Dante — Libro vivo</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="assets/icons/icon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/home" aria-label="Home"><img src="assets/icons/icon.svg" alt=""/><span><b>Inferno</b><small>Libro vivo</small></span></a>
+    <button id="menuBtn" class="menu-btn" aria-label="Apri menu">☰</button>
+    <nav id="mainNav">
+      <a href="#/intro">Introduzione</a>
+      <a href="#/canti">Canti</a>
+      <a href="#/temi">Temi</a>
+      <a href="#/personaggi">Personaggi</a>
+      <a href="#/struttura">Struttura</a>
+      <a href="#/figure">Figure retoriche</a>
+    </nav>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <footer class="footer">a cura di <strong>gbprof</strong> e <strong>Libera</strong> · PWA offline-ready · Audio predisposti in <code>assets/audio/</code></footer>
+  <script src="app.js"></script>
+</body>
+</html>
