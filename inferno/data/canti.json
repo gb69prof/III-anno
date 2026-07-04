@@ -1,0 +1,1777 @@
+[
+  {
+    "id": 1,
+    "roman": "I",
+    "title": "La selva oscura e l’inizio del viaggio",
+    "location": "Selva oscura; colle illuminato; soglia del cammino ultraterreno",
+    "area": "Introduzione morale al viaggio",
+    "sin": "Smarrimento morale: il peccato come perdita della diritta via",
+    "punishment": "Non c’è ancora pena infernale: c’è la condizione dell’uomo che deve riconoscere il proprio traviamento",
+    "contrapasso": "Non applicato: il canto è proemiale e allegorico. La selva rende visibile la confusione interiore.",
+    "themes": [
+      "smarrimento",
+      "allegoria",
+      "ragione",
+      "grazia",
+      "paura",
+      "salvezza",
+      "profezia del veltro"
+    ],
+    "summary": "Dante, giunto a metà della vita, si ritrova in una selva oscura: ha smarrito la via del bene. Vede un colle illuminato dal sole e tenta di salirlo, ma tre fiere — lonza, leone e lupa — gli sbarrano il cammino. Compare Virgilio, che si presenta come poeta latino e guida. Virgilio spiega che Dante non potrà superare direttamente la lupa: dovrà compiere un altro viaggio attraverso Inferno e Purgatorio; poi Beatrice lo condurrà in Paradiso.",
+    "paraphrase": "A metà della vita umana Dante prende coscienza di essersi allontanato dalla strada giusta. La selva è oscura perché rappresenta il peccato e la perdita dell’orientamento morale. Il colle illuminato indica la possibilità della salvezza, ma le tre fiere mostrano che l’uomo non può liberarsi da solo dai propri vizi. Virgilio, simbolo della ragione, può guidare Dante nella conoscenza del male, ma non basta alla salvezza finale: per arrivare a Dio servirà Beatrice, cioè la grazia e la teologia.",
+    "key_verses": [
+      "Nel mezzo del cammin di nostra vita / mi ritrovai per una selva oscura",
+      "ché la diritta via era smarrita",
+      "Tu se’ lo mio maestro e ’l mio autore",
+      "A te convien tenere altro viaggio"
+    ],
+    "figures": [
+      "allegoria",
+      "similitudine del naufrago",
+      "allitterazione",
+      "metafora della via",
+      "anafora implicita del cammino"
+    ],
+    "characters": [
+      {
+        "name": "Dante-personaggio",
+        "type": "reale/allegorico",
+        "function": "Rappresenta l’uomo peccatore che prende coscienza della propria crisi."
+      },
+      {
+        "name": "Virgilio",
+        "type": "reale/storico-letterario",
+        "function": "Poeta latino; guida razionale di Dante nell’Inferno e nel Purgatorio."
+      },
+      {
+        "name": "Lonza",
+        "type": "simbolico",
+        "function": "Figura del peccato che seduce e devia; tradizionalmente associata alla lussuria o alla frode."
+      },
+      {
+        "name": "Leone",
+        "type": "simbolico",
+        "function": "Figura della superbia e della violenza."
+      },
+      {
+        "name": "Lupa",
+        "type": "simbolico",
+        "function": "Figura della cupidigia, il vizio più distruttivo perché non si sazia mai."
+      },
+      {
+        "name": "Veltro",
+        "type": "allegorico/profetico",
+        "function": "Restauratore morale o politico: figura volutamente enigmatica."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "roman": "II",
+    "title": "Il dubbio di Dante e l’intervento delle tre donne benedette",
+    "location": "Fuori dalla porta dell’Inferno, prima della discesa",
+    "area": "Proemio al viaggio infernale",
+    "sin": "Paura, esitazione, coscienza della propria indegnità",
+    "punishment": "Non c’è pena: il canto mostra la necessità della grazia prima del viaggio",
+    "contrapasso": "Non applicato. La paura di Dante viene vinta dalla catena della misericordia: Maria, Lucia, Beatrice.",
+    "themes": [
+      "paura",
+      "grazia",
+      "missione",
+      "auctoritas",
+      "Beatrice",
+      "ragione e fede"
+    ],
+    "summary": "Al calare della sera Dante teme di non essere degno del viaggio. Ricorda che solo Enea e san Paolo visitarono l’oltretomba da vivi. Virgilio lo rassicura raccontando che Beatrice è scesa dal cielo per chiedergli di aiutarlo, mossa da Lucia e dalla Vergine. Dante ritrova coraggio e decide di seguire Virgilio.",
+    "paraphrase": "Dante si chiede perché proprio lui debba entrare nell’aldilà. Il suo dubbio è umano: non si sente né eroe fondatore come Enea né apostolo come Paolo. Virgilio risponde mostrando che il viaggio non nasce dalla presunzione di Dante, ma da una decisione provvidenziale. Tre figure femminili celesti si sono mosse per salvarlo: la misericordia dall’alto scende fino alla ragione umana, che può iniziare il cammino.",
+    "key_verses": [
+      "Io non Enea, io non Paulo sono",
+      "temo che la venuta non sia folle",
+      "Donna è gentil nel ciel che si compiange",
+      "Or va, ch’un sol volere è d’ambedue"
+    ],
+    "figures": [
+      "apostrofe",
+      "allusione biblica e classica",
+      "parallelismo",
+      "anafora"
+    ],
+    "characters": [
+      {
+        "name": "Dante",
+        "type": "reale/allegorico",
+        "function": "Esprime il dubbio umano davanti a una missione superiore."
+      },
+      {
+        "name": "Virgilio",
+        "type": "storico-letterario",
+        "function": "Rassicura Dante e svela l’origine provvidenziale del viaggio."
+      },
+      {
+        "name": "Beatrice",
+        "type": "reale/allegorico",
+        "function": "Amore salvifico e teologia; scende nel Limbo per chiedere aiuto a Virgilio."
+      },
+      {
+        "name": "Lucia",
+        "type": "santa/allegorica",
+        "function": "Figura della grazia illuminante."
+      },
+      {
+        "name": "Vergine Maria",
+        "type": "sacra",
+        "function": "Fonte della misericordia che mette in moto il soccorso."
+      },
+      {
+        "name": "Enea e san Paolo",
+        "type": "letterario/biblico",
+        "function": "Precedenti autorevoli del viaggio ultraterreno."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "roman": "III",
+    "title": "La porta dell’Inferno, gli ignavi e Caronte",
+    "location": "Porta dell’Inferno; Antinferno; riva dell’Acheronte",
+    "area": "Antinferno",
+    "sin": "Ignavia: rifiuto di scegliere il bene o il male",
+    "punishment": "Gli ignavi corrono dietro a un’insegna senza significato, punti da insetti; vermi raccolgono sangue e lacrime.",
+    "contrapasso": "Per analogia: in vita non seguirono nessuna bandiera morale; ora inseguono una bandiera vuota. Non vollero essere toccati dalla responsabilità; ora sono continuamente punti.",
+    "themes": [
+      "scelta morale",
+      "responsabilità",
+      "giustizia divina",
+      "paura",
+      "soglia",
+      "autorità divina"
+    ],
+    "summary": "Dante e Virgilio giungono davanti alla porta dell’Inferno, su cui è scritto l’avvertimento terribile: chi entra deve abbandonare ogni speranza. Nell’Antinferno incontrano gli ignavi, anime che non scelsero mai e sono disprezzate sia dal Cielo sia dall’Inferno. Tra loro Dante nota colui che fece il gran rifiuto. I due arrivano poi all’Acheronte, dove Caronte traghetta le anime dannate. Caronte vorrebbe respingere Dante perché vivo, ma Virgilio lo zittisce: il viaggio è voluto da Dio. Un terremoto scuote l’aria e Dante sviene.",
+    "paraphrase": "La scritta sulla porta presenta l’Inferno come luogo di dolore eterno e di giustizia. Gli ignavi sono la prima lezione morale: non scegliere non è innocenza, ma rinuncia alla dignità razionale dell’uomo. Caronte rappresenta il passaggio irreversibile verso il giudizio; il suo rifiuto viene superato dalla formula di Virgilio, che richiama l’autorità divina. Dante non entra da turista: entra perché una volontà superiore lo permette.",
+    "key_verses": [
+      "Per me si va ne la città dolente",
+      "Lasciate ogne speranza, voi ch’intrate",
+      "Non ragioniam di lor, ma guarda e passa",
+      "vuolsi così colà dove si puote / ciò che si vuole"
+    ],
+    "figures": [
+      "anafora",
+      "epigrafe solenne",
+      "allitterazione",
+      "similitudine delle foglie",
+      "perifrasi"
+    ],
+    "characters": [
+      {
+        "name": "Ignavi",
+        "type": "reali/collettivi",
+        "function": "Anime che non vollero scegliere; introducono il tema della responsabilità morale."
+      },
+      {
+        "name": "Colui che fece per viltade il gran rifiuto",
+        "type": "reale discusso",
+        "function": "Figura problematica, spesso identificata con Celestino V o con Pilato."
+      },
+      {
+        "name": "Caronte",
+        "type": "mitologico",
+        "function": "Traghettatore infernale; custode del passaggio sull’Acheronte."
+      },
+      {
+        "name": "Virgilio",
+        "type": "storico-letterario",
+        "function": "Impone a Caronte la volontà divina."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "roman": "IV",
+    "title": "Il Limbo e i grandi spiriti antichi",
+    "location": "Primo cerchio: Limbo",
+    "area": "Inferno alto",
+    "sin": "Mancanza del battesimo o vita prima della rivelazione cristiana",
+    "punishment": "Assenza della visione di Dio; nessuna tortura fisica, ma desiderio senza speranza.",
+    "contrapasso": "Per privazione: vissero senza la fede cristiana; ora desiderano Dio senza poterlo raggiungere.",
+    "themes": [
+      "limbo",
+      "cultura classica",
+      "virtù naturale",
+      "salvezza",
+      "poesia",
+      "autorità degli antichi"
+    ],
+    "summary": "Dante si risveglia nel primo cerchio, il Limbo. Virgilio spiega che qui stanno i non battezzati e i grandi pagani virtuosi. Dante incontra i poeti Omero, Orazio, Ovidio e Lucano, che lo accolgono tra loro. Nel nobile castello vede eroi, filosofi e sapienti dell’antichità, tra cui Aristotele, Socrate, Platone, Cesare, Enea, Averroè e Avicenna.",
+    "paraphrase": "Il Limbo è il luogo più doloroso per la ragione: vi stanno persone grandi, nobili, capaci di virtù, ma escluse dalla visione di Dio. Dante riconosce il debito verso la cultura classica, ma la colloca dentro un ordine cristiano. L’incontro con i poeti è anche un atto di investitura: Dante si sente continuatore dei grandi autori antichi, ma li supera perché scrive da cristiano.",
+    "key_verses": [
+      "sanza speme vivemo in disio",
+      "Onorate l’altissimo poeta",
+      "sì ch’io fui sesto tra cotanto senno",
+      "vidi ’l maestro di color che sanno"
+    ],
+    "figures": [
+      "enumerazione",
+      "perifrasi",
+      "antitesi desiderio/speranza",
+      "tono elegiaco"
+    ],
+    "characters": [
+      {
+        "name": "Virgilio",
+        "type": "storico-letterario",
+        "function": "Spiega la condizione dei pagani virtuosi."
+      },
+      {
+        "name": "Omero, Orazio, Ovidio, Lucano",
+        "type": "storici/letterari",
+        "function": "Canone poetico antico; accolgono Dante fra i poeti."
+      },
+      {
+        "name": "Aristotele",
+        "type": "storico",
+        "function": "Simbolo della sapienza filosofica antica."
+      },
+      {
+        "name": "Enea, Cesare, Ettore, Camilla",
+        "type": "storici/letterari",
+        "function": "Figure eroiche della tradizione classica."
+      },
+      {
+        "name": "Avicenna e Averroè",
+        "type": "storici",
+        "function": "Sapienti islamici integrati nel panorama filosofico del Limbo."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "roman": "V",
+    "title": "Minosse, i lussuriosi, Paolo e Francesca",
+    "location": "Secondo cerchio",
+    "area": "Peccati di incontinenza",
+    "sin": "Lussuria: la ragione sottomessa al desiderio",
+    "punishment": "I lussuriosi sono trascinati senza tregua da una bufera infernale.",
+    "contrapasso": "Per analogia: in vita furono travolti dalla passione; ora sono travolti da un vento eterno.",
+    "themes": [
+      "amore",
+      "lussuria",
+      "letteratura cortese",
+      "responsabilità della parola",
+      "pietà",
+      "desiderio"
+    ],
+    "summary": "Dante entra nel secondo cerchio, dove Minosse giudica le anime e le destina al luogo della pena. Qui sono puniti i lussuriosi, trascinati dalla bufera. Virgilio indica figure celebri come Semiramide, Didone, Cleopatra, Elena, Achille, Paride e Tristano. Dante chiede di parlare con Paolo e Francesca. Francesca racconta l’amore nato dalla lettura di Lancillotto; Dante, sconvolto dalla pietà e dalla consapevolezza del peccato, sviene.",
+    "paraphrase": "Il canto mostra la bellezza pericolosa del linguaggio amoroso. Francesca parla con parole alte, quasi cortesi, ma dietro quella bellezza c’è un adulterio che ha consegnato lei e Paolo alla dannazione. Dante prova pietà, ma non assolve: capisce che l’amore separato dalla ragione e dalla responsabilità diventa forza distruttiva. Anche la letteratura può essere un “Galeotto”, cioè un mediatore del peccato, quando seduce senza educare al vero.",
+    "key_verses": [
+      "Amor, ch’al cor gentil ratto s’apprende",
+      "Amor, ch’a nullo amato amar perdona",
+      "Amor condusse noi ad una morte",
+      "Galeotto fu ’l libro e chi lo scrisse"
+    ],
+    "figures": [
+      "anafora di Amor",
+      "similitudine degli storni e delle colombe",
+      "iperbato",
+      "lessico cortese rovesciato"
+    ],
+    "characters": [
+      {
+        "name": "Minosse",
+        "type": "mitologico",
+        "function": "Giudice infernale; assegna il cerchio con le spire della coda."
+      },
+      {
+        "name": "Francesca da Rimini",
+        "type": "reale/storica",
+        "function": "Voce seducente del peccato d’amore; incarna la crisi dell’amore cortese."
+      },
+      {
+        "name": "Paolo Malatesta",
+        "type": "reale/storico",
+        "function": "Amante silenzioso; la sua presenza rafforza il pathos."
+      },
+      {
+        "name": "Semiramide, Didone, Cleopatra, Elena, Achille, Paride, Tristano",
+        "type": "storici/mitologici/letterari",
+        "function": "Catalogo degli amori distruttivi."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "roman": "VI",
+    "title": "Ciacco e la profezia politica su Firenze",
+    "location": "Terzo cerchio",
+    "area": "Peccati di incontinenza",
+    "sin": "Gola",
+    "punishment": "I golosi giacciono nel fango sotto pioggia fredda, grandine e neve; Cerbero li graffia e li squarta.",
+    "contrapasso": "Per analogia e degradazione: cercarono piaceri materiali; ora sono ridotti a materia sporca e informe.",
+    "themes": [
+      "gola",
+      "Firenze",
+      "politica",
+      "corpo",
+      "profezia",
+      "giudizio finale"
+    ],
+    "summary": "Nel terzo cerchio Dante trova i golosi, battuti da una pioggia sporca e sorvegliati da Cerbero. Ciacco, fiorentino, riconosce Dante e gli profetizza le lotte civili tra fazioni a Firenze. Dante chiede notizie di alcuni cittadini illustri; Ciacco risponde che sono più in basso nell’Inferno. Virgilio spiega che dopo il giudizio finale le pene saranno più intense perché le anime riavranno il corpo.",
+    "paraphrase": "La gola non è presentata come semplice eccesso alimentare, ma come abbassamento dell’uomo alla pura corporeità. Il fango e la pioggia sporca traducono la degradazione di chi ha vissuto per il ventre. Con Ciacco il canto apre il tema politico: la città terrena è anch’essa malata, dominata da invidia, superbia e avarizia.",
+    "key_verses": [
+      "La tua città, ch’è piena / d’invidia sì che già trabocca il sacco",
+      "superbia, invidia e avarizia sono / le tre faville c’hanno i cuori accesi",
+      "più dolente fia dopo la gran sentenza"
+    ],
+    "figures": [
+      "realismo grottesco",
+      "profezia post eventum",
+      "metafora delle faville",
+      "onomatopea implicita"
+    ],
+    "characters": [
+      {
+        "name": "Ciacco",
+        "type": "reale/storico",
+        "function": "Dannato fiorentino; introduce la profezia politica."
+      },
+      {
+        "name": "Cerbero",
+        "type": "mitologico",
+        "function": "Custode mostruoso dei golosi."
+      },
+      {
+        "name": "Virgilio",
+        "type": "storico-letterario",
+        "function": "Spiega il destino del corpo dopo il giudizio."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "roman": "VII",
+    "title": "Avari, prodighi, Fortuna, iracondi e accidiosi",
+    "location": "Quarto cerchio; poi palude Stigia",
+    "area": "Incontinenza",
+    "sin": "Avarizia, prodigalità, ira e accidia",
+    "punishment": "Avari e prodighi spingono pesi in senso opposto; iracondi si percuotono nella palude; accidiosi gorgogliano sommersi nel fango.",
+    "contrapasso": "Per analogia: chi deformò il rapporto con i beni materiali urta inutilmente pesi; chi fu dominato dall’ira è immerso in una materia torbida; chi covò tristezza passiva resta sommerso.",
+    "themes": [
+      "ricchezza",
+      "Fortuna",
+      "ira",
+      "accidia",
+      "cecità morale",
+      "ordine provvidenziale"
+    ],
+    "summary": "Pluto tenta di fermare i due pellegrini, ma Virgilio lo riduce al silenzio. Dante vede avari e prodighi che rotolano enormi macigni in schiere opposte. Virgilio spiega la funzione della Fortuna come ministra di Dio che distribuisce i beni terreni. Poi i due raggiungono lo Stige, dove gli iracondi si colpiscono e gli accidiosi restano immersi sotto la melma.",
+    "paraphrase": "Il canto attacca l’illusione del possesso: gli uomini credono di dominare il denaro, ma in realtà ne sono dominati. La Fortuna non è caos cieco, ma strumento dell’ordine divino. Ira e accidia sono due deformazioni dell’energia interiore: esplosione distruttiva o immobilità rancorosa.",
+    "key_verses": [
+      "Pape Satàn, pape Satàn aleppe",
+      "Mal dare e mal tener lo mondo pulcro / ha tolto loro",
+      "Or puoi, figliuol, veder la corta buffa / d’i ben che son commessi a la fortuna"
+    ],
+    "figures": [
+      "linguaggio oscuro demoniaco",
+      "antitesi",
+      "allegoria della Fortuna",
+      "chiasmo"
+    ],
+    "characters": [
+      {
+        "name": "Pluto",
+        "type": "mitologico/demoniaco",
+        "function": "Custode del quarto cerchio."
+      },
+      {
+        "name": "Avari e prodighi",
+        "type": "collettivi/reali",
+        "function": "Mostrano l’uso disordinato dei beni materiali."
+      },
+      {
+        "name": "Fortuna",
+        "type": "allegorico",
+        "function": "Ministra divina che regola la distribuzione dei beni."
+      },
+      {
+        "name": "Iracondi e accidiosi",
+        "type": "collettivi/reali",
+        "function": "Anime immerse nella palude Stigia."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "roman": "VIII",
+    "title": "Flegiàs, Filippo Argenti e le mura di Dite",
+    "location": "Palude Stigia; mura della città di Dite",
+    "area": "Passaggio all’Inferno basso",
+    "sin": "Ira; opposizione demoniaca al cammino",
+    "punishment": "Gli iracondi si azzuffano nella palude; le forze infernali tentano di bloccare il viaggio.",
+    "contrapasso": "Per analogia: la violenza emotiva diventa lotta continua nel fango.",
+    "themes": [
+      "ira",
+      "politica fiorentina",
+      "limite della ragione",
+      "Dite",
+      "disprezzo morale"
+    ],
+    "summary": "Flegiàs traghetta Dante e Virgilio sulla palude Stigia. Durante il passaggio emerge Filippo Argenti, che Dante riconosce e respinge con durezza; gli altri dannati lo assalgono. I due arrivano alle mura di Dite, ma i demoni chiudono la porta e minacciano Virgilio. Dante teme di essere abbandonato; Virgilio lo rassicura, ma appare evidente che la ragione da sola non basta.",
+    "paraphrase": "Il canto segna un cambio di tono. Dante non prova pietà per Filippo Argenti: qui la condanna morale è più netta. L’arrivo a Dite mostra che si entra in un male più consapevole e più duro. Virgilio resta guida necessaria, ma non onnipotente: per superare certi ostacoli servirà un intervento superiore.",
+    "key_verses": [
+      "Lo collo poi con le braccia mi cinse",
+      "Vedi che son un che piango",
+      "Quei fu al mondo persona orgogliosa",
+      "già mai non ci potrà far sì ch’a noi / non torni il vincitor"
+    ],
+    "figures": [
+      "dialogo drammatico",
+      "realismo violento",
+      "ironia feroce",
+      "similitudine implicita"
+    ],
+    "characters": [
+      {
+        "name": "Flegiàs",
+        "type": "mitologico",
+        "function": "Traghettatore dello Stige."
+      },
+      {
+        "name": "Filippo Argenti",
+        "type": "reale/storico",
+        "function": "Dannato iracondo; bersaglio della condanna di Dante."
+      },
+      {
+        "name": "Demoni di Dite",
+        "type": "demoniaci",
+        "function": "Oppongono resistenza al viaggio."
+      },
+      {
+        "name": "Virgilio",
+        "type": "storico-letterario",
+        "function": "Rassicura Dante ma rivela i limiti della ragione."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "roman": "IX",
+    "title": "Le Furie, Medusa e il messo celeste",
+    "location": "Mura e porta di Dite; sesto cerchio",
+    "area": "Ingresso all’Inferno basso",
+    "sin": "Eresia introdotta; ostinazione infernale",
+    "punishment": "Gli eretici giacciono in sepolcri infuocati.",
+    "contrapasso": "Per analogia: negarono l’immortalità dell’anima o la verità della fede; ora sono chiusi in tombe ardenti, segno di morte spirituale.",
+    "themes": [
+      "limite della ragione",
+      "intervento divino",
+      "eresia",
+      "allegoria",
+      "paura",
+      "Medusa"
+    ],
+    "summary": "Dante e Virgilio attendono davanti a Dite. Appaiono le Furie che invocano Medusa per pietrificare Dante. Virgilio gli copre gli occhi. Arriva un messo celeste che apre la porta con autorità assoluta e rimprovera i demoni. I due entrano nella città e vedono un paesaggio di sepolcri infuocati: è il luogo degli eretici.",
+    "paraphrase": "Il canto è una scena di soglia. Medusa rappresenta il rischio di restare paralizzati dal male, incapaci di interpretarlo. Dante chiama direttamente il lettore a cercare la dottrina sotto il velo dei versi. Il messo celeste dimostra che la ragione può guidare, ma la grazia apre davvero ciò che l’Inferno vorrebbe chiudere.",
+    "key_verses": [
+      "O voi ch’avete li ’ntelletti sani, / mirate la dottrina che s’asconde",
+      "Volgiti ’n dietro e tien lo viso chiuso",
+      "Ben m’accorsi ch’elli era da ciel messo"
+    ],
+    "figures": [
+      "apostrofe al lettore",
+      "allegoria",
+      "suspense narrativo",
+      "simbolismo mitologico"
+    ],
+    "characters": [
+      {
+        "name": "Furie",
+        "type": "mitologico",
+        "function": "Figure della vendetta infernale e del terrore."
+      },
+      {
+        "name": "Medusa",
+        "type": "mitologico",
+        "function": "Minaccia di pietrificazione spirituale."
+      },
+      {
+        "name": "Messo celeste",
+        "type": "sacro/allegorico",
+        "function": "Intervento della grazia che apre Dite."
+      },
+      {
+        "name": "Eretici",
+        "type": "collettivi/reali",
+        "function": "Dannati del sesto cerchio."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "roman": "X",
+    "title": "Farinata e Cavalcante tra gli eretici",
+    "location": "Sesto cerchio: arche infuocate degli epicurei",
+    "area": "Eresia",
+    "sin": "Eresia epicurea: negazione dell’immortalità dell’anima",
+    "punishment": "Gli eretici sono chiusi in tombe infuocate.",
+    "contrapasso": "Credevano che tutto finisse con la morte; ora abitano tombe eterne e coscienti.",
+    "themes": [
+      "politica",
+      "eresia",
+      "Firenze",
+      "paternità",
+      "memoria",
+      "limiti della conoscenza dei dannati"
+    ],
+    "summary": "Tra le tombe infuocate Dante incontra Farinata degli Uberti, ghibellino fiero e ancora legato alla politica fiorentina. Dalla stessa tomba si solleva Cavalcante de’ Cavalcanti, padre di Guido, che chiede del figlio. Un equivoco verbale lo fa credere morto e lo fa ricadere disperato. Farinata profetizza l’esilio di Dante e spiega che i dannati vedono il futuro lontano, ma ignorano il presente.",
+    "paraphrase": "Il canto mette insieme politica e affetti. Farinata resta monumentale, prigioniero della grandezza terrena e della parte politica. Cavalcante è invece padre ferito, incapace di pensare oltre il destino del figlio. L’eresia è smascherata proprio dal luogo: chi negò l’aldilà parla da una tomba ardente dentro l’eternità.",
+    "key_verses": [
+      "O Tosco che per la città del foco / vivo ten vai",
+      "com’avesse l’inferno a gran dispitto",
+      "Forse cui Guido vostro ebbe a disdegno",
+      "s’ei fur cacciati, ei tornar d’ogne parte"
+    ],
+    "figures": [
+      "contrasto dialogico",
+      "ironia tragica",
+      "enjambement",
+      "ritratto scultoreo"
+    ],
+    "characters": [
+      {
+        "name": "Farinata degli Uberti",
+        "type": "reale/storico",
+        "function": "Capo ghibellino; incarna la grandezza politica prigioniera della parte."
+      },
+      {
+        "name": "Cavalcante de’ Cavalcanti",
+        "type": "reale/storico",
+        "function": "Padre di Guido; introduce il tema affettivo e il limite conoscitivo dei dannati."
+      },
+      {
+        "name": "Epicurei",
+        "type": "collettivi/reali",
+        "function": "Eretici che negarono l’immortalità dell’anima."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "roman": "XI",
+    "title": "La dottrina dell’Inferno basso",
+    "location": "Sesto cerchio, presso l’orlo del settimo",
+    "area": "Canto dottrinale",
+    "sin": "Spiegazione di violenza e frode",
+    "punishment": "Non descrive una pena nuova: ordina le pene successive.",
+    "contrapasso": "Il canto chiarisce che le pene riflettono la qualità morale del peccato: incontinenza, violenza, frode.",
+    "themes": [
+      "struttura morale dell’Inferno",
+      "Aristotele",
+      "violenza",
+      "frode",
+      "usura",
+      "ordine"
+    ],
+    "summary": "Fermati dall’odore tremendo che sale dal basso Inferno, Dante e Virgilio sostano presso la tomba di papa Anastasio. Virgilio usa la pausa per spiegare l’ordinamento morale dell’Inferno: i peccati più gravi sono quelli di malizia, cioè violenza e frode. La frode è peggiore perché usa la ragione contro il bene. Virgilio chiarisce anche perché usura e violenza contro natura siano peccati contro l’ordine divino.",
+    "paraphrase": "Questo canto è la mappa teorica dell’Inferno. Dante non costruisce un catalogo casuale di torture: ordina il male secondo la responsabilità della volontà e dell’intelligenza. Quanto più il peccato usa la ragione per tradire, tanto più scende in basso. La frode è più grave dell’incontinenza perché perverte ciò che rende l’uomo umano.",
+    "key_verses": [
+      "D’ogne malizia, ch’odio in cielo acquista, / ingiuria è ’l fine",
+      "la frode, ond’ogne coscienza è morsa",
+      "Non ti rimembra di quelle parole / con le quai la tua Etica pertratta"
+    ],
+    "figures": [
+      "discorso dottrinale",
+      "argomentazione scolastica",
+      "citazione filosofica",
+      "classificazione"
+    ],
+    "characters": [
+      {
+        "name": "Virgilio",
+        "type": "storico-letterario",
+        "function": "Maestro dottrinale: spiega l’architettura morale dell’Inferno."
+      },
+      {
+        "name": "Papa Anastasio II",
+        "type": "reale/storico",
+        "function": "Figura sepolta tra gli eretici; segnale del confine dottrinale."
+      },
+      {
+        "name": "Aristotele",
+        "type": "storico",
+        "function": "Autorità filosofica richiamata attraverso l’Etica."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "roman": "XII",
+    "title": "Il Flegetonte e i violenti contro il prossimo",
+    "location": "Settimo cerchio, primo girone: fiume di sangue bollente",
+    "area": "Violenza",
+    "sin": "Violenza contro il prossimo: tiranni, omicidi, predoni",
+    "punishment": "I violenti sono immersi nel sangue bollente più o meno profondamente; i centauri li sorvegliano e li colpiscono con frecce.",
+    "contrapasso": "Per analogia: versarono il sangue altrui; ora sono immersi nel sangue.",
+    "themes": [
+      "violenza",
+      "tirannide",
+      "sangue",
+      "giustizia",
+      "mostri classici",
+      "politica del potere"
+    ],
+    "summary": "Dante e Virgilio scendono nel settimo cerchio, superando il Minotauro e una frana. Arrivano al Flegetonte, fiume di sangue bollente dove sono immersi tiranni e violenti. I centauri, guidati da Chirone, sorvegliano i dannati. Nesso accompagna i due poeti lungo il fiume e indica figure come Alessandro, Dionisio, Ezzelino, Obizzo d’Este e Attila.",
+    "paraphrase": "La violenza contro gli altri è resa materialmente: sangue chiama sangue. I potenti che fecero della forza una legge sono ridotti a corpi immersi in ciò che provocarono. I centauri, creature mezzo uomo e mezzo bestia, sono custodi perfetti di un peccato in cui la ragione è stata asservita alla brutalità.",
+    "key_verses": [
+      "O cieca cupidigia e ira folle",
+      "La divina giustizia di qua punge / quell’Attila che fu flagello in terra",
+      "Ecco il fiume del sangue"
+    ],
+    "figures": [
+      "apostrofe morale",
+      "catalogo storico",
+      "allegoria bestiale",
+      "immagine cruenta"
+    ],
+    "characters": [
+      {
+        "name": "Minotauro",
+        "type": "mitologico",
+        "function": "Custode dell’ingresso al cerchio dei violenti."
+      },
+      {
+        "name": "Chirone, Nesso, Folo",
+        "type": "mitologici",
+        "function": "Centauri custodi del Flegetonte."
+      },
+      {
+        "name": "Attila, Ezzelino, Dionisio, Alessandro",
+        "type": "reali/storici",
+        "function": "Esempi di violenza politica e tirannica."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "roman": "XIII",
+    "title": "La selva dei suicidi e Pier delle Vigne",
+    "location": "Settimo cerchio, secondo girone: selva dei suicidi",
+    "area": "Violenza contro sé stessi e contro le proprie cose",
+    "sin": "Suicidio e scialacquio",
+    "punishment": "I suicidi sono trasformati in alberi lacerati dalle Arpie; gli scialacquatori sono inseguiti da cagne fameliche.",
+    "contrapasso": "Per analogia e negazione: chi rifiutò il corpo umano perde forma umana; chi distrusse i beni è dilaniato da forze distruttive.",
+    "themes": [
+      "suicidio",
+      "identità",
+      "corpo",
+      "fama",
+      "ingiustizia",
+      "parola ferita"
+    ],
+    "summary": "In una selva aspra e innaturale Dante spezza un ramo e sente uscire sangue e parole: è Pier delle Vigne, ministro di Federico II, suicida dopo essere caduto in disgrazia. Pier spiega la pena dei suicidi: dopo il giudizio finale riavranno il corpo, ma non potranno rivestirlo; lo appenderanno al proprio albero. Poi appaiono gli scialacquatori inseguiti da cagne. Il canto si chiude con un anonimo suicida fiorentino.",
+    "paraphrase": "Il canto è uno dei più tragici: l’identità è ridotta a voce che esce da una ferita. Il suicida ha spezzato il legame con il corpo; per questo perde la forma umana e diventa vegetazione dolorante. Pier cerca ancora giustizia nella fama, ma la sua parola resta prigioniera del bosco: anche la dignità retorica non cancella il peccato.",
+    "key_verses": [
+      "Uomini fummo, e or siam fatti sterpi",
+      "Perché mi schiante?",
+      "Io son colui che tenni ambo le chiavi / del cor di Federigo",
+      "l’anima folle / che si divelse dal suo corpo"
+    ],
+    "figures": [
+      "prosopopea",
+      "metamorfosi",
+      "fonosimbolismo aspro",
+      "similitudine del ramo verde"
+    ],
+    "characters": [
+      {
+        "name": "Pier delle Vigne",
+        "type": "reale/storico",
+        "function": "Suicida illustre; difende la propria memoria."
+      },
+      {
+        "name": "Arpie",
+        "type": "mitologico",
+        "function": "Mostri che lacerano le piante-anime."
+      },
+      {
+        "name": "Lano da Siena e Iacopo da Sant’Andrea",
+        "type": "reali/storici",
+        "function": "Scialacquatori inseguiti e sbranati."
+      },
+      {
+        "name": "Anonimo fiorentino",
+        "type": "reale/anonimo",
+        "function": "Chiude il canto con accento civico e doloroso."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "roman": "XIV",
+    "title": "Il sabbione ardente e Capaneo",
+    "location": "Settimo cerchio, terzo girone: sabbia infuocata",
+    "area": "Violenza contro Dio, natura e arte",
+    "sin": "Bestemmia, violenza contro natura, usura",
+    "punishment": "Anime su sabbia ardente sotto pioggia di fuoco; i bestemmiatori giacciono, i sodomiti corrono, gli usurai siedono.",
+    "contrapasso": "Per analogia: chi sfidò l’ordine divino è esposto a un fuoco sterile e senza vita.",
+    "themes": [
+      "superbia contro Dio",
+      "sterilità",
+      "fiumi infernali",
+      "vecchio di Creta",
+      "ordine del mondo"
+    ],
+    "summary": "Dante e Virgilio attraversano una landa di sabbia infuocata su cui cade pioggia di fuoco. Tra i bestemmiatori incontrano Capaneo, che continua a sfidare Giove anche nella pena. Virgilio spiega l’origine dei fiumi infernali attraverso il mito del Vecchio di Creta, statua simbolica della storia umana decaduta, dalle cui lacrime nascono Acheronte, Stige, Flegetonte e Cocito.",
+    "paraphrase": "Capaneo è la superbia irrigidita: la pena non lo educa, ma conferma la sua ribellione. La sabbia sterile e il fuoco dall’alto rappresentano un mondo rovesciato, senza fecondità. Il Vecchio di Creta collega il dolore infernale alla storia umana: l’Inferno non è fuori dalla storia, ne è il fondo morale.",
+    "key_verses": [
+      "Qual io fui vivo, tal son morto",
+      "O Capaneo, in ciò che non s’ammorza / la tua superbia",
+      "Dentro dal monte sta dritto un gran veglio"
+    ],
+    "figures": [
+      "mito simbolico",
+      "immagine apocalittica",
+      "contrasto alto/basso",
+      "allegoria storica"
+    ],
+    "characters": [
+      {
+        "name": "Capaneo",
+        "type": "mitologico-letterario",
+        "function": "Bestemmiatore superbo; continua la sfida a Dio."
+      },
+      {
+        "name": "Vecchio di Creta",
+        "type": "allegorico/mitologico",
+        "function": "Statua simbolica della storia umana e dell’origine dei fiumi infernali."
+      },
+      {
+        "name": "Giove",
+        "type": "mitologico",
+        "function": "Nome pagano usato nel linguaggio di Capaneo."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "roman": "XV",
+    "title": "Brunetto Latini",
+    "location": "Settimo cerchio, terzo girone: violenti contro natura",
+    "area": "Violenza contro natura",
+    "sin": "Sodomia secondo la classificazione medievale; uso disordinato delle energie vitali",
+    "punishment": "I dannati corrono senza fermarsi sotto pioggia di fuoco.",
+    "contrapasso": "Per analogia: movimento senza fecondità e senza riposo, sotto un cielo sterile.",
+    "themes": [
+      "maestro",
+      "fama",
+      "esilio",
+      "Firenze",
+      "affetto e giudizio",
+      "letteratura civile"
+    ],
+    "summary": "Dante riconosce Brunetto Latini, suo maestro, tra i dannati che corrono sul sabbione. Il dialogo è affettuoso e solenne. Brunetto profetizza a Dante l’ostilità dei fiorentini e lo invita a seguire la propria stella. Dante manifesta gratitudine per l’insegnamento ricevuto, ma la collocazione infernale di Brunetto resta inequivocabile.",
+    "paraphrase": "Il canto costringe a tenere insieme affetto e giudizio. Dante ama e rispetta Brunetto, ma non cancella la sua condanna. La grandezza culturale non salva automaticamente. Brunetto rappresenta una paternità intellettuale, ma anche un limite: la fama terrena non coincide con la salvezza.",
+    "key_verses": [
+      "Siete voi qui, ser Brunetto?",
+      "m’insegnavate come l’uom s’etterna",
+      "Se tu segui tua stella, / non puoi fallire a glorioso porto",
+      "La cara e buona imagine paterna"
+    ],
+    "figures": [
+      "apostrofe affettuosa",
+      "registro elegiaco",
+      "profezia",
+      "antitesi affetto/condanna"
+    ],
+    "characters": [
+      {
+        "name": "Brunetto Latini",
+        "type": "reale/storico",
+        "function": "Maestro di Dante; profeta dell’esilio e della vocazione letteraria."
+      },
+      {
+        "name": "Prisciano, Francesco d’Accorso, Andrea de’ Mozzi",
+        "type": "reali/storici",
+        "function": "Altri dannati nominati da Brunetto."
+      },
+      {
+        "name": "Dante",
+        "type": "reale/allegorico",
+        "function": "Allievo riconoscente ma giudice cristiano."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "roman": "XVI",
+    "title": "I tre fiorentini e l’attesa di Gerione",
+    "location": "Settimo cerchio, terzo girone; margine del burrato verso Malebolge",
+    "area": "Violenza contro natura; passaggio alla frode",
+    "sin": "Sodomia; corruzione civile di Firenze come tema",
+    "punishment": "Corsa continua sotto la pioggia di fuoco.",
+    "contrapasso": "Per analogia: movimento sterile e senza sosta.",
+    "themes": [
+      "Firenze corrotta",
+      "virtù civile",
+      "fama",
+      "passaggio alla frode",
+      "Gerione",
+      "nostalgia politica"
+    ],
+    "summary": "Tre nobili fiorentini — Guido Guerra, Tegghiaio Aldobrandi e Iacopo Rusticucci — corrono verso Dante e chiedono notizie di Firenze. Dante denuncia la decadenza morale della città, corrotta da nuovi ricchi e rapidi guadagni. I tre chiedono di essere ricordati nel mondo. Poi Virgilio getta la corda di Dante nel burrato e dal profondo sale Gerione, mostro della frode.",
+    "paraphrase": "Il canto lega peccato individuale e crisi della città. I tre dannati conservano una dignità civile che Dante riconosce, ma la loro pena resta. La corda gettata nel vuoto segna un passaggio simbolico: dalla violenza si sta entrando nella frode, male più sottile e più intellettuale.",
+    "key_verses": [
+      "La gente nuova e i sùbiti guadagni / orgoglio e dismisura han generata",
+      "Sempre a quel ver c’ha faccia di menzogna / de’ l’uom chiuder le labbra",
+      "Io avea una corda intorno cinta"
+    ],
+    "figures": [
+      "invettiva politica",
+      "similitudine dei lottatori",
+      "prolessi simbolica",
+      "apostrofe alla città"
+    ],
+    "characters": [
+      {
+        "name": "Guido Guerra",
+        "type": "reale/storico",
+        "function": "Nobile fiorentino; esempio di antica virtù civile."
+      },
+      {
+        "name": "Tegghiaio Aldobrandi",
+        "type": "reale/storico",
+        "function": "Figura politica fiorentina ricordata anche nel canto VI."
+      },
+      {
+        "name": "Iacopo Rusticucci",
+        "type": "reale/storico",
+        "function": "Portavoce dei tre dannati."
+      },
+      {
+        "name": "Gerione",
+        "type": "mitologico/allegorico",
+        "function": "Mostro della frode che sale dal burrato."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "roman": "XVII",
+    "title": "Gerione e gli usurai",
+    "location": "Dal settimo all’ottavo cerchio; sabbione degli usurai; discesa a Malebolge",
+    "area": "Violenza contro arte; soglia della frode",
+    "sin": "Usura",
+    "punishment": "Gli usurai siedono sotto pioggia di fuoco con borse al collo segnate dallo stemma familiare.",
+    "contrapasso": "Per analogia: ridussero la loro identità al denaro e allo stemma; ora sono riconoscibili solo dalle borse.",
+    "themes": [
+      "usura",
+      "frode",
+      "paura del vuoto",
+      "mostro allegorico",
+      "ricchezza",
+      "identità familiare"
+    ],
+    "summary": "Gerione, mostro con volto umano, corpo serpentino e coda velenosa, appare come immagine della frode. Mentre Virgilio tratta con lui, Dante osserva gli usurai seduti sul sabbione, ciascuno con una borsa al collo. Poi Dante e Virgilio salgono sul dorso di Gerione e scendono nel burrato verso l’ottavo cerchio, Malebolge.",
+    "paraphrase": "Gerione è la frode resa corpo: volto onesto e coda velenosa. Gli usurai non hanno più volto morale, ma solo segni economici. La discesa in volo è una delle grandi scene di paura fisica dell’Inferno: Dante entra in un male più profondo, meno impulsivo e più costruito.",
+    "key_verses": [
+      "Ecco la fiera con la coda aguzza",
+      "La faccia sua era faccia d’uom giusto",
+      "Io sentia già da la man destra il gorgo / far sotto noi un orribile scroscio"
+    ],
+    "figures": [
+      "allegoria mostruosa",
+      "ekphrasis",
+      "similitudine del falcone",
+      "contrasto volto/coda"
+    ],
+    "characters": [
+      {
+        "name": "Gerione",
+        "type": "mitologico/allegorico",
+        "function": "Personificazione della frode."
+      },
+      {
+        "name": "Reginaldo Scrovegni",
+        "type": "reale/storico",
+        "function": "Usuraio padovano riconosciuto dallo stemma."
+      },
+      {
+        "name": "Usurai",
+        "type": "reali/collettivi",
+        "function": "Violenti contro arte e natura secondo la dottrina medievale."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "roman": "XVIII",
+    "title": "Malebolge: ruffiani, seduttori e adulatori",
+    "location": "Ottavo cerchio, prima e seconda bolgia",
+    "area": "Frode",
+    "sin": "Ruffianeria, seduzione, adulazione",
+    "punishment": "Ruffiani e seduttori corrono frustati da demoni; adulatori sono immersi nello sterco.",
+    "contrapasso": "Per analogia: chi usò gli altri come strumenti è spinto e battuto; chi sporcò la parola con l’adulazione è immerso nella sporcizia.",
+    "themes": [
+      "frode sessuale",
+      "linguaggio degradato",
+      "adulazione",
+      "potere",
+      "Malebolge"
+    ],
+    "summary": "Dante descrive Malebolge, grande anfiteatro di pietra diviso in dieci fosse. Nella prima bolgia vede ruffiani e seduttori frustati dai diavoli; tra loro Venedico Caccianemico e Giasone. Nella seconda bolgia gli adulatori sono immersi nello sterco; Dante riconosce Alessio Interminelli e ascolta il riferimento a Taide.",
+    "paraphrase": "Il passaggio a Malebolge è il passaggio alla parola e all’intelligenza corrotte. Seduttori, ruffiani e adulatori non peccano solo col desiderio: manipolano gli altri attraverso la persuasione, il vantaggio, la menzogna. La pena degli adulatori è brutalmente chiara: la parola falsa diventa materia vile.",
+    "key_verses": [
+      "Luogo è in inferno detto Malebolge",
+      "Quivi venimmo; e quindi giù nel fosso / vidi gente attuffata in uno sterco",
+      "E quella sozza e scapigliata fante"
+    ],
+    "figures": [
+      "realismo basso",
+      "descrizione architettonica",
+      "contrasto epico/grottesco",
+      "ironia"
+    ],
+    "characters": [
+      {
+        "name": "Venedico Caccianemico",
+        "type": "reale/storico",
+        "function": "Ruffiano politico e familiare."
+      },
+      {
+        "name": "Giasone",
+        "type": "mitologico",
+        "function": "Seduttore eroico degradato."
+      },
+      {
+        "name": "Alessio Interminelli",
+        "type": "reale/storico",
+        "function": "Adulatore lucchese."
+      },
+      {
+        "name": "Taide",
+        "type": "letteraria/classica",
+        "function": "Figura esemplare dell’adulazione."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "roman": "XIX",
+    "title": "I simoniaci e papa Niccolò III",
+    "location": "Ottavo cerchio, terza bolgia",
+    "area": "Frode sacra",
+    "sin": "Simonia: vendita di cariche e beni spirituali",
+    "punishment": "I simoniaci sono confitti a testa in giù in fori di pietra, con i piedi bruciati da fiamme.",
+    "contrapasso": "Per rovesciamento: capovolsero il sacro in mercato; ora sono capovolti. La fiamma parodia lo Spirito Santo.",
+    "themes": [
+      "Chiesa corrotta",
+      "simonia",
+      "invettiva",
+      "potere papale",
+      "denaro",
+      "sacro profanato"
+    ],
+    "summary": "Dante vede anime confitte in buchi di pietra con i piedi in fiamme. Parla con papa Niccolò III, che lo scambia per Bonifacio VIII, atteso nella stessa pena. Dante pronuncia una dura invettiva contro la corruzione della Chiesa e contro la trasformazione dei beni spirituali in merce.",
+    "paraphrase": "Il canto è uno dei più violenti politicamente. Dante non attacca la Chiesa come istituzione sacra, ma la sua prostituzione al denaro e al potere. Il capovolgimento fisico dei papi simoniaci rende visibile il capovolgimento morale: invece di orientare gli uomini al cielo, hanno sepolto lo spirito nella terra.",
+    "key_verses": [
+      "O Simon mago, o miseri seguaci",
+      "Fatto v’avete dio d’oro e d’argento",
+      "Di voi pastor s’accorse il Vangelista",
+      "Ahi, Costantin, di quanto mal fu matre"
+    ],
+    "figures": [
+      "invettiva",
+      "apostrofe",
+      "ironia profetica",
+      "parodia sacrale"
+    ],
+    "characters": [
+      {
+        "name": "Papa Niccolò III",
+        "type": "reale/storico",
+        "function": "Simoniaco; annuncia Bonifacio VIII e Clemente V."
+      },
+      {
+        "name": "Bonifacio VIII",
+        "type": "reale/storico",
+        "function": "Papa atteso nella pena; bersaglio politico di Dante."
+      },
+      {
+        "name": "Simon Mago",
+        "type": "biblico",
+        "function": "Archetipo della simonia."
+      },
+      {
+        "name": "Costantino",
+        "type": "reale/storico",
+        "function": "Richiamato per la donazione ritenuta origine del potere temporale ecclesiastico."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "roman": "XX",
+    "title": "Gli indovini",
+    "location": "Ottavo cerchio, quarta bolgia",
+    "area": "Frode conoscitiva",
+    "sin": "Divinazione, magia, pretesa di conoscere il futuro",
+    "punishment": "Gli indovini camminano all’indietro con il capo rivolto sulla schiena.",
+    "contrapasso": "Per rovesciamento: vollero vedere troppo avanti; ora possono guardare solo indietro.",
+    "themes": [
+      "limite della conoscenza",
+      "magia",
+      "pietà sbagliata",
+      "Mantova",
+      "profezia falsa"
+    ],
+    "summary": "Dante vede gli indovini con il volto girato all’indietro e piange per la deformazione umana della pena. Virgilio lo rimprovera: qui la pietà è fuori luogo, perché si opporrebbe alla giustizia divina. Tra i dannati compaiono Anfiarao, Tiresia, Arunte, Manto, Euripilo e Michele Scotto. Virgilio racconta anche l’origine di Mantova.",
+    "paraphrase": "Il canto insegna a distinguere la compassione dalla debolezza morale. Gli indovini hanno violato il limite umano tentando di dominare il futuro. Per questo il loro corpo è piegato in senso contrario: la forma fisica diventa verità morale. La lunga digressione su Mantova lega autobiografia virgiliana, mito e geografia.",
+    "key_verses": [
+      "Qui vive la pietà quand’è ben morta",
+      "ché da le reni era tornato ’l volto",
+      "Vedi Tiresia, che mutò sembiante",
+      "Non si torca mai tua bocca a menzogna"
+    ],
+    "figures": [
+      "contrapasso visivo",
+      "catalogo mitologico",
+      "rimprovero morale",
+      "digressione eziologica"
+    ],
+    "characters": [
+      {
+        "name": "Tiresia",
+        "type": "mitologico",
+        "function": "Indovino tebano; emblema della metamorfosi e della divinazione."
+      },
+      {
+        "name": "Anfiarao",
+        "type": "mitologico",
+        "function": "Veggente coinvolto nella guerra di Tebe."
+      },
+      {
+        "name": "Manto",
+        "type": "mitologico",
+        "function": "Indovina legata alla leggenda di Mantova."
+      },
+      {
+        "name": "Michele Scotto",
+        "type": "reale/storico",
+        "function": "Mago e astrologo medievale."
+      },
+      {
+        "name": "Virgilio",
+        "type": "storico-letterario",
+        "function": "Rimprovera la pietà sbagliata di Dante e narra Mantova."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "roman": "XXI",
+    "title": "I barattieri e i Malebranche",
+    "location": "Ottavo cerchio, quinta bolgia",
+    "area": "Frode politica",
+    "sin": "Baratteria: corruzione nell’esercizio di uffici pubblici",
+    "punishment": "I barattieri sono immersi nella pece bollente; se emergono, i diavoli li uncininano.",
+    "contrapasso": "Per analogia: agirono nell’oscurità vischiosa degli affari pubblici; ora sono nascosti nella pece nera.",
+    "themes": [
+      "corruzione",
+      "politica comunale",
+      "diavoli comici",
+      "inganno",
+      "burocrazia del male"
+    ],
+    "summary": "Dante e Virgilio arrivano alla quinta bolgia, dove i barattieri sono immersi nella pece bollente. Un anziano lucchese viene gettato nella pece. I diavoli Malebranche minacciano Virgilio e Dante, ma Virgilio tratta con Malacoda, che fornisce una scorta di demoni e indica un ponte apparentemente praticabile. Il canto si chiude con un gesto osceno e grottesco dei diavoli.",
+    "paraphrase": "La corruzione politica è trattata con un registro comico e minaccioso. La pece nasconde come la baratteria nasconde gli accordi illeciti. I Malebranche sembrano funzionari infernali: organizzati, rumorosi, volgari, ma anche bugiardi. Dante mostra che la frode corrompe persino la comunicazione.",
+    "key_verses": [
+      "Tal, non per foco ma per divin’ arte, / bollia là giuso una pegola spessa",
+      "Qui non ha loco il Santo Volto",
+      "ed elli avea del cul fatto trombetta"
+    ],
+    "figures": [
+      "realismo comico",
+      "similitudine dell’arsenale veneziano",
+      "grottesco",
+      "linguaggio basso"
+    ],
+    "characters": [
+      {
+        "name": "Malacoda",
+        "type": "demoniaco",
+        "function": "Capo dei Malebranche; guida ingannevole."
+      },
+      {
+        "name": "Malebranche",
+        "type": "demoniaci",
+        "function": "Diavoli custodi della quinta bolgia."
+      },
+      {
+        "name": "Barattieri lucchesi",
+        "type": "reali/collettivi",
+        "function": "Esempi di corruzione politica."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "roman": "XXII",
+    "title": "Ciampolo di Navarra e la beffa ai diavoli",
+    "location": "Ottavo cerchio, quinta bolgia",
+    "area": "Frode politica",
+    "sin": "Baratteria",
+    "punishment": "Pece bollente e uncini dei Malebranche.",
+    "contrapasso": "Per analogia: il barattiere, abile a nascondersi e ingannare, continua a farlo nella pena.",
+    "themes": [
+      "inganno reciproco",
+      "comicità infernale",
+      "astuzia",
+      "corruzione",
+      "diavoli beffati"
+    ],
+    "summary": "Dante osserva i barattieri che emergono e scompaiono nella pece come animali nell’acqua. I diavoli catturano Ciampolo di Navarra, che racconta altri corrotti e promette di farne emergere alcuni con un fischio. In realtà inganna i Malebranche e si tuffa nella pece. Due diavoli, Alichino e Calcabrina, si azzuffano e cadono anch’essi nella pece.",
+    "paraphrase": "Il canto funziona come una commedia nera: nel luogo della frode tutti ingannano tutti. Ciampolo è dannato, ma riesce a beffare i custodi. I diavoli, che dovrebbero amministrare la pena, diventano ridicoli. La frode genera un mondo senza fiducia, dove anche l’ordine infernale si incrina.",
+    "key_verses": [
+      "Io fui del regno di Navarra nato",
+      "Omè, vedete l’altro che digrigna",
+      "Elli chinò li occhi e disse: Malizia!"
+    ],
+    "figures": [
+      "similitudini animali",
+      "dialogo comico",
+      "beffa narrativa",
+      "onomastica grottesca"
+    ],
+    "characters": [
+      {
+        "name": "Ciampolo di Navarra",
+        "type": "reale/storico",
+        "function": "Barattiere astuto; beffa i diavoli."
+      },
+      {
+        "name": "Alichino e Calcabrina",
+        "type": "demoniaci",
+        "function": "Diavoli che cadono nella pece litigando."
+      },
+      {
+        "name": "Cagnazzo, Barbariccia, Libicocco, Draghignazzo",
+        "type": "demoniaci",
+        "function": "Membri della scorta infernale."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "roman": "XXIII",
+    "title": "Gli ipocriti e Caifa",
+    "location": "Ottavo cerchio, sesta bolgia",
+    "area": "Frode religiosa e morale",
+    "sin": "Ipocrisia",
+    "punishment": "Gli ipocriti camminano lentamente sotto cappe dorate fuori e pesantissime di piombo dentro.",
+    "contrapasso": "Per analogia: mostrarono splendore esterno e falsità interna; ora indossano una bellezza esteriore che nasconde peso insopportabile.",
+    "themes": [
+      "ipocrisia",
+      "apparenza",
+      "religione falsa",
+      "passione di Cristo",
+      "inganno dei diavoli"
+    ],
+    "summary": "Dante teme la vendetta dei diavoli, ma Virgilio lo porta via. I due arrivano nella bolgia degli ipocriti, che avanzano lentamente con cappe dorate fuori e di piombo dentro. Incontrano due frati gaudenti, Catalano e Loderingo, che spiegano la pena. Vedono Caifa crocifisso a terra, calpestato da tutti, perché consigliò la morte di Cristo.",
+    "paraphrase": "L’ipocrisia è il peccato dell’apparenza morale. La cappa dorata è perfetta: bella fuori, schiacciante dentro. I frati gaudenti portano nel canto la critica alla religione ridotta a maschera. Caifa è il culmine: chi usò la ragion di Stato contro l’innocente è inchiodato al suolo della propria colpa.",
+    "key_verses": [
+      "Elli avean cappe con cappucci bassi",
+      "Di fuor dorate son, sì ch’elli abbaglia; / ma dentro tutte piombo",
+      "Quel confitto che tu miri / consigliò i Farisei"
+    ],
+    "figures": [
+      "simbolo dell’abito",
+      "antitesi esterno/interno",
+      "ironia religiosa",
+      "riferimento evangelico"
+    ],
+    "characters": [
+      {
+        "name": "Catalano e Loderingo",
+        "type": "reali/storici",
+        "function": "Frati gaudenti; spiegano la pena degli ipocriti."
+      },
+      {
+        "name": "Caifa",
+        "type": "biblico/storico",
+        "function": "Sommo sacerdote che consigliò la morte di Cristo."
+      },
+      {
+        "name": "Virgilio",
+        "type": "storico-letterario",
+        "function": "Protegge Dante dalla minaccia dei diavoli."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "roman": "XXIV",
+    "title": "I ladri: Vanni Fucci",
+    "location": "Ottavo cerchio, settima bolgia",
+    "area": "Frode contro la proprietà",
+    "sin": "Furto",
+    "punishment": "I ladri sono assaliti da serpenti; subiscono metamorfosi e combustioni.",
+    "contrapasso": "Per analogia: rubarono l’identità e i beni altrui; ora perdono continuamente la propria forma.",
+    "themes": [
+      "furto",
+      "metamorfosi",
+      "bestialità",
+      "profezia politica",
+      "fatica del viaggio"
+    ],
+    "summary": "Dante e Virgilio superano con fatica un passaggio difficile e arrivano alla settima bolgia, piena di serpenti. Un dannato viene morso, brucia, si riduce in cenere e poi riprende forma: è Vanni Fucci, ladro sacrilego pistoiese. Egli predice sciagure politiche a Dante con tono ostile.",
+    "paraphrase": "Il furto distrugge il confine tra mio e tuo; per questo i ladri perdono il confine più profondo, quello della forma personale. Vanni Fucci non chiede pietà né memoria: gode nel ferire Dante con una profezia. Il male qui non è debolezza, ma aggressività consapevole.",
+    "key_verses": [
+      "Tra questa cruda e tristissima copia / corrëan genti nude e spaventate",
+      "Io piovvi di Toscana",
+      "Vita bestial mi piacque e non umana",
+      "E detto l’ho perché doler ti debbia"
+    ],
+    "figures": [
+      "metamorfosi",
+      "similitudine della fenice",
+      "tono aspro",
+      "profezia ostile"
+    ],
+    "characters": [
+      {
+        "name": "Vanni Fucci",
+        "type": "reale/storico",
+        "function": "Ladro sacrilego; profeta malevolo contro Dante."
+      },
+      {
+        "name": "Serpenti",
+        "type": "simbolico/bestiale",
+        "function": "Agenti della metamorfosi e della perdita di identità."
+      },
+      {
+        "name": "Virgilio",
+        "type": "storico-letterario",
+        "function": "Sostiene Dante nel passaggio difficile."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "roman": "XXV",
+    "title": "Le metamorfosi dei ladri",
+    "location": "Ottavo cerchio, settima bolgia",
+    "area": "Frode contro la proprietà",
+    "sin": "Furto",
+    "punishment": "Fusioni e trasformazioni tra uomini e serpenti.",
+    "contrapasso": "Per analogia: chi violò il possesso e l’identità altrui ora subisce la confusione della propria identità corporea.",
+    "themes": [
+      "metamorfosi",
+      "identità",
+      "gara con Ovidio",
+      "Firenze nera",
+      "furto",
+      "corpo"
+    ],
+    "summary": "Vanni Fucci bestemmia Dio e viene assalito dai serpenti. Appare il centauro Caco, coperto di serpenti. Dante assiste a metamorfosi complesse tra ladri fiorentini e rettili: Agnello Brunelleschi si fonde con Cianfa Donati; Buoso degli Abati e Francesco de’ Cavalcanti scambiano forma con serpenti. Dante sfida implicitamente i poeti antichi nel descrivere trasformazioni mai viste.",
+    "paraphrase": "Il canto è un laboratorio estremo della metamorfosi. Dante mostra che la frode contro la proprietà è anche frode contro l’identità: i corpi si mescolano, si cancellano, si rubano forma. La scrittura gareggia con Ovidio e Lucano, ma la metamorfosi dantesca non è meraviglia mitica: è pena morale.",
+    "key_verses": [
+      "Pistoia, Pistoia, ché non stanzi / d’incenerarti",
+      "Taccia Lucano omai",
+      "Taccia di Cadmo e d’Aretusa Ovidio",
+      "due e nessun l’imagine perversa"
+    ],
+    "figures": [
+      "metamorfosi virtuosistica",
+      "sfida letteraria",
+      "apostrofe invettiva",
+      "antitesi identitaria"
+    ],
+    "characters": [
+      {
+        "name": "Caco",
+        "type": "mitologico",
+        "function": "Centauro ladro; figura eccezionale nella bolgia."
+      },
+      {
+        "name": "Agnello Brunelleschi, Cianfa Donati, Buoso, Francesco de’ Cavalcanti",
+        "type": "reali/storici",
+        "function": "Ladri fiorentini coinvolti nelle metamorfosi."
+      },
+      {
+        "name": "Ovidio e Lucano",
+        "type": "storici/letterari",
+        "function": "Poeti antichi evocati come termini di confronto."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "roman": "XXVI",
+    "title": "Ulisse e Diomede",
+    "location": "Ottavo cerchio, ottava bolgia",
+    "area": "Frode della parola e del consiglio",
+    "sin": "Consiglio fraudolento",
+    "punishment": "I consiglieri fraudolenti sono avvolti ciascuno in una fiamma.",
+    "contrapasso": "Per analogia: usarono l’intelligenza come fuoco ingannevole; ora sono nascosti dentro lingue di fuoco.",
+    "themes": [
+      "conoscenza",
+      "limite",
+      "oratoria",
+      "eroismo tragico",
+      "frode intellettuale",
+      "Ulisse"
+    ],
+    "summary": "Dante invettiva contro Firenze, poi vede l’ottava bolgia illuminata da fiamme. Ogni fiamma nasconde un consigliere fraudolento. Una fiamma biforcuta contiene Ulisse e Diomede. Ulisse racconta l’ultimo viaggio oltre le colonne d’Ercole: spinse i compagni a cercare virtù e conoscenza, ma la nave fu travolta da un turbine e affondò davanti alla montagna del Purgatorio.",
+    "paraphrase": "Ulisse è grandioso e colpevole. Il suo desiderio di conoscenza affascina, ma è separato dall’umiltà e dalla legge divina. La sua parola persuade i compagni a superare il limite: è nobile nel tono, fraudolenta nell’effetto. Dante non condanna il sapere; condanna il sapere che si fa assoluto e usa gli altri come strumenti.",
+    "key_verses": [
+      "Fatti non foste a viver come bruti, / ma per seguir virtute e canoscenza",
+      "Considerate la vostra semenza",
+      "de’ remi facemmo ali al folle volo",
+      "infin che ’l mar fu sovra noi richiuso"
+    ],
+    "figures": [
+      "orazione persuasiva",
+      "metafora del folle volo",
+      "similitudine delle lucciole",
+      "fiamma-parola"
+    ],
+    "characters": [
+      {
+        "name": "Ulisse",
+        "type": "mitologico/letterario",
+        "function": "Consigliere fraudolento; simbolo del desiderio di conoscenza senza limite."
+      },
+      {
+        "name": "Diomede",
+        "type": "mitologico/letterario",
+        "function": "Compagno di frodi troiane."
+      },
+      {
+        "name": "Firenze",
+        "type": "città/reale",
+        "function": "Bersaglio dell’invettiva iniziale."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "roman": "XXVII",
+    "title": "Guido da Montefeltro",
+    "location": "Ottavo cerchio, ottava bolgia",
+    "area": "Frode del consiglio",
+    "sin": "Consiglio fraudolento, soprattutto politico-religioso",
+    "punishment": "Anima avvolta in una fiamma, come parola nascosta e bruciante.",
+    "contrapasso": "Per analogia: l’astuzia consigliò in segreto; ora l’identità è nascosta nel fuoco.",
+    "themes": [
+      "astuzia politica",
+      "confessione falsa",
+      "Bonifacio VIII",
+      "colpa e assoluzione",
+      "inganno religioso"
+    ],
+    "summary": "Guido da Montefeltro, nascosto in una fiamma, chiede notizie della Romagna. Racconta di essere stato uomo d’armi astuto, poi frate francescano. Papa Bonifacio VIII gli chiese un consiglio fraudolento per conquistare Palestrina, promettendogli assoluzione anticipata. Guido cedette, ma alla morte san Francesco non poté salvarlo: un diavolo lo reclamò perché non ci si può pentire e volere peccare nello stesso tempo.",
+    "paraphrase": "Il canto smonta la falsa sicurezza religiosa. Guido crede di poter usare il sacramento come trucco giuridico: peccare prima, farsi assolvere prima, restare salvo. Ma il pentimento non è formula, è conversione della volontà. Dante colpisce duramente una Chiesa che manipola la coscienza per fini politici.",
+    "key_verses": [
+      "Io fui uom d’arme, e poi fui cordigliero",
+      "ch’assolver non si può chi non si pente",
+      "né pentere e volere insieme puossi",
+      "Tu non pensavi ch’io loico fossi"
+    ],
+    "figures": [
+      "racconto autobiografico",
+      "ironia demoniaca",
+      "argomentazione logica",
+      "fiamma parlante"
+    ],
+    "characters": [
+      {
+        "name": "Guido da Montefeltro",
+        "type": "reale/storico",
+        "function": "Consigliere fraudolento; exemplum del falso pentimento."
+      },
+      {
+        "name": "Bonifacio VIII",
+        "type": "reale/storico",
+        "function": "Papa accusato di usare la religione per fini politici."
+      },
+      {
+        "name": "San Francesco",
+        "type": "sacro/storico",
+        "function": "Vorrebbe salvare Guido, ma non può contro la logica morale."
+      },
+      {
+        "name": "Diavolo logico",
+        "type": "demoniaco",
+        "function": "Dimostra razionalmente l’impossibilità dell’assoluzione senza pentimento."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "roman": "XXVIII",
+    "title": "Seminatori di scandalo e scisma",
+    "location": "Ottavo cerchio, nona bolgia",
+    "area": "Frode che divide",
+    "sin": "Seminare discordia religiosa, politica, familiare",
+    "punishment": "I dannati sono mutilati da un diavolo; le ferite si richiudono e vengono riaperte.",
+    "contrapasso": "Per analogia: divisero corpi sociali e spirituali; ora il loro corpo è diviso.",
+    "themes": [
+      "divisione",
+      "scisma",
+      "violenza della parola",
+      "politica",
+      "corpo lacerato",
+      "contrappasso nominato"
+    ],
+    "summary": "Dante vede una bolgia piena di corpi squarciati. Maometto e Alì sono presentati come seminatori di scisma; Pier da Medicina annuncia tradimenti politici; Curione, Mosca dei Lamberti e Bertran de Born mostrano diversi tipi di divisione. Bertran porta la propria testa in mano e dichiara che in lui si osserva il contrappasso.",
+    "paraphrase": "Qui la frode non inganna soltanto: spacca comunità, famiglie, Chiesa, città. La pena rende il corpo documento morale della colpa. Bertran de Born, che divise padre e figlio, è separato dalla propria testa: è una delle immagini più potenti dell’Inferno perché nomina esplicitamente il contrappasso.",
+    "key_verses": [
+      "Un diavolo è qua dietro che n’accisma",
+      "Così s’osserva in me lo contrapasso",
+      "Capo ha cosa fatta",
+      "Ricordera’ti anche del Mosca"
+    ],
+    "figures": [
+      "iperrealismo corporeo",
+      "contrappasso esplicito",
+      "catalogo storico",
+      "immagine emblematica"
+    ],
+    "characters": [
+      {
+        "name": "Maometto e Alì",
+        "type": "storico-religiosi",
+        "function": "Presentati da Dante come scismatici secondo la visione medievale."
+      },
+      {
+        "name": "Pier da Medicina",
+        "type": "reale/storico",
+        "function": "Seminatore di discordia politica."
+      },
+      {
+        "name": "Mosca dei Lamberti",
+        "type": "reale/storico",
+        "function": "Figura della discordia fiorentina."
+      },
+      {
+        "name": "Bertran de Born",
+        "type": "reale/storico-letterario",
+        "function": "Divise padre e figlio; porta la testa separata dal corpo."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "roman": "XXIX",
+    "title": "I falsari: alchimisti",
+    "location": "Ottavo cerchio, decima bolgia",
+    "area": "Frode/falsificazione",
+    "sin": "Falsificazione della materia: alchimia",
+    "punishment": "Malattie ripugnanti, scabbia, lebbra, corpi deformati e impotenti.",
+    "contrapasso": "Per analogia: alterarono la natura delle cose; ora la loro natura corporea è alterata.",
+    "themes": [
+      "falsificazione",
+      "malattia",
+      "alchimia",
+      "vendetta familiare",
+      "limite umano",
+      "degradazione del corpo"
+    ],
+    "summary": "Dante indugia ancora sul ricordo della nona bolgia, pensando a un parente non vendicato. Virgilio lo richiama. Nella decima bolgia i falsari sono colpiti da malattie orribili. Dante incontra Griffolino d’Arezzo e Capocchio, alchimisti puniti per aver falsificato i metalli e ingannato gli uomini con la pretesa di alterare la natura.",
+    "paraphrase": "La falsificazione è una violenza contro la verità delle cose. Gli alchimisti volevano trasformare la materia oltre il suo ordine; ora la loro materia corporea è corrotta. Il male qui non esplode: decompone. La pena è lenta, disgustosa, anti-eroica.",
+    "key_verses": [
+      "Io vidi due sedere a sé poggiati",
+      "l’unghie si traevan giù la scabbia",
+      "Io fui d’Arezzo; e Albero da Siena / mi fé mettere al foco"
+    ],
+    "figures": [
+      "realismo patologico",
+      "similitudine della scabbia",
+      "dialogo accusatorio",
+      "degradazione anti-epica"
+    ],
+    "characters": [
+      {
+        "name": "Griffolino d’Arezzo",
+        "type": "reale/storico",
+        "function": "Alchimista; falsario della materia."
+      },
+      {
+        "name": "Capocchio",
+        "type": "reale/storico",
+        "function": "Alchimista e imitatore della natura."
+      },
+      {
+        "name": "Geri del Bello",
+        "type": "reale/familiare",
+        "function": "Parente di Dante evocato nel tema della vendetta."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "roman": "XXX",
+    "title": "Falsari di persona, moneta e parola",
+    "location": "Ottavo cerchio, decima bolgia",
+    "area": "Falsificazione",
+    "sin": "Falsificazione di persona, moneta, parola",
+    "punishment": "Furie, idropisia, febbre, immobilità, alterazioni patologiche del corpo e della mente.",
+    "contrapasso": "Per analogia: alterarono identità, valore e verità; ora sono alterati nel corpo, nella voce e nel desiderio.",
+    "themes": [
+      "falso",
+      "identità",
+      "moneta",
+      "parola menzognera",
+      "degrado comico",
+      "vergogna di Dante"
+    ],
+    "summary": "Dante vede falsari furiosi come Gianni Schicchi e Mirra, che falsificarono la propria identità. Poi incontra maestro Adamo, falsario di moneta, gonfio per idropisia e assetato. Maestro Adamo litiga con Sinone, falso testimone troiano. Dante si ferma ad ascoltare la lite volgare e Virgilio lo rimprovera duramente.",
+    "paraphrase": "La falsificazione distrugge i patti fondamentali della convivenza: identità, denaro, testimonianza. Per questo i corpi sono deformati e le parole decadono in rissa. Dante stesso rischia di compiacersi dello spettacolo basso: il rimprovero di Virgilio insegna che guardare il male può diventare un’altra forma di degradazione.",
+    "key_verses": [
+      "Io vidi un, fatto a guisa di lëuto",
+      "La rigida giustizia che mi fruga",
+      "Ad ascoltarli er’io del tutto fisso",
+      "Voler ciò udire è bassa voglia"
+    ],
+    "figures": [
+      "grottesco corporeo",
+      "alterco comico",
+      "similitudine del liuto",
+      "rimprovero metapoetico"
+    ],
+    "characters": [
+      {
+        "name": "Gianni Schicchi",
+        "type": "reale/letterario",
+        "function": "Falsario di persona; si sostituì a Buoso Donati."
+      },
+      {
+        "name": "Mirra",
+        "type": "mitologico",
+        "function": "Falsificò la propria identità per desiderio incestuoso."
+      },
+      {
+        "name": "Maestro Adamo",
+        "type": "reale/storico",
+        "function": "Falsario di moneta; figura dell’alterazione del valore."
+      },
+      {
+        "name": "Sinone",
+        "type": "mitologico-letterario",
+        "function": "Falso testimone greco nella guerra di Troia."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "roman": "XXXI",
+    "title": "I giganti e la discesa a Cocito",
+    "location": "Pozzo dei giganti; margine del nono cerchio",
+    "area": "Soglia del tradimento",
+    "sin": "Superbia titanica e ribellione contro Dio",
+    "punishment": "I giganti sono immobilizzati nel pozzo, confitti come torri viventi.",
+    "contrapasso": "Per analogia: vollero elevarsi contro il cielo; ora sono bloccati nel profondo, enormi ma impotenti.",
+    "themes": [
+      "superbia",
+      "linguaggio confuso",
+      "Babele",
+      "gigantismo impotente",
+      "discesa finale"
+    ],
+    "summary": "Dante e Virgilio giungono al pozzo centrale, dove i giganti emergono come torri. Nembrot parla un linguaggio incomprensibile, punito per Babele. Virgilio mostra Fialte, incatenato per la ribellione contro Giove, e poi chiede aiuto ad Anteo, che non partecipò alla guerra contro gli dei. Anteo prende i due poeti e li depone sul fondo del nono cerchio, nel lago ghiacciato di Cocito.",
+    "paraphrase": "I giganti sono potenza senza libertà. La loro statura non è grandezza, ma deformazione della superbia. Nembrot, legato a Babele, mostra che la frattura del linguaggio è una pena della presunzione umana. La discesa nelle mani di Anteo porta Dante nel fondo più freddo del male: il tradimento.",
+    "key_verses": [
+      "Raphèl maì amècche zabì almi",
+      "ché così è a lui ciascun linguaggio / come ’l suo ad altrui",
+      "Non fu tremoto già tanto rubesto"
+    ],
+    "figures": [
+      "similitudine delle torri",
+      "lingua incomprensibile",
+      "iperbole",
+      "mitologia titanica"
+    ],
+    "characters": [
+      {
+        "name": "Nembrot",
+        "type": "biblico/mitico",
+        "function": "Responsabile di Babele; simbolo della confusione linguistica."
+      },
+      {
+        "name": "Fialte",
+        "type": "mitologico",
+        "function": "Gigante ribelle incatenato."
+      },
+      {
+        "name": "Anteo",
+        "type": "mitologico",
+        "function": "Gigante che depone Dante e Virgilio in Cocito."
+      },
+      {
+        "name": "Tizio e Tifeo",
+        "type": "mitologici",
+        "function": "Giganti nominati come figure della ribellione."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "roman": "XXXII",
+    "title": "Cocito: Caina e Antenora",
+    "location": "Nono cerchio, lago ghiacciato: Caina e Antenora",
+    "area": "Tradimento",
+    "sin": "Tradimento dei parenti e della patria/parte politica",
+    "punishment": "I traditori sono confitti nel ghiaccio in diverse posizioni; il freddo blocca lacrime e movimento.",
+    "contrapasso": "Per analogia: tradirono il calore dei legami più sacri; ora sono immersi nel gelo assoluto.",
+    "themes": [
+      "tradimento",
+      "gelo",
+      "patria",
+      "famiglia",
+      "odio",
+      "disumanizzazione"
+    ],
+    "summary": "Dante entra nel lago ghiacciato di Cocito. Nella Caina vede i traditori dei parenti; nell’Antenora i traditori della patria o della parte politica. Incontra Camicione de’ Pazzi, Bocca degli Abati, Buoso da Duera e altri. Dante strappa i capelli a Bocca per costringerlo a rivelarsi. Il canto si chiude con l’immagine terribile di Ugolino che rode il cranio dell’arcivescovo Ruggieri.",
+    "paraphrase": "Nel fondo dell’Inferno non c’è fuoco ma ghiaccio. Il tradimento è assenza di amore, paralisi del legame, negazione della fiducia. Anche Dante diventa più duro: con Bocca usa violenza. Il paesaggio glaciale mostra la perdita definitiva della relazione umana.",
+    "key_verses": [
+      "S’ïo avessi le rime aspre e chiocce",
+      "livide, insin là dove appar vergogna",
+      "Poscia vid’io mille visi cagnazzi",
+      "Tu vuo’ ch’io rinovelli / disperato dolor"
+    ],
+    "figures": [
+      "asprezza fonica",
+      "invocazione poetica",
+      "realismo glaciale",
+      "anticipazione drammatica"
+    ],
+    "characters": [
+      {
+        "name": "Camicione de’ Pazzi",
+        "type": "reale/storico",
+        "function": "Traditore dei parenti nella Caina."
+      },
+      {
+        "name": "Bocca degli Abati",
+        "type": "reale/storico",
+        "function": "Traditore politico fiorentino."
+      },
+      {
+        "name": "Buoso da Duera",
+        "type": "reale/storico",
+        "function": "Traditore della patria."
+      },
+      {
+        "name": "Conte Ugolino e arcivescovo Ruggieri",
+        "type": "reali/storici",
+        "function": "Figura terribile del tradimento e della vendetta, introdotta nel finale."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "roman": "XXXIII",
+    "title": "Ugolino e Ruggieri; Tolomea",
+    "location": "Nono cerchio: Antenora e Tolomea",
+    "area": "Tradimento",
+    "sin": "Tradimento politico; tradimento degli ospiti",
+    "punishment": "I traditori sono nel ghiaccio; nella Tolomea le lacrime gelano sugli occhi; alcune anime cadono nell’Inferno prima della morte del corpo.",
+    "contrapasso": "Per analogia: chi tradì l’ospitalità e la fiducia perde ogni calore umano; le lacrime stesse si bloccano.",
+    "themes": [
+      "fame",
+      "paternità",
+      "vendetta",
+      "tradimento",
+      "ospitalità violata",
+      "invettiva contro Pisa e Genova"
+    ],
+    "summary": "Il conte Ugolino racconta la sua prigionia nella torre della fame con i figli e nipoti, accusando l’arcivescovo Ruggieri. Il racconto lascia sospesa l’ombra atroce del cannibalismo. Dante invettiva contro Pisa. Poi i due passano nella Tolomea, dove sono puniti i traditori degli ospiti; frate Alberigo spiega che alcune anime finiscono qui mentre il corpo è ancora vivo, occupato da un demonio. Dante chiude con un’invettiva contro Genova.",
+    "paraphrase": "Ugolino è vittima e dannato: Dante non lo semplifica. Il suo dolore paterno è straziante, ma la sua presenza in Cocito indica una colpa. Nella Tolomea il tradimento diventa così grave da spezzare il rapporto tra anima e corpo prima della morte. L’ospitalità tradita è una delle forme più fredde del male perché colpisce chi si è affidato.",
+    "key_verses": [
+      "La bocca sollevò dal fiero pasto",
+      "Tu vuo’ ch’io rinovelli / disperato dolor che ’l cor mi preme",
+      "Poscia, più che ’l dolor, poté ’l digiuno",
+      "Ahi Pisa, vituperio de le genti"
+    ],
+    "figures": [
+      "racconto tragico",
+      "reticenza ambigua",
+      "invettiva",
+      "immagine cannibalica"
+    ],
+    "characters": [
+      {
+        "name": "Conte Ugolino della Gherardesca",
+        "type": "reale/storico",
+        "function": "Traditore politico e padre sofferente; racconta la torre della fame."
+      },
+      {
+        "name": "Arcivescovo Ruggieri",
+        "type": "reale/storico",
+        "function": "Traditore e nemico di Ugolino, divorato da lui."
+      },
+      {
+        "name": "Frate Alberigo",
+        "type": "reale/storico",
+        "function": "Traditore degli ospiti; spiega la Tolomea."
+      },
+      {
+        "name": "Branca Doria",
+        "type": "reale/storico",
+        "function": "Esempio di anima già dannata mentre il corpo vive."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "roman": "XXXIV",
+    "title": "Lucifero e l’uscita a riveder le stelle",
+    "location": "Nono cerchio: Giudecca; centro della Terra; uscita nell’emisfero australe",
+    "area": "Tradimento supremo",
+    "sin": "Tradimento dei benefattori e delle supreme autorità spirituale e politica",
+    "punishment": "Lucifero è confitto nel ghiaccio e maciulla Giuda, Bruto e Cassio nelle tre bocche.",
+    "contrapasso": "Per analogia e rovesciamento: l’angelo che volle innalzarsi sopra Dio è immobilizzato nel punto più basso; le sue ali producono il gelo che lo imprigiona.",
+    "themes": [
+      "male assoluto",
+      "tradimento",
+      "rovesciamento",
+      "Lucifero grottesco",
+      "uscita",
+      "stelle"
+    ],
+    "summary": "Dante vede Lucifero, enorme e mostruoso, confitto nel ghiaccio al centro della Terra. Ha tre facce e sei ali; nelle tre bocche mastica Giuda, traditore di Cristo, e Bruto e Cassio, traditori di Cesare. Virgilio prende Dante e si arrampica sul corpo di Lucifero; superato il centro della Terra, la direzione si rovescia. Attraverso un cunicolo i due risalgono fino a uscire dall’Inferno e rivedere le stelle.",
+    "paraphrase": "Il male supremo non è grandezza tragica: è immobilità, gelo, impotenza. Lucifero non domina l’Inferno; ne è prigioniero. Il viaggio termina con un rovesciamento fisico e spirituale: attraversare il punto più basso permette di risalire. Le stelle finali non cancellano l’orrore, ma aprono la possibilità del Purgatorio.",
+    "key_verses": [
+      "Vexilla regis prodeunt inferni",
+      "Lo ’mperador del doloroso regno",
+      "Da ogne bocca dirompea co’ denti / un peccatore",
+      "E quindi uscimmo a riveder le stelle"
+    ],
+    "figures": [
+      "parodia liturgica",
+      "grottesco anti-sublime",
+      "rovesciamento spaziale",
+      "simbolo delle stelle"
+    ],
+    "characters": [
+      {
+        "name": "Lucifero",
+        "type": "biblico/demoniaco",
+        "function": "Centro del male; traditore di Dio, immobilizzato nel ghiaccio."
+      },
+      {
+        "name": "Giuda Iscariota",
+        "type": "biblico/storico",
+        "function": "Traditore di Cristo; punito nella bocca centrale."
+      },
+      {
+        "name": "Bruto e Cassio",
+        "type": "reali/storici",
+        "function": "Traditori di Cesare, autorità imperiale."
+      },
+      {
+        "name": "Virgilio",
+        "type": "storico-letterario",
+        "function": "Conduce Dante oltre il centro della Terra verso l’uscita."
+      }
+    ]
+  }
+]

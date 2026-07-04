@@ -1,0 +1,136 @@
+{
+  "title": "Inferno di Dante — Libro vivo",
+  "curators": "a cura di gbprof e Libera",
+  "what_is": "L’Inferno è la prima cantica della Commedia. Racconta il viaggio di Dante-personaggio attraverso il regno dei dannati, ma non è un semplice catalogo di pene: è un dispositivo morale, poetico e conoscitivo. Dante attraversa il male per riconoscerlo, giudicarlo e liberarsene.",
+  "form": {
+    "canti": "L’Inferno contiene 34 canti: il primo funziona come proemio generale dell’intera Commedia, poi seguono 33 canti propriamente infernali.",
+    "endecasillabo": "Il verso fondamentale è l’endecasillabo, cioè un verso in cui l’ultima sillaba tonica cade sulla decima posizione metrica.",
+    "terzina": "La Commedia è scritta in terzine incatenate, con schema ABA BCB CDC: il verso centrale di una terzina genera la rima della terzina successiva."
+  },
+  "contrapasso": "Il contrappasso è il principio secondo cui la pena manifesta la verità morale della colpa. Può funzionare per analogia — la pena somiglia al peccato — o per contrasto — la pena rovescia il peccato. Non è un castigo casuale: è la colpa resa visibile.",
+  "rhetoric": [
+    {
+      "name": "Allegoria",
+      "explain": "Luoghi, personaggi e azioni hanno un significato letterale e un significato morale o spirituale."
+    },
+    {
+      "name": "Similitudine",
+      "explain": "Dante rende visibile l’invisibile paragonando le anime a fenomeni naturali, animali, scene quotidiane."
+    },
+    {
+      "name": "Anafora",
+      "explain": "Ripetizione iniziale di parole o strutture, spesso per dare forza solenne o ossessiva."
+    },
+    {
+      "name": "Allitterazione",
+      "explain": "Ripetizione di suoni per creare asprezza, dolcezza, movimento, paura."
+    },
+    {
+      "name": "Invettiva",
+      "explain": "Discorso di accusa politica, morale o religiosa: Dante non descrive soltanto, giudica."
+    },
+    {
+      "name": "Apostrofe al lettore",
+      "explain": "Dante interrompe il racconto e chiama il lettore a interpretare, non solo a seguire la storia."
+    }
+  ],
+  "structure": [
+    {
+      "zone": "Antinferno",
+      "canti": "III",
+      "sinners": "Ignavi",
+      "punishment": "Corsa dietro insegna vuota; insetti; sangue e lacrime",
+      "logic": "Rifiuto della scelta"
+    },
+    {
+      "zone": "I cerchio",
+      "canti": "IV",
+      "sinners": "Limbo: non battezzati e pagani virtuosi",
+      "punishment": "Desiderio senza speranza della visione di Dio",
+      "logic": "Privazione"
+    },
+    {
+      "zone": "II cerchio",
+      "canti": "V",
+      "sinners": "Lussuriosi",
+      "punishment": "Bufera eterna",
+      "logic": "Passione che travolge"
+    },
+    {
+      "zone": "III cerchio",
+      "canti": "VI",
+      "sinners": "Golosi",
+      "punishment": "Pioggia sporca, fango, Cerbero",
+      "logic": "Degradazione del corpo"
+    },
+    {
+      "zone": "IV cerchio",
+      "canti": "VII",
+      "sinners": "Avari e prodighi",
+      "punishment": "Pesi rotolati in eterno",
+      "logic": "Uso disordinato dei beni"
+    },
+    {
+      "zone": "V cerchio",
+      "canti": "VII-VIII",
+      "sinners": "Iracondi e accidiosi",
+      "punishment": "Palude Stigia",
+      "logic": "Torbidità dell’animo"
+    },
+    {
+      "zone": "VI cerchio - Dite",
+      "canti": "IX-XI",
+      "sinners": "Eretici",
+      "punishment": "Tombe infuocate",
+      "logic": "Morte spirituale"
+    },
+    {
+      "zone": "VII cerchio",
+      "canti": "XII-XVII",
+      "sinners": "Violenti contro prossimo, sé, Dio/natura/arte",
+      "punishment": "Sangue bollente, selva, sabbia ardente",
+      "logic": "Violenza resa ambiente"
+    },
+    {
+      "zone": "VIII cerchio - Malebolge",
+      "canti": "XVIII-XXX",
+      "sinners": "Fraudolenti",
+      "punishment": "Dieci bolge differenziate",
+      "logic": "Ragione pervertita"
+    },
+    {
+      "zone": "IX cerchio - Cocito",
+      "canti": "XXXI-XXXIV",
+      "sinners": "Traditori",
+      "punishment": "Ghiaccio, immobilità, Lucifero",
+      "logic": "Negazione del calore del legame"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Princeton Dante Project",
+      "url": "https://dante.princeton.edu/",
+      "use": "testo Petrocchi, traduzione, recitazione e note"
+    },
+    {
+      "name": "Dartmouth Dante Project / Dante Lab",
+      "url": "https://dantelab.dartmouth.edu/",
+      "use": "commenti e lettura comparata"
+    },
+    {
+      "name": "Digital Dante — Columbia University",
+      "url": "https://digitaldante.columbia.edu/",
+      "use": "commento critico e corso universitario"
+    },
+    {
+      "name": "Discover Dante — University of Leeds / Notre Dame",
+      "url": "https://ahc.leeds.ac.uk/discover-dante/doc/inferno/",
+      "use": "sintesi dei canti, temi, struttura morale"
+    },
+    {
+      "name": "Danteworlds — University of Texas at Austin",
+      "url": "https://danteworlds.laits.utexas.edu/",
+      "use": "mappa multimediale di luoghi, personaggi e temi"
+    }
+  ]
+}

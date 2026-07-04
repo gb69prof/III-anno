@@ -1,0 +1,39 @@
+{
+  "inferno_struttura": [
+    "assets/materiale/inferno_struttura_p01.jpg",
+    "assets/materiale/inferno_struttura_p02.jpg",
+    "assets/materiale/inferno_struttura_p03.jpg"
+  ],
+  "canto_I": [
+    "assets/materiale/canto_I_p01.jpg",
+    "assets/materiale/canto_I_p02.jpg",
+    "assets/materiale/canto_I_p03.jpg",
+    "assets/materiale/canto_I_p04.jpg",
+    "assets/materiale/canto_I_p05.jpg",
+    "assets/materiale/canto_I_p06.jpg",
+    "assets/materiale/canto_I_p07.jpg",
+    "assets/materiale/canto_I_p08.jpg",
+    "assets/materiale/canto_I_p09.jpg",
+    "assets/materiale/canto_I_p10.jpg"
+  ],
+  "canto_III": [
+    "assets/materiale/canto_III_p01.jpg",
+    "assets/materiale/canto_III_p02.jpg",
+    "assets/materiale/canto_III_p03.jpg",
+    "assets/materiale/canto_III_p04.jpg",
+    "assets/materiale/canto_III_p05.jpg",
+    "assets/materiale/canto_III_p06.jpg"
+  ],
+  "canto_V": [
+    "assets/materiale/canto_V_p01.jpg",
+    "assets/materiale/canto_V_p02.jpg",
+    "assets/materiale/canto_V_p03.jpg",
+    "assets/materiale/canto_V_p04.jpg",
+    "assets/materiale/canto_V_p05.jpg",
+    "assets/materiale/canto_V_p06.jpg",
+    "assets/materiale/canto_V_p07.jpg",
+    "assets/materiale/canto_V_p08.jpg",
+    "assets/materiale/canto_V_p09.jpg",
+    "assets/materiale/canto_V_p10.jpg"
+  ]
+}
