@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-label="Mappa concettuale Canto XXVII">
+<defs><filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#000" flood-opacity="0.45"/></filter><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#2b1515"/><stop offset="1" stop-color="#100707"/></linearGradient></defs>
+<rect width="1200" height="820" fill="url(#g)"/>
+<rect x="35" y="35" width="1130" height="750" rx="32" fill="none" stroke="#d8b56d" stroke-width="3" opacity="0.8"/>
+<g filter="url(#shadow)"><rect x="390" y="260" width="420" height="230" rx="28" fill="#281313" stroke="#d8b56d" stroke-width="4"/>
+<text x="600" y="325" text-anchor="middle" font-family="Georgia,serif" font-size="54" fill="#d8b56d" font-weight="700">Canto XXVII</text>
+<text x="600" y="370" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" fill="#f8ead2">Guido da Montefeltro</text>
+<text x="600" y="447" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#d7c3a0">Inferno di Dante • mappa didattica</text></g>
+<line x1="247.5" y1="191.0" x2="600" y2="375" stroke="#d8b56d" stroke-width="3" opacity="0.55"/>
+<g filter="url(#shadow)"><rect x="100" y="120" width="295" height="142" rx="22" fill="#f7ecd7" stroke="#9d2b1f" stroke-width="3"/>
+<text x="122" y="155" font-family="Arial,sans-serif" font-size="23" fill="#9d2b1f" font-weight="800">LUOGO</text>
+<text x="122" y="188" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">Ottavo cerchio, ottava</text>
+<text x="122" y="213" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">bolgia</text>
+</g>
+<line x1="967.5" y1="191.0" x2="600" y2="375" stroke="#d8b56d" stroke-width="3" opacity="0.55"/>
+<g filter="url(#shadow)"><rect x="820" y="120" width="295" height="142" rx="22" fill="#f7ecd7" stroke="#9d2b1f" stroke-width="3"/>
+<text x="842" y="155" font-family="Arial,sans-serif" font-size="23" fill="#9d2b1f" font-weight="800">PECCATO</text>
+<text x="842" y="188" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">Consiglio fraudolento,</text>
+<text x="842" y="213" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">soprattutto politico-</text>
+<text x="842" y="238" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">religioso</text>
+</g>
+<line x1="227.5" y1="381.0" x2="600" y2="375" stroke="#d8b56d" stroke-width="3" opacity="0.55"/>
+<g filter="url(#shadow)"><rect x="80" y="310" width="295" height="142" rx="22" fill="#f7ecd7" stroke="#9d2b1f" stroke-width="3"/>
+<text x="102" y="345" font-family="Arial,sans-serif" font-size="23" fill="#9d2b1f" font-weight="800">PENA</text>
+<text x="102" y="378" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">Anima avvolta in una</text>
+<text x="102" y="403" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">fiamma, come parola</text>
+<text x="102" y="428" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">nascosta e bruciante.</text>
+</g>
+<line x1="977.5" y1="381.0" x2="600" y2="375" stroke="#d8b56d" stroke-width="3" opacity="0.55"/>
+<g filter="url(#shadow)"><rect x="830" y="310" width="295" height="142" rx="22" fill="#f7ecd7" stroke="#9d2b1f" stroke-width="3"/>
+<text x="852" y="345" font-family="Arial,sans-serif" font-size="23" fill="#9d2b1f" font-weight="800">CONTRAPPASSO</text>
+<text x="852" y="378" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">Per analogia: l’astuzia</text>
+<text x="852" y="403" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">consigliò in segreto; ora</text>
+<text x="852" y="428" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">l’identità è nascosta nel</text>
+<text x="852" y="453" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">fuoco.</text>
+</g>
+<line x1="247.5" y1="581.0" x2="600" y2="375" stroke="#d8b56d" stroke-width="3" opacity="0.55"/>
+<g filter="url(#shadow)"><rect x="100" y="510" width="295" height="142" rx="22" fill="#f7ecd7" stroke="#9d2b1f" stroke-width="3"/>
+<text x="122" y="545" font-family="Arial,sans-serif" font-size="23" fill="#9d2b1f" font-weight="800">TEMI</text>
+<text x="122" y="578" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">astuzia politica,</text>
+<text x="122" y="603" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">confessione falsa,</text>
+<text x="122" y="628" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">Bonifacio VIII, colpa e</text>
+<text x="122" y="653" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">assoluzione, inganno</text>
+</g>
+<line x1="952.5" y1="581.0" x2="600" y2="375" stroke="#d8b56d" stroke-width="3" opacity="0.55"/>
+<g filter="url(#shadow)"><rect x="805" y="510" width="295" height="142" rx="22" fill="#f7ecd7" stroke="#9d2b1f" stroke-width="3"/>
+<text x="827" y="545" font-family="Arial,sans-serif" font-size="23" fill="#9d2b1f" font-weight="800">VERSI CHIAVE</text>
+<text x="827" y="578" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">Io fui uom d’arme, e poi</text>
+<text x="827" y="603" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">fui cordigliero •</text>
+<text x="827" y="628" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">ch’assolver non si può</text>
+<text x="827" y="653" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">chi non si pente</text>
+</g>
+<line x1="600.0" y1="696.0" x2="600" y2="375" stroke="#d8b56d" stroke-width="3" opacity="0.55"/>
+<g filter="url(#shadow)"><rect x="410" y="625" width="380" height="142" rx="22" fill="#f7ecd7" stroke="#9d2b1f" stroke-width="3"/>
+<text x="432" y="660" font-family="Arial,sans-serif" font-size="23" fill="#9d2b1f" font-weight="800">PERSONAGGI</text>
+<text x="432" y="693" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">Guido da Montefeltro, Bonifacio</text>
+<text x="432" y="718" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">VIII, San Francesco, Diavolo</text>
+<text x="432" y="743" font-family="Arial,sans-serif" font-size="20" fill="#2b1b12">logico</text>
+</g>
+<text x="600" y="780" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#d7c3a0">a cura di gbprof e Libera</text>
+</svg>
