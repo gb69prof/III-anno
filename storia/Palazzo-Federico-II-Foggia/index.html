@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="it" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#111719">
+  <meta name="description" content="Mostra digitale sul palatium di Federico II a Foggia: prove, fonti e limiti della ricostruzione storica.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Palatium Foggia">
+  <title>Il palatium di Federico II a Foggia</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./assets/icon-192.png">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#inizio" aria-label="Torna all'inizio">
+      <span class="brand-mark" aria-hidden="true">∅</span>
+      <span><strong>PALATIUM</strong><small>Foggia · 1223</small></span>
+    </a>
+    <nav class="mode-nav" aria-label="Sezioni principali">
+      <button class="mode-button is-active" data-view="story" aria-pressed="true">Racconto</button>
+      <button class="mode-button" data-view="evidence" aria-pressed="false">Prove</button>
+      <button class="mode-button" data-view="lab" aria-pressed="false">Laboratorio</button>
+      <button class="mode-button" data-view="sources" aria-pressed="false">Fonti</button>
+    </nav>
+    <div class="top-actions">
+      <button class="icon-button" id="themeToggle" aria-label="Attiva tema scuro" title="Tema chiaro o scuro">◐</button>
+      <button class="install-button" id="installButton" hidden>Installa</button>
+      <button class="icon-button mobile-only" id="menuToggle" aria-label="Apri navigazione" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="view is-active" id="storyView" data-view-panel="story">
+      <section class="hero" id="inizio" aria-labelledby="heroTitle">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="absence" aria-hidden="true">
+          <span class="absence-arch"></span>
+          <span class="absence-label">forma non documentata</span>
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Foggia · tracce di una sede imperiale</p>
+          <h1 id="heroTitle">Il <em>palatium</em><br>di Federico II</h1>
+          <p class="hero-deck">Un palazzo perduto, le tracce rimaste, il confine tra storia e ricostruzione.</p>
+          <blockquote>Di uno dei luoghi più importanti della corte federiciana resta quasi nulla. Eppure possiamo sapere molto.</blockquote>
+          <div class="first-proof">
+            <span class="date">GIUGNO 1223</span>
+            <span class="certainty certainty-a"><b>A</b> prova primaria diretta</span>
+            <strong>Questo lo sappiamo.</strong>
+          </div>
+          <a class="primary-cta" href="#metodo">Scopri come <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="hero-note">Questo disegno rappresenta un'assenza, non una ricostruzione.</p>
+      </section>
+
+      <section class="method-intro section-shell" id="metodo">
+        <div>
+          <p class="kicker">La domanda generatrice</p>
+          <h2>Come si ricostruisce la storia di un palazzo che non esiste quasi più?</h2>
+        </div>
+        <div class="method-copy">
+          <p>Non riempiendo i vuoti. La ricerca mette in relazione epigrafi, documenti, resti, immagini tarde e studi; poi assegna a ogni conclusione un grado di attendibilità.</p>
+          <p class="method-rule">Ogni prova deve dire anche <strong>che cosa non dimostra</strong>.</p>
+        </div>
+      </section>
+
+      <section class="scale-panel section-shell" aria-labelledby="scaleTitle">
+        <header>
+          <p class="kicker">Legenda epistemica</p>
+          <h2 id="scaleTitle">Cinque gradi, nessuna scorciatoia</h2>
+        </header>
+        <div class="certainty-scale" id="certaintyScale"></div>
+      </section>
+
+      <div class="story-layout section-shell">
+        <aside class="chapter-rail" id="chapterRail" aria-label="Indice del racconto">
+          <p class="rail-label">8 capitoli</p>
+          <ol id="chapterNav"></ol>
+          <div class="progress-box">
+            <span><b id="progressCount">0</b>/8 letti</span>
+            <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
+          </div>
+        </aside>
+        <article class="chapter-stage" id="chapterStage" aria-live="polite"></article>
+      </div>
+
+      <section class="finale section-shell">
+        <p class="kicker">Conclusione</p>
+        <h2>Il vuoto non autorizza l'invenzione.<br>È parte del documento.</h2>
+        <p>Sappiamo quando l'opera fu iniziata, chi la ordinò, quale messaggio politico affidò alla pietra e quale ruolo ebbe Foggia nella geografia mobile del potere. Non sappiamo abbastanza per disegnarne la pianta. La storia più rigorosa non è quella che mostra di più: è quella che rende visibile il confine tra prova e desiderio.</p>
+        <button class="primary-button" data-switch="evidence">Apri l'archivio delle prove</button>
+      </section>
+    </section>
+
+    <section class="view evidence-view" id="evidenceView" data-view-panel="evidence" hidden>
+      <header class="view-hero section-shell">
+        <p class="eyebrow">Archivio consultabile</p>
+        <h1>Le prove</h1>
+        <p>Documenti, oggetti e inferenze. Ogni scheda separa ciò che la fonte attesta da ciò che non può attestare.</p>
+      </header>
+      <div class="evidence-toolbar section-shell">
+        <label class="search-box"><span class="sr-only">Cerca nelle prove</span><input id="evidenceSearch" type="search" placeholder="Cerca: epigrafe, 1225, capitello…"><span aria-hidden="true">⌕</span></label>
+        <div class="filter-group" id="evidenceFilters" role="group" aria-label="Filtra per livello di attendibilità"></div>
+      </div>
+      <div class="evidence-grid section-shell" id="evidenceGrid"></div>
+      <p class="empty-state section-shell" id="evidenceEmpty" hidden>Nessuna prova corrisponde ai filtri scelti.</p>
+    </section>
+
+    <section class="view lab-view" id="labView" data-view-panel="lab" hidden>
+      <header class="view-hero section-shell">
+        <p class="eyebrow">Laboratorio delle fonti</p>
+        <h1>Tu che cosa concluderesti?</h1>
+        <p>Tre casi in cui i dati non bastano da soli. Costruisci una conclusione, salvala e poi confrontala con il verdetto scientifico.</p>
+      </header>
+      <div class="lab-list section-shell" id="labList"></div>
+    </section>
+
+    <section class="view sources-view" id="sourcesView" data-view-panel="sources" hidden>
+      <header class="view-hero section-shell">
+        <p class="eyebrow">Apparato critico</p>
+        <h1>Fonti e bibliografia</h1>
+        <p>La bibliografia distingue fonti primarie, studi specialistici e risorse istituzionali. Le citazioni abbreviate nelle schede rimandano a questo repertorio.</p>
+      </header>
+      <div class="sources-layout section-shell">
+        <nav class="sources-index" id="sourcesIndex" aria-label="Sezioni della bibliografia"></nav>
+        <div class="sources-list" id="sourcesList"></div>
+      </div>
+      <aside class="responsibility section-shell">
+        <h2>Nota di responsabilità</h2>
+        <p>Le immagini del capitello conservato nel Museo Civico di Foggia non sono riprodotte: la licenza editoriale della fotografia citata nel paper non è verificata. Mappe e visualizzazioni di questa PWA sono elaborazioni grafiche originali e non pretendono di restituire confini, strade o piante medievali.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><strong>Il palatium di Federico II a Foggia</strong><span>Ricerca storica, mostra digitale, laboratorio delle fonti.</span></div>
+    <div><span>Progetto didattico gbprof · 2026</span><a href="../">Indice di Storia</a></div>
+  </footer>
+
+  <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Navigazione mobile" aria-hidden="true">
+    <button class="drawer-close" id="drawerClose" aria-label="Chiudi navigazione">×</button>
+    <p class="kicker">Naviga</p>
+    <button data-drawer-view="story">Racconto</button>
+    <button data-drawer-view="evidence">Prove</button>
+    <button data-drawer-view="lab">Laboratorio</button>
+    <button data-drawer-view="sources">Fonti</button>
+    <hr>
+    <a href="../">← Indice di Storia</a>
+  </aside>
+
+  <dialog class="evidence-dialog" id="evidenceDialog" aria-labelledby="dialogTitle">
+    <button class="dialog-close" id="dialogClose" aria-label="Chiudi">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <div class="offline-status" id="offlineStatus" role="status" aria-live="polite"></div>
+
+  <script src="./js/data.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "Il palatium di Federico II a Foggia",
+  "short_name": "Palatium Foggia",
+  "description": "Mostra digitale sulle prove, le fonti e i limiti della ricostruzione del palatium federiciano di Foggia.",
+  "lang": "it",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#111719",
+  "theme_color": "#111719",
+  "icons": [
+    { "src": "./assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Palatium Foggia</title>
+  <desc id="desc">Un arco incompleto e la data 1223, simbolo di un palazzo perduto documentato da un'epigrafe.</desc>
+  <rect width="512" height="512" rx="96" fill="#111719"/>
+  <path d="M106 404V226c0-90 60-150 150-150s150 60 150 150v178" fill="none" stroke="#d4b47e" stroke-width="18" stroke-linecap="square"/>
+  <path d="M163 404V240c0-56 37-94 93-94s93 38 93 94v164" fill="none" stroke="#e9e2d6" stroke-opacity=".65" stroke-width="8" stroke-dasharray="18 15"/>
+  <path d="M92 404h328" stroke="#8fa5a5" stroke-width="8"/>
+  <text x="256" y="355" text-anchor="middle" fill="#f3ede2" font-family="Georgia,serif" font-size="72">1223</text>
+  <circle cx="404" cy="105" r="21" fill="none" stroke="#8fa5a5" stroke-width="7"/>
+</svg>
