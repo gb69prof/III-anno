@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="t d">
+  <title id="t">L’immagine del mondo</title><desc id="d">Memoria e desiderio resistono alla disciplina; l’intenzione interroga l’atto e genera due letture della sventura.</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L9 3 0 6z" fill="#7a4550"/></marker><style>text{font-family:Inter,Arial,sans-serif;fill:#2c2422}.n{fill:#fffaf0;stroke:#b99155;stroke-width:3}.c{fill:#70404a;stroke:#4a2730;stroke-width:4}.ct{fill:white;font-weight:800;font-size:31px}.h{font-family:Georgia,serif;font-size:48px;font-weight:700}.l{font-size:25px;font-weight:750}.s{font-size:20px;fill:#66564d}.r{font-size:18px;font-weight:800;fill:#70404a}.e{fill:none;stroke:#7a4550;stroke-width:4;marker-end:url(#a)}</style></defs>
+  <rect width="1400" height="900" rx="30" fill="#f4ead8"/><text x="70" y="82" class="h">03 · L’immagine del mondo</text>
+  <rect x="500" y="350" width="400" height="145" rx="30" class="c"/><text x="700" y="408" text-anchor="middle" class="ct">IL CUORE NON È</text><text x="700" y="450" text-anchor="middle" class="ct">PIENAMENTE COMANDABILE</text>
+  <rect x="65" y="165" width="370" height="120" rx="24" class="n"/><text x="250" y="213" text-anchor="middle" class="l">Memoria del corpo</text><text x="250" y="246" text-anchor="middle" class="s">resiste alla clausura</text>
+  <rect x="515" y="135" width="370" height="120" rx="24" class="n"/><text x="700" y="183" text-anchor="middle" class="l">Amore non mercenario</text><text x="700" y="216" text-anchor="middle" class="s">te, non ciò che possiedi</text>
+  <rect x="965" y="165" width="370" height="120" rx="24" class="n"/><text x="1150" y="213" text-anchor="middle" class="l">Intenzione</text><text x="1150" y="246" text-anchor="middle" class="s">giudica oltre l’atto visibile</text>
+  <rect x="110" y="625" width="455" height="120" rx="24" class="n"/><text x="337" y="673" text-anchor="middle" class="l">Abelardo: provvidenza</text><text x="337" y="706" text-anchor="middle" class="s">la pena diventa salvezza</text>
+  <rect x="835" y="625" width="455" height="120" rx="24" class="n"/><text x="1062" y="673" text-anchor="middle" class="l">Eloisa: residuo</text><text x="1062" y="706" text-anchor="middle" class="s">l’ingiustizia non si chiude</text>
+  <path d="M435 255C510 292 545 325 585 355" class="e"/><text x="455" y="312" class="r">mantiene vivo</text>
+  <path d="M700 255V345" class="e"/><text x="720" y="307" class="r">definisce</text>
+  <path d="M965 255C890 292 855 325 815 355" class="e"/><text x="835" y="312" class="r">rende decisivo</text>
+  <path d="M565 655C620 590 650 535 665 500" class="e"/><text x="545" y="580" class="r">ordina verso un fine</text>
+  <path d="M835 655C780 590 750 535 735 500" class="e"/><text x="748" y="580" class="r">rimette in questione</text>
+  <text x="700" y="825" text-anchor="middle" class="l">Ponte: quale forma può conservare una coscienza divisa?</text>
+</svg>

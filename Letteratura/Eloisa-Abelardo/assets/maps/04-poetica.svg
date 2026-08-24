@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="t d">
+  <title id="t">La poetica epistolare</title><desc id="d">La distanza viene trasformata in saluto, autobiografia, contro-memoria, intertestualità e dialogo.</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L9 3 0 6z" fill="#31516d"/></marker><style>text{font-family:Inter,Arial,sans-serif;fill:#2c2422}.n{fill:#fffaf0;stroke:#b99155;stroke-width:3}.c{fill:#31516d;stroke:#213448;stroke-width:4}.ct{fill:white;font-weight:800;font-size:32px}.h{font-family:Georgia,serif;font-size:48px;font-weight:700}.l{font-size:25px;font-weight:750}.s{font-size:20px;fill:#66564d}.r{font-size:18px;font-weight:800;fill:#31516d}.e{fill:none;stroke:#31516d;stroke-width:4;marker-end:url(#a)}</style></defs>
+  <rect width="1400" height="900" rx="30" fill="#f4ead8"/><text x="70" y="82" class="h">04 · La poetica</text>
+  <rect x="500" y="350" width="400" height="145" rx="30" class="c"/><text x="700" y="408" text-anchor="middle" class="ct">LA LETTERA</text><text x="700" y="450" text-anchor="middle" class="ct">AGISCE NELLA DISTANZA</text>
+  <rect x="65" y="165" width="370" height="120" rx="24" class="n"/><text x="250" y="213" text-anchor="middle" class="l">Salutatio</text><text x="250" y="246" text-anchor="middle" class="s">i titoli diventano doveri</text>
+  <rect x="515" y="135" width="370" height="120" rx="24" class="n"/><text x="700" y="183" text-anchor="middle" class="l">Autobiografia</text><text x="700" y="216" text-anchor="middle" class="s">seleziona e ordina una vita</text>
+  <rect x="965" y="165" width="370" height="120" rx="24" class="n"/><text x="1150" y="213" text-anchor="middle" class="l">Contro-memoria</text><text x="1150" y="246" text-anchor="middle" class="s">riapre il senso del passato</text>
+  <rect x="110" y="625" width="455" height="120" rx="24" class="n"/><text x="337" y="673" text-anchor="middle" class="l">Intertestualità</text><text x="337" y="706" text-anchor="middle" class="s">classici e Bibbia argomentano</text>
+  <rect x="835" y="625" width="455" height="120" rx="24" class="n"/><text x="1062" y="673" text-anchor="middle" class="l">Tradizione manoscritta</text><text x="1062" y="706" text-anchor="middle" class="s">conserva e problematizza</text>
+  <path d="M435 255C510 292 545 325 585 355" class="e"/><text x="460" y="312" class="r">definisce chi parla</text>
+  <path d="M700 255V345" class="e"/><text x="720" y="307" class="r">costruisce</text>
+  <path d="M965 255C890 292 855 325 815 355" class="e"/><text x="838" y="312" class="r">risponde a</text>
+  <path d="M565 655C620 590 650 535 665 500" class="e"/><text x="535" y="580" class="r">fornisce linguaggi</text>
+  <path d="M835 655C780 590 750 535 735 500" class="e"/><text x="752" y="580" class="r">trasmette</text>
+  <text x="700" y="825" text-anchor="middle" class="l">Ponte: il dialogo diventa una raccolta di opere.</text>
+</svg>

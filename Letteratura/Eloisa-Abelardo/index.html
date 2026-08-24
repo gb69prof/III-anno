@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#231b1b">
+  <meta name="description" content="Le lettere di Eloisa e Abelardo: storia, voci, forma epistolare e laboratorio didattico.">
+  <title>Eloisa e Abelardo — Le lettere che non obbediscono</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#lezione">Vai alla lezione</a>
+
+  <header class="hero" id="inizio">
+    <img class="hero-image" src="assets/images/01-scuola-parigi.webp" alt="Ricostruzione artistica: Eloisa e Abelardo discutono su un codice aperto nella Parigi del primo XII secolo">
+    <div class="hero-shade"></div>
+    <nav class="topbar" aria-label="Navigazione generale">
+      <a class="back-link" href="../">← Letteratura</a>
+      <div class="top-actions">
+        <button class="icon-button" id="search-open" type="button" aria-label="Apri la ricerca">⌕ <span>Cerca</span></button>
+        <button class="icon-button" id="notes-open" type="button" aria-label="Apri il taccuino">✎ <span>Taccuino</span></button>
+        <button class="icon-button" id="install-button" type="button" hidden>＋ <span>Installa</span></button>
+      </div>
+    </nav>
+    <div class="hero-copy">
+      <p class="eyebrow">Letteratura medievale · percorso interattivo</p>
+      <h1>Eloisa e Abelardo</h1>
+      <p class="hero-kicker">Le lettere che non obbediscono</p>
+      <p class="hero-lead">Non una favola di amanti infelici, ma due intelligenze che, separate, continuano a disputare su amore, colpa, memoria e libertà.</p>
+      <a class="primary-cta" href="#storia">Conosci prima la loro storia <span aria-hidden="true">↓</span></a>
+    </div>
+    <div class="hero-progress" aria-label="Progresso del percorso">
+      <span id="progress-label">0 di 6 movimenti esplorati</span>
+      <span class="progress-track"><span id="progress-bar"></span></span>
+    </div>
+  </header>
+
+  <main>
+    <section class="story-shell" id="storia" aria-labelledby="story-title">
+      <div class="section-heading">
+        <p class="section-number">Prima delle lettere</p>
+        <h2 id="story-title">La loro storia, senza trasformarla in leggenda</h2>
+        <p class="section-intro">Quasi tutto il racconto più noto dipende dall’<i>Historia calamitatum</i>, l’autobiografia epistolare di Abelardo. È una fonte fondamentale, non una telecamera neutrale: racconta, seleziona e interpreta.</p>
+      </div>
+      <div class="story-grid" id="story-grid"></div>
+      <aside class="method-note">
+        <p class="note-label">Avvertenza di metodo</p>
+        <p>L’età precisa di Eloisa non è documentata; anche la trasmissione delle lettere presenta problemi. Il consenso accademico contemporaneo tende a riconoscere autentico il nucleo della corrispondenza, ma la discussione critica non va nascosta. Nella PWA i dati sicuri, il racconto di Abelardo e le interpretazioni sono distinti.</p>
+      </aside>
+    </section>
+
+    <section class="question-band" aria-labelledby="question-title">
+      <p class="section-number">Domanda generatrice</p>
+      <h2 id="question-title">Che cosa accade quando la scrittura conserva ciò che la vita pretende di disciplinare?</h2>
+      <p>La risposta non sarà una formula: emergerà attraversando sei movimenti, dal mondo delle scuole al governo del Paracleto.</p>
+    </section>
+
+    <div class="learning-layout">
+      <aside class="chapter-rail" aria-label="Indice dei sei movimenti">
+        <button class="rail-toggle" id="rail-toggle" type="button" aria-expanded="false" aria-controls="chapter-nav">Indice dei movimenti</button>
+        <nav id="chapter-nav"></nav>
+        <a class="sources-link" href="#fonti">Fonti e metodo</a>
+      </aside>
+
+      <section class="lesson-stage" id="lezione" aria-live="polite" aria-atomic="false">
+        <div id="lesson-root"></div>
+      </section>
+    </div>
+
+    <section class="sources-section" id="fonti" aria-labelledby="sources-title">
+      <div class="section-heading">
+        <p class="section-number">Dossier scientifico</p>
+        <h2 id="sources-title">Fonti, edizioni e questioni aperte</h2>
+        <p class="section-intro">La bibliografia non è un fondale decorativo: ogni fonte è associata alla funzione che svolge nella lezione.</p>
+      </div>
+      <div class="sources-grid" id="sources-grid"></div>
+      <details class="source-policy">
+        <summary>Come sono state usate le fonti</summary>
+        <p>Le ricostruzioni biografiche dipendono anzitutto dall’<i>Historia calamitatum</i> e dalla corrispondenza; sono state controllate con studi e edizioni accademiche. I brevi passi italiani sono traduzioni o parafrasi didattiche originali, segnalate come tali. Le sei scene illustrate sono ricostruzioni artistiche: non ritratti documentari.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#inizio">Torna all’inizio ↑</a>
+    <p>III anno · Letteratura · gbprof e Libera</p>
+    <button id="reset-progress" type="button">Azzera dati locali</button>
+  </footer>
+
+  <dialog id="notes-dialog" class="app-dialog">
+    <form method="dialog" class="dialog-head"><h2>Taccuino</h2><button aria-label="Chiudi">×</button></form>
+    <p>Annotazioni e passaggi salvati restano soltanto su questo dispositivo.</p>
+    <label for="notes-area">I tuoi appunti</label>
+    <textarea id="notes-area" rows="10" placeholder="Scrivi qui una domanda, un nesso, un dubbio…"></textarea>
+    <div id="highlights-list" class="highlights-list"></div>
+    <div class="dialog-actions">
+      <button id="save-notes" type="button" class="primary-button">Salva</button>
+      <button id="export-notes" type="button">Esporta .txt</button>
+    </div>
+  </dialog>
+
+  <dialog id="search-dialog" class="app-dialog">
+    <form method="dialog" class="dialog-head"><h2>Ricerca interna</h2><button aria-label="Chiudi">×</button></form>
+    <label for="search-input">Parola o concetto</label>
+    <input id="search-input" type="search" autocomplete="off" placeholder="amore, intenzione, Paracleto…">
+    <div id="search-results" class="search-results" aria-live="polite"></div>
+  </dialog>
+
+  <dialog id="map-dialog" class="map-dialog">
+    <form method="dialog" class="dialog-head"><h2 id="map-title">Mappa concettuale</h2><button aria-label="Chiudi">×</button></form>
+    <img id="map-large" src="assets/maps/01-mondo.svg" alt="">
+  </dialog>
+
+  <div class="selection-tools" id="selection-tools" hidden>
+    <button id="save-highlight" type="button">Salva nel taccuino</button>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript>Questa PWA richiede JavaScript per navigazione, quiz e taccuino. Le fonti restano consultabili in fondo alla pagina.</noscript>
+</body>
+</html>

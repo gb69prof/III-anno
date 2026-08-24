@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="t d">
+  <title id="t">Il mondo precedente</title><desc id="d">Le scuole, la cultura latina e i vincoli sociali preparano un conflitto sulla memoria.</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L9 3 0 6z" fill="#7a4550"/></marker><style>text{font-family:Inter,Arial,sans-serif;fill:#2c2422}.n{fill:#fffaf0;stroke:#b99155;stroke-width:3}.c{fill:#6e3f49;stroke:#4a2730;stroke-width:4}.ct{fill:white;font-weight:800;font-size:31px}.h{font-family:Georgia,serif;font-size:48px;font-weight:700}.l{font-size:25px;font-weight:750}.s{font-size:20px;fill:#66564d}.r{font-size:18px;font-weight:800;fill:#6e3f49}.e{fill:none;stroke:#7a4550;stroke-width:4;marker-end:url(#a)}</style></defs>
+  <rect width="1400" height="900" rx="30" fill="#f4ead8"/><text x="70" y="82" class="h">01 · Il mondo precedente</text>
+  <rect x="500" y="345" width="400" height="150" rx="30" class="c"/><text x="700" y="405" text-anchor="middle" class="ct">CULTURA DELLE</text><text x="700" y="447" text-anchor="middle" class="ct">SCUOLE PARIGINE</text>
+  <rect x="70" y="155" width="350" height="120" rx="24" class="n"/><text x="245" y="205" text-anchor="middle" class="l">Maestri e dispute</text><text x="245" y="238" text-anchor="middle" class="s">reputazione in movimento</text>
+  <rect x="500" y="130" width="400" height="120" rx="24" class="n"/><text x="700" y="180" text-anchor="middle" class="l">Cultura latina</text><text x="700" y="213" text-anchor="middle" class="s">classici, Bibbia, Padri</text>
+  <rect x="980" y="155" width="350" height="120" rx="24" class="n"/><text x="1155" y="205" text-anchor="middle" class="l">Eloisa lettrice</text><text x="1155" y="238" text-anchor="middle" class="s">autorità usate come argomenti</text>
+  <rect x="115" y="620" width="390" height="120" rx="24" class="n"/><text x="310" y="670" text-anchor="middle" class="l">Matrimonio e onore</text><text x="310" y="703" text-anchor="middle" class="s">carriera, famiglia, segreto</text>
+  <rect x="895" y="620" width="390" height="120" rx="24" class="n"/><text x="1090" y="670" text-anchor="middle" class="l">Forma epistolare</text><text x="1090" y="703" text-anchor="middle" class="s">relazione costruita per iscritto</text>
+  <path d="M420 245C500 280 535 320 575 353" class="e"/><text x="445" y="300" class="r">alimenta</text>
+  <path d="M700 250V340" class="e"/><text x="718" y="300" class="r">fornisce i testi</text>
+  <path d="M980 245C900 280 865 320 825 353" class="e"/><text x="858" y="300" class="r">è interpretata da</text>
+  <path d="M505 650C560 590 605 540 630 500" class="e"/><text x="505" y="575" class="r">impone vincoli</text>
+  <path d="M895 650C840 590 795 540 770 500" class="e"/><text x="795" y="575" class="r">trasforma in racconto</text>
+  <text x="700" y="825" text-anchor="middle" class="l">Ponte: chi ha il diritto di dare forma al passato?</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="t d">
+  <title id="t">Le fratture della vita</title><desc id="d">L’asimmetria educativa conduce a desiderio, gravidanza, matrimonio segreto, violenza e vite monastiche differenti.</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L9 3 0 6z" fill="#6d4555"/></marker><style>text{font-family:Inter,Arial,sans-serif;fill:#2c2422}.n{fill:#fffaf0;stroke:#b99155;stroke-width:3}.c{fill:#314d68;stroke:#213448;stroke-width:4}.ct{fill:white;font-weight:800;font-size:31px}.h{font-family:Georgia,serif;font-size:48px;font-weight:700}.l{font-size:25px;font-weight:750}.s{font-size:20px;fill:#66564d}.r{font-size:18px;font-weight:800;fill:#6d4555}.e{fill:none;stroke:#6d4555;stroke-width:4;marker-end:url(#a)}</style></defs>
+  <rect width="1400" height="900" rx="30" fill="#f4ead8"/><text x="70" y="82" class="h">02 · Le fratture della vita</text>
+  <rect x="485" y="348" width="430" height="145" rx="30" class="c"/><text x="700" y="405" text-anchor="middle" class="ct">RELAZIONE DENTRO</text><text x="700" y="447" text-anchor="middle" class="ct">UN POTERE ASIMMETRICO</text>
+  <rect x="65" y="160" width="370" height="120" rx="24" class="n"/><text x="250" y="208" text-anchor="middle" class="l">Maestro e allieva</text><text x="250" y="241" text-anchor="middle" class="s">autorità, scelta, consenso</text>
+  <rect x="515" y="135" width="370" height="120" rx="24" class="n"/><text x="700" y="183" text-anchor="middle" class="l">Gravidanza</text><text x="700" y="216" text-anchor="middle" class="s">Bretagna · Astrolabio</text>
+  <rect x="965" y="160" width="370" height="120" rx="24" class="n"/><text x="1150" y="208" text-anchor="middle" class="l">Matrimonio segreto</text><text x="1150" y="241" text-anchor="middle" class="s">riparazione incompatibile</text>
+  <rect x="130" y="620" width="410" height="120" rx="24" class="n"/><text x="335" y="668" text-anchor="middle" class="l">Violenza sul corpo</text><text x="335" y="701" text-anchor="middle" class="s">vendetta e vergogna pubblica</text>
+  <rect x="860" y="620" width="410" height="120" rx="24" class="n"/><text x="1065" y="668" text-anchor="middle" class="l">Due vite religiose</text><text x="1065" y="701" text-anchor="middle" class="s">motivazioni non equivalenti</text>
+  <path d="M435 250C510 285 550 325 585 354" class="e"/><text x="460" y="305" class="r">rende problematica</text>
+  <path d="M700 255V343" class="e"/><text x="720" y="305" class="r">trasforma</text>
+  <path d="M965 250C890 285 850 325 815 354" class="e"/><text x="830" y="305" class="r">non ripara</text>
+  <path d="M540 650C600 580 635 535 655 497" class="e"/><text x="535" y="575" class="r">spezza</text>
+  <path d="M860 650C800 580 765 535 745 497" class="e"/><text x="760" y="575" class="r">impone e apre</text>
+  <text x="700" y="825" text-anchor="middle" class="l">Ponte: la disciplina esterna può comandare il cuore?</text>
+</svg>

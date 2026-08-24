@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="t d">
+  <title id="t">Conclusione del percorso</title><desc id="d">I cinque movimenti precedenti confluiscono nell’autorità di Eloisa e in un dissenso che resta vivo.</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L9 3 0 6z" fill="#31516d"/></marker><style>text{font-family:Inter,Arial,sans-serif;fill:#2c2422}.n{fill:#fffaf0;stroke:#b99155;stroke-width:3}.c{fill:#31516d;stroke:#213448;stroke-width:4}.ct{fill:white;font-weight:800;font-size:31px}.h{font-family:Georgia,serif;font-size:48px;font-weight:700}.l{font-size:24px;font-weight:750}.s{font-size:19px;fill:#66564d}.r{font-size:18px;font-weight:800;fill:#31516d}.e{fill:none;stroke:#31516d;stroke-width:4;marker-end:url(#a)}</style></defs>
+  <rect width="1400" height="900" rx="30" fill="#f4ead8"/><text x="70" y="82" class="h">06 · Conclusione</text>
+  <rect x="480" y="342" width="440" height="160" rx="30" class="c"/><text x="700" y="402" text-anchor="middle" class="ct">DUE VOCI RESTANO</text><text x="700" y="444" text-anchor="middle" class="ct">RESPONSABILI SENZA</text><text x="700" y="482" text-anchor="middle" class="ct">DOVER COINCIDERE</text>
+  <rect x="55" y="155" width="350" height="120" rx="24" class="n"/><text x="230" y="202" text-anchor="middle" class="l">Mondo delle scuole</text><text x="230" y="235" text-anchor="middle" class="s">latino, autorità, gerarchie</text>
+  <rect x="430" y="125" width="350" height="120" rx="24" class="n"/><text x="605" y="172" text-anchor="middle" class="l">Fratture</text><text x="605" y="205" text-anchor="middle" class="s">potere, segreto, violenza</text>
+  <rect x="805" y="155" width="350" height="120" rx="24" class="n"/><text x="980" y="202" text-anchor="middle" class="l">Coscienza</text><text x="980" y="235" text-anchor="middle" class="s">memoria e intenzione</text>
+  <rect x="995" y="560" width="350" height="120" rx="24" class="n"/><text x="1170" y="607" text-anchor="middle" class="l">Corpus</text><text x="1170" y="640" text-anchor="middle" class="s">dal sé alla comunità</text>
+  <rect x="525" y="655" width="350" height="120" rx="24" class="n"/><text x="700" y="702" text-anchor="middle" class="l">Eloisa badessa</text><text x="700" y="735" text-anchor="middle" class="s">pensiero diventato istituzione</text>
+  <rect x="55" y="560" width="350" height="120" rx="24" class="n"/><text x="230" y="607" text-anchor="middle" class="l">Poetica</text><text x="230" y="640" text-anchor="middle" class="s">la lettera conserva il dissenso</text>
+  <path d="M405 245C500 280 545 320 585 350" class="e"/><text x="445" y="300" class="r">prepara</text>
+  <path d="M650 245C665 280 680 312 685 338" class="e"/><text x="660" y="300" class="r">spezza</text>
+  <path d="M805 245C770 285 745 315 730 340" class="e"/><text x="770" y="300" class="r">interroga</text>
+  <path d="M995 610C920 570 860 525 815 495" class="e"/><text x="865" y="560" class="r">trasforma</text>
+  <path d="M700 655V508" class="e"/><text x="720" y="590" class="r">incarna</text>
+  <path d="M405 610C485 565 545 525 590 495" class="e"/><text x="455" y="560" class="r">conserva</text>
+  <text x="700" y="835" text-anchor="middle" class="l">Domanda aperta: la verità nasce dall’unità o dal diritto di non coincidere?</text>
+</svg>
