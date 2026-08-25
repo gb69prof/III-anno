@@ -41,7 +41,7 @@ server.listen(0, "127.0.0.1", async () => {
   const imageNames = ["scuola-parigi", "astrolabio-bretagna", "matrimonio-segreto", "due-chiostri", "lettere-paracleto", "eloisa-badessa"];
   const mapNames = ["mondo", "fratture", "visione", "poetica", "opere", "conclusione"];
   const assets = [
-    "/", "/styles.css", "/content.js", "/app.js", "/manifest.webmanifest", "/sw.js",
+    "/", "/styles.css", "/content.js", "/documents.js", "/app.js", "/manifest.webmanifest", "/sw.js",
     "/assets/icons/icon-192.png", "/assets/icons/icon-512.png",
     ...imageNames.map((name, index) => `/assets/images/0${index + 1}-${name}.webp`),
     ...mapNames.map((name, index) => `/assets/maps/0${index + 1}-${name}.svg`)
@@ -62,4 +62,3 @@ server.listen(0, "127.0.0.1", async () => {
     server.close();
   }
 });
-

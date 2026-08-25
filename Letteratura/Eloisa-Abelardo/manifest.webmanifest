@@ -1,7 +1,7 @@
 {
   "name": "Eloisa e Abelardo — Le lettere che non obbediscono",
   "short_name": "Eloisa e Abelardo",
-  "description": "Percorso didattico interattivo sulle lettere di Eloisa e Abelardo.",
+  "description": "Percorso didattico e biblioteca documentaria sulle lettere di Eloisa e Abelardo.",
   "lang": "it",
   "start_url": "./",
   "scope": "./",

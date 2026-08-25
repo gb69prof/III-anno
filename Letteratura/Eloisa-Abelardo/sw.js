@@ -1,9 +1,10 @@
-const CACHE = "eloisa-abelardo-v1";
+const CACHE = "eloisa-abelardo-v2";
 const ASSETS = [
   "./",
   "./index.html",
   "./styles.css",
   "./content.js",
+  "./documents.js",
   "./app.js",
   "./manifest.webmanifest",
   "./assets/icons/icon-192.png",

@@ -4,13 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#231b1b">
-  <meta name="description" content="Le lettere di Eloisa e Abelardo: storia, voci, forma epistolare e laboratorio didattico.">
+  <meta name="description" content="Le lettere di Eloisa e Abelardo: storia, traduzioni italiane dei documenti, forma epistolare e laboratorio didattico.">
   <title>Eloisa e Abelardo — Le lettere che non obbediscono</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/icons/icon-192.png">
   <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
   <link rel="stylesheet" href="styles.css">
   <script src="content.js" defer></script>
+  <script src="documents.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -22,6 +23,7 @@
     <nav class="topbar" aria-label="Navigazione generale">
       <a class="back-link" href="../">← Letteratura</a>
       <div class="top-actions">
+        <a class="icon-button" href="#documenti" aria-label="Vai ai documenti">▤ <span>Documenti</span></a>
         <button class="icon-button" id="search-open" type="button" aria-label="Apri la ricerca">⌕ <span>Cerca</span></button>
         <button class="icon-button" id="notes-open" type="button" aria-label="Apri il taccuino">✎ <span>Taccuino</span></button>
         <button class="icon-button" id="install-button" type="button" hidden>＋ <span>Installa</span></button>
@@ -54,6 +56,24 @@
       </aside>
     </section>
 
+    <section class="documents-section" id="documenti" aria-labelledby="documents-title">
+      <div class="section-heading">
+        <p class="section-number">Biblioteca delle fonti primarie</p>
+        <h2 id="documents-title">Adesso parlano loro</h2>
+        <p class="section-intro">Prima il racconto di Abelardo, poi il carteggio: dall’<i>Historia calamitatum</i> alla regola per il Paracleto. Le traduzioni sono originali e i tagli sono dichiarati, perché un’antologia onesta vale più di una falsa edizione integrale.</p>
+      </div>
+      <div class="document-toolbar">
+        <div class="document-filters" aria-label="Filtra i documenti">
+          <button type="button" class="document-filter active" data-document-filter="tutti" aria-pressed="true">Tutti</button>
+          <button type="button" class="document-filter" data-document-filter="Pietro Abelardo" aria-pressed="false">Abelardo</button>
+          <button type="button" class="document-filter" data-document-filter="Eloisa" aria-pressed="false">Eloisa</button>
+        </div>
+        <p id="document-progress">0 documenti aperti</p>
+      </div>
+      <div class="documents-grid" id="documents-grid"></div>
+      <aside class="textual-note" id="textual-note"></aside>
+    </section>
+
     <section class="question-band" aria-labelledby="question-title">
       <p class="section-number">Domanda generatrice</p>
       <h2 id="question-title">Che cosa accade quando la scrittura conserva ciò che la vita pretende di disciplinare?</h2>
@@ -64,6 +84,7 @@
       <aside class="chapter-rail" aria-label="Indice dei sei movimenti">
         <button class="rail-toggle" id="rail-toggle" type="button" aria-expanded="false" aria-controls="chapter-nav">Indice dei movimenti</button>
         <nav id="chapter-nav"></nav>
+        <a class="sources-link" href="#documenti">Biblioteca dei documenti</a>
         <a class="sources-link" href="#fonti">Fonti e metodo</a>
       </aside>
 
@@ -81,7 +102,7 @@
       <div class="sources-grid" id="sources-grid"></div>
       <details class="source-policy">
         <summary>Come sono state usate le fonti</summary>
-        <p>Le ricostruzioni biografiche dipendono anzitutto dall’<i>Historia calamitatum</i> e dalla corrispondenza; sono state controllate con studi e edizioni accademiche. I brevi passi italiani sono traduzioni o parafrasi didattiche originali, segnalate come tali. Le sei scene illustrate sono ricostruzioni artistiche: non ritratti documentari.</p>
+        <p>Le ricostruzioni biografiche dipendono anzitutto dall’<i>Historia calamitatum</i> e dalla corrispondenza; sono state controllate con studi ed edizioni accademiche. La biblioteca contiene traduzioni didattiche originali dal latino e dichiara ogni taglio con […]. Non è presentata come edizione critica o integrale. Le sei scene illustrate sono ricostruzioni artistiche: non ritratti documentari.</p>
       </details>
     </section>
   </main>
@@ -114,6 +135,17 @@
   <dialog id="map-dialog" class="map-dialog">
     <form method="dialog" class="dialog-head"><h2 id="map-title">Mappa concettuale</h2><button aria-label="Chiudi">×</button></form>
     <img id="map-large" src="assets/maps/01-mondo.svg" alt="">
+  </dialog>
+
+  <dialog id="document-dialog" class="document-dialog">
+    <form method="dialog" class="dialog-head"><p class="document-dialog-label">Fonte primaria</p><button aria-label="Chiudi il documento">×</button></form>
+    <article id="document-reader" class="document-reader"></article>
+    <div class="document-actions">
+      <button id="document-previous" type="button">← Documento precedente</button>
+      <button id="document-save-selection" type="button">Salva il passo selezionato</button>
+      <button id="document-download" type="button">Esporta .txt</button>
+      <button id="document-next" type="button">Documento successivo →</button>
+    </div>
   </dialog>
 
   <div class="selection-tools" id="selection-tools" hidden>
