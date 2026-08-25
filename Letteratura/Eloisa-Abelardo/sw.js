@@ -1,10 +1,11 @@
-const CACHE = "eloisa-abelardo-v2";
+const CACHE = "eloisa-abelardo-v3";
 const ASSETS = [
   "./",
   "./index.html",
   "./styles.css",
   "./content.js",
   "./documents.js",
+  "./women.js",
   "./app.js",
   "./manifest.webmanifest",
   "./assets/icons/icon-192.png",
@@ -20,7 +21,8 @@ const ASSETS = [
   "./assets/maps/03-visione.svg",
   "./assets/maps/04-poetica.svg",
   "./assets/maps/05-opere.svg",
-  "./assets/maps/06-conclusione.svg"
+  "./assets/maps/06-conclusione.svg",
+  "./assets/maps/07-eloisa-donna.svg"
 ];
 
 self.addEventListener("install", event => {

@@ -15,4 +15,4 @@ Prompt finali: scene storiche originali in formato orizzontale 3:2, architetture
 
 ## Mappe e icone
 
-Le sei mappe concettuali SVG e l’icona della PWA sono composizioni vettoriali originali realizzate per il progetto.
+Le sette mappe concettuali SVG e l’icona della PWA sono composizioni vettoriali originali realizzate per il progetto. La settima mappa visualizza il percorso storico «norma ↔ vita documentata → Eloisa → infirmitas, discretio, intentio».

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Eloisa donna nel XII secolo</title>
+  <desc id="desc">Mappa concettuale: le norme medievali vengono confrontate con le vite concrete; le lettere e i documenti conducono a Eloisa come coscienza critica interna al Medioevo attraverso infirmitas, discretio e intentio.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#80684b"/></marker>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#392c28" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1400" height="900" rx="34" fill="#fffaf0"/>
+  <text x="700" y="68" text-anchor="middle" font-family="Georgia,serif" font-size="40" fill="#47262d">Eloisa donna nel XII secolo</text>
+  <text x="700" y="106" text-anchor="middle" font-family="system-ui,sans-serif" font-size="19" fill="#74665e">non fuori dal Medioevo, ma nel punto in cui le sue categorie vengono verificate</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="170" width="370" height="238" rx="24" fill="#eadfce" stroke="#bd8e43" stroke-width="2"/>
+    <text x="255" y="210" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="800" fill="#753f48">NORMA INSEGNATA</text>
+    <text x="105" y="255" font-family="Georgia,serif" font-size="24" fill="#2a2220">vergine · vedova · moglie</text>
+    <text x="105" y="296" font-family="Georgia,serif" font-size="24" fill="#2a2220">obbedienza · continenza</text>
+    <text x="105" y="337" font-family="Georgia,serif" font-size="24" fill="#2a2220">Eva · Maria · sposa di Cristo</text>
+    <text x="105" y="378" font-family="Georgia,serif" font-size="24" fill="#2a2220">corpo femminile = infirmitas</text>
+
+    <rect x="960" y="170" width="370" height="238" rx="24" fill="#e1e7e8" stroke="#344f69" stroke-width="2"/>
+    <text x="1145" y="210" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="800" fill="#344f69">VITA DOCUMENTATA</text>
+    <text x="995" y="255" font-family="Georgia,serif" font-size="24" fill="#2a2220">terre · reti · ospitalità</text>
+    <text x="995" y="296" font-family="Georgia,serif" font-size="24" fill="#2a2220">reggenza · mediazione</text>
+    <text x="995" y="337" font-family="Georgia,serif" font-size="24" fill="#2a2220">libri · esegesi · insegnamento</text>
+    <text x="995" y="378" font-family="Georgia,serif" font-size="24" fill="#2a2220">badessa = autorità reale</text>
+
+    <rect x="485" y="226" width="430" height="230" rx="115" fill="#753f48"/>
+    <text x="700" y="294" text-anchor="middle" font-family="Georgia,serif" font-size="52" fill="#fffaf0">ELOISA</text>
+    <text x="700" y="339" text-anchor="middle" font-family="system-ui,sans-serif" font-size="19" font-weight="700" fill="#f1cf8c">amante · monaca · badessa · lettrice</text>
+    <text x="700" y="378" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="#f5e9df">accetta · trasforma · rifiuta</text>
+    <text x="700" y="411" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#e7dedd">secondo prove differenti</text>
+  </g>
+
+  <path d="M440 286C465 286 470 286 485 286" fill="none" stroke="#80684b" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="462" y="270" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#655447">forma</text>
+  <path d="M960 350C938 350 930 350 915 350" fill="none" stroke="#80684b" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="938" y="334" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#655447">verifica</text>
+
+  <g filter="url(#shadow)">
+    <rect x="100" y="530" width="340" height="190" rx="24" fill="#f3e2da" stroke="#a65b54" stroke-width="2"/>
+    <text x="270" y="574" text-anchor="middle" font-family="Georgia,serif" font-size="31" fill="#753f48">INFIRMITAS</text>
+    <text x="270" y="610" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#4f4540">la differenza ricevuta</text>
+    <text x="270" y="651" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#4f4540">non chiude il ragionamento:</text>
+    <text x="270" y="679" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#4f4540">lo apre</text>
+
+    <rect x="530" y="530" width="340" height="190" rx="24" fill="#f5ead3" stroke="#bd8e43" stroke-width="2"/>
+    <text x="700" y="574" text-anchor="middle" font-family="Georgia,serif" font-size="31" fill="#753f48">DISCRETIO</text>
+    <text x="700" y="610" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#4f4540">misura norma, mezzi e corpi</text>
+    <text x="700" y="651" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#4f4540">il maschile non vale</text>
+    <text x="700" y="679" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#4f4540">automaticamente per tutti</text>
+
+    <rect x="960" y="530" width="340" height="190" rx="24" fill="#e1e7e8" stroke="#344f69" stroke-width="2"/>
+    <text x="1130" y="574" text-anchor="middle" font-family="Georgia,serif" font-size="31" fill="#344f69">INTENTIO</text>
+    <text x="1130" y="610" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#4f4540">l’abito non prova il cuore</text>
+    <text x="1130" y="651" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#4f4540">la conformità esterna</text>
+    <text x="1130" y="679" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#4f4540">non basta alla verità</text>
+  </g>
+
+  <path d="M440 625H520" fill="none" stroke="#80684b" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="480" y="610" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#655447">diventa criterio</text>
+  <path d="M870 625H950" fill="none" stroke="#80684b" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="910" y="610" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#655447">verifica il cuore</text>
+  <path d="M700 456V518" fill="none" stroke="#80684b" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="720" y="493" font-family="system-ui,sans-serif" font-size="14" fill="#655447">metodo</text>
+
+  <rect x="214" y="784" width="972" height="66" rx="33" fill="#47262d"/>
+  <text x="700" y="825" text-anchor="middle" font-family="Georgia,serif" font-size="27" fill="#fffaf0">COSCIENZA CRITICA INTERNA AL MEDIOEVO</text>
+  <path d="M700 720V772" fill="none" stroke="#80684b" stroke-width="3" marker-end="url(#arrow)"/>
+</svg>

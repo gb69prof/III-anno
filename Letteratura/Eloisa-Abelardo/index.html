@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#231b1b">
-  <meta name="description" content="Le lettere di Eloisa e Abelardo: storia, traduzioni italiane dei documenti, forma epistolare e laboratorio didattico.">
+  <meta name="description" content="Le lettere di Eloisa e Abelardo: documenti italiani, storia e indagine rigorosa su Eloisa donna nel XII secolo.">
   <title>Eloisa e Abelardo — Le lettere che non obbediscono</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/icons/icon-192.png">
@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="styles.css">
   <script src="content.js" defer></script>
   <script src="documents.js" defer></script>
+  <script src="women.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -23,6 +24,7 @@
     <nav class="topbar" aria-label="Navigazione generale">
       <a class="back-link" href="../">← Letteratura</a>
       <div class="top-actions">
+        <a class="icon-button" href="#eloisa-donna" aria-label="Vai al dossier Eloisa donna">◐ <span>Eloisa donna</span></a>
         <a class="icon-button" href="#documenti" aria-label="Vai ai documenti">▤ <span>Documenti</span></a>
         <button class="icon-button" id="search-open" type="button" aria-label="Apri la ricerca">⌕ <span>Cerca</span></button>
         <button class="icon-button" id="notes-open" type="button" aria-label="Apri il taccuino">✎ <span>Taccuino</span></button>
@@ -85,6 +87,7 @@
         <button class="rail-toggle" id="rail-toggle" type="button" aria-expanded="false" aria-controls="chapter-nav">Indice dei movimenti</button>
         <nav id="chapter-nav"></nav>
         <a class="sources-link" href="#documenti">Biblioteca dei documenti</a>
+        <a class="sources-link" href="#eloisa-donna">Indagine · Eloisa donna</a>
         <a class="sources-link" href="#fonti">Fonti e metodo</a>
       </aside>
 
@@ -92,6 +95,10 @@
         <div id="lesson-root"></div>
       </section>
     </div>
+
+    <section class="women-section" id="eloisa-donna" aria-labelledby="women-title">
+      <div id="women-root"></div>
+    </section>
 
     <section class="sources-section" id="fonti" aria-labelledby="sources-title">
       <div class="section-heading">
