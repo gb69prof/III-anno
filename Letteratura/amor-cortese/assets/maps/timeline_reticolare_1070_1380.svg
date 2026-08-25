@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Cronologia reticolare dell&#x27;amor cortese, 1070-1380</title>
+  <desc id="desc">Una cronologia a bande sovrapposte mostra che trovatori, trobairitz, romanzi francesi, Andrea Cappellano, scuola siciliana, poesia toscana, Dante e Petrarca non formano una scala lineare ma tradizioni parzialmente contemporanee.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#1B2733" flood-opacity="0.10"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#315D7A"/></marker>
+    <style>
+      text { font-family: Inter, Arial, sans-serif; }
+      .eyebrow { letter-spacing: 2.4px; font-weight: 700; }
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="#F7F3EA"/>
+  <path d="M0 20 H1600" stroke="#B06B2C" stroke-width="12"/>
+  <text x="80" y="78" class="eyebrow" font-size="22" fill="#B06B2C">CRONOLOGIA A BANDE SOVRAPPOSTE</text>
+<text x="80" y="132" text-anchor="start" font-size="38" font-weight="800" fill="#1B2733"><tspan x="80" dy="0">La tradizione non marcia in fila</tspan></text>
+<line x1="353.9" y1="180" x2="353.9" y2="900" stroke="#D8D1C5" stroke-width="2"/>
+<text x="353.9" y="168" text-anchor="middle" font-size="19" fill="#5B6872">1100</text>
+<line x1="560.3" y1="180" x2="560.3" y2="900" stroke="#D8D1C5" stroke-width="2"/>
+<text x="560.3" y="168" text-anchor="middle" font-size="19" fill="#5B6872">1150</text>
+<line x1="766.8" y1="180" x2="766.8" y2="900" stroke="#D8D1C5" stroke-width="2"/>
+<text x="766.8" y="168" text-anchor="middle" font-size="19" fill="#5B6872">1200</text>
+<line x1="973.2" y1="180" x2="973.2" y2="900" stroke="#D8D1C5" stroke-width="2"/>
+<text x="973.2" y="168" text-anchor="middle" font-size="19" fill="#5B6872">1250</text>
+<line x1="1179.7" y1="180" x2="1179.7" y2="900" stroke="#D8D1C5" stroke-width="2"/>
+<text x="1179.7" y="168" text-anchor="middle" font-size="19" fill="#5B6872">1300</text>
+<line x1="1386.1" y1="180" x2="1386.1" y2="900" stroke="#D8D1C5" stroke-width="2"/>
+<text x="1386.1" y="168" text-anchor="middle" font-size="19" fill="#5B6872">1350</text>
+<text x="80" y="253" font-size="20" font-weight="700" fill="#1B2733">Trovatori occitani</text>
+<rect x="230.0" y="220" width="619.4" height="48" rx="18" fill="#914552" opacity="0.88"/>
+<text x="242.0" y="251" font-size="17" font-weight="700" fill="#FFFFFF">1070–1220</text>
+<text x="80" y="335" font-size="20" font-weight="700" fill="#1B2733">Romanzo cortese e De amore</text>
+<rect x="560.3" y="302" width="330.3" height="48" rx="18" fill="#66507C" opacity="0.88"/>
+<text x="572.3" y="333" font-size="17" font-weight="700" fill="#FFFFFF">1150–1230</text>
+<text x="80" y="417" font-size="20" font-weight="700" fill="#1B2733">Trobairitz</text>
+<rect x="642.9" y="384" width="371.6" height="48" rx="18" fill="#2E6A62" opacity="0.88"/>
+<text x="654.9" y="415" font-size="17" font-weight="700" fill="#FFFFFF">1170–1260</text>
+<text x="80" y="499" font-size="20" font-weight="700" fill="#1B2733">Scuola siciliana</text>
+<rect x="849.4" y="466" width="165.2" height="48" rx="18" fill="#B06B2C" opacity="0.88"/>
+<text x="861.4" y="497" font-size="17" font-weight="700" fill="#FFFFFF">1220–1260</text>
+<text x="80" y="581" font-size="20" font-weight="700" fill="#1B2733">Siculo-toscani e Guittone</text>
+<rect x="973.2" y="548" width="165.2" height="48" rx="18" fill="#315D7A" opacity="0.88"/>
+<text x="985.2" y="579" font-size="17" font-weight="700" fill="#FFFFFF">1250–1290</text>
+<text x="80" y="663" font-size="20" font-weight="700" fill="#1B2733">Guinizzelli e Cavalcanti</text>
+<rect x="1035.2" y="630" width="165.2" height="48" rx="18" fill="#914552" opacity="0.88"/>
+<text x="1047.2" y="661" font-size="17" font-weight="700" fill="#FFFFFF">1265–1305</text>
+<text x="80" y="745" font-size="20" font-weight="700" fill="#1B2733">Dante</text>
+<rect x="1146.6" y="712" width="119.7" height="48" rx="18" fill="#2E6A62" opacity="0.88"/>
+<text x="1158.6" y="743" font-size="17" font-weight="700" fill="#FFFFFF">1292–1321</text>
+<text x="80" y="827" font-size="20" font-weight="700" fill="#1B2733">Petrarca</text>
+<rect x="1303.5" y="794" width="181.7" height="48" rx="18" fill="#66507C" opacity="0.88"/>
+<text x="1315.5" y="825" font-size="17" font-weight="700" fill="#FFFFFF">1330–1374</text>
+<rect x="80" y="900" width="1440" height="62" rx="18" fill="#E8DDC9"/>
+<text x="800" y="940" text-anchor="middle" font-size="23" font-weight="700" fill="#1B2733">Sovrapposizione non significa identità: forme e problemi cambiano mentre circolano.</text>
+</svg>

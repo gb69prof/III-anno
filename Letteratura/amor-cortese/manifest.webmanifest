@@ -1,0 +1,21 @@
+{
+  "name": "Amor cortese · Desiderio, parola e responsabilità",
+  "short_name": "Amor cortese",
+  "description": "Nove lezioni interattive sull'amor cortese, dai trovatori a Dante.",
+  "lang": "it",
+  "start_url": "./#home",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7f3ea",
+  "theme_color": "#1b2733",
+  "icons": [
+    {"src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Riprendi il percorso", "short_name": "Riprendi", "url": "./#resume"},
+    {"name": "Apri il taccuino", "short_name": "Taccuino", "url": "./#taccuino"}
+  ]
+}
