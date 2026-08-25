@@ -1,13 +1,18 @@
-const CACHE = "amor-cortese-v1.0.0";
+const CACHE = "amor-cortese-v1.1.0";
 const CORE = [
-  "./", "./index.html", "./offline.html", "./styles.css", "./content.js", "./logic.js", "./app.js", "./manifest.webmanifest",
+  "./", "./index.html", "./offline.html", "./styles.css", "./content.js", "./visuals.js", "./logic.js", "./app.js", "./manifest.webmanifest",
   "./assets/icons/icon-192.png", "./assets/icons/icon-512.png", "./assets/icons/icon-maskable-512.png",
   "./assets/maps/hero_fili_desiderio_responsabilita.svg", "./assets/maps/timeline_reticolare_1070_1380.svg",
   "./assets/maps/mappa_01_desiderio_ordine.svg", "./assets/maps/mappa_02_costellazione.svg",
   "./assets/maps/mappa_03_rete_corte.svg", "./assets/maps/mappa_04_trobar_conflitto.svg",
   "./assets/maps/mappa_05_desiderio_processo.svg", "./assets/maps/mappa_06_trobairitz_autorita.svg",
   "./assets/maps/mappa_07_traduzioni_italia.svg", "./assets/maps/mappa_08_dante_responsabilita.svg",
-  "./assets/maps/mappa_09_eredita.svg", "./assets/maps/sintesi_finale_sei_tensioni.svg"
+  "./assets/maps/mappa_09_eredita.svg", "./assets/maps/sintesi_finale_sei_tensioni.svg",
+  "./assets/scenes/lezione-01-desiderio-ordine.webp", "./assets/scenes/lezione-02-costellazione.webp",
+  "./assets/scenes/lezione-03-corte-rete.webp", "./assets/scenes/lezione-04-trovatore-performance.webp",
+  "./assets/scenes/lezione-05-testo-processo.webp", "./assets/scenes/lezione-06-trobairitz-voce.webp",
+  "./assets/scenes/lezione-07-italia-traduzione.webp", "./assets/scenes/lezione-08-lettura-responsabilita.webp",
+  "./assets/scenes/lezione-09-eredita-scrittura.webp"
 ];
 
 self.addEventListener("install", event => {

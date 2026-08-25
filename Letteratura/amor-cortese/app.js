@@ -2,6 +2,7 @@
   "use strict";
 
   const DATA = window.PWA_DATA;
+  const VISUALS = window.PWA_VISUALS || [];
   const STORAGE_KEY = "amor-cortese-pwa-v1";
   const main = document.querySelector("#main");
   const sidebar = document.querySelector("#sidebar");
@@ -32,6 +33,27 @@
   function slugRoute() { return (location.hash.replace(/^#/, "") || "home").split("?")[0]; }
   function lessonByNumber(number) { return DATA.lessons.find(l => l.number === Number(number)); }
   function mapPath(number) { return `assets/maps/${mapFiles[number - 1]}`; }
+  function visualByNumber(number) { return VISUALS.find(v => v.number === Number(number)); }
+  function visualTemplate(number) {
+    const visual = visualByNumber(number);
+    if (!visual) return "";
+    return `<figure class="world-scene">
+      <div class="world-scene-image"><img src="${visual.file}" alt="${esc(visual.alt)}" loading="lazy" decoding="async"></div>
+      <figcaption>
+        <span class="eyebrow">Ricostruzione visuale · non fonte primaria</span>
+        <h2>${esc(visual.title)}</h2>
+        <p class="scene-status">Questa immagine è una ricostruzione originale e dichiaratamente ipotetica.</p>
+        <details>
+          <summary>Che cosa sappiamo e che cosa ricostruiamo</summary>
+          <dl class="scene-evidence">
+            <dt>Base documentaria</dt><dd>${esc(visual.documented)}</dd>
+            <dt>Scelta ricostruttiva</dt><dd>${esc(visual.reconstructed)}</dd>
+            <dt>Riferimenti visivi</dt><dd>${esc(visual.basis)}</dd>
+          </dl>
+        </details>
+      </figcaption>
+    </figure>`;
+  }
   function showToast(message) {
     toast.textContent = message; toast.hidden = false;
     clearTimeout(showToast.timer); showToast.timer = setTimeout(() => { toast.hidden = true; }, 2600);
@@ -114,6 +136,7 @@
         <div class="meta-card"><h2>Obiettivi osservabili</h2><ul>${lesson.objectives.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
         <div class="meta-card"><h2>Scansione del nucleo d'aula</h2><ul>${lesson.timing.map(x => `<li><strong>${esc(x[0])}</strong> · ${esc(x[1])}</li>`).join("")}</ul></div>
       </section>
+      ${visualTemplate(lesson.number)}
       <section class="lesson-section section-anchor" id="lezione">
         <div class="tools-row"><button class="secondary-button save-quote" type="button">Salva nel taccuino il testo selezionato</button><button class="secondary-button" type="button" onclick="window.print()">Stampa</button></div>
         ${lesson.content.map(([heading, paragraphs]) => `<section><h2>${esc(heading)}</h2>${paragraphs.map(p => `<p>${esc(p)}</p>`).join("")}</section>`).join("")}
