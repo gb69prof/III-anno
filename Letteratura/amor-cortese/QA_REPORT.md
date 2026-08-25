@@ -17,21 +17,30 @@
 - Tutti i 37 file della cartella sono stati serviti via HTTP locale con risposta 200.
 - Le nove immagini sono state controllate insieme in una tavola di confronto per coerenza, varietà e assenza di testo o marchi invasivi.
 
-## Controlli da completare sull'URL pubblico
+## Controlli superati sull'URL pubblico
 
-- Rendering reale alle viewport iPad verticale, iPad orizzontale e telefono.
-- Apertura dei pannelli epistemici e controllo della leggibilità delle didascalie.
-- Navigazione fra lezioni, caricamento differito delle immagini e assenza di errori visibili.
-- Verifica offline in browser dopo il primo caricamento.
+- Versione pubblica verificata su GitHub Pages il 26 agosto 2026 dopo la propagazione del commit visuale.
+- Navigazione verificata sulle nove rotte `#lezione-1`–`#lezione-9`: ogni lezione mostra la ricostruzione prevista e il relativo testo alternativo.
+- Le nove immagini sono state caricate dal browser, anche con caricamento differito, alla dimensione naturale di 1536 × 1024 pixel.
+- Il pannello epistemico è stato aperto e controllato: `Base documentaria`, `Scelta ricostruttiva` e `Riferimenti visivi` risultano distinti e leggibili.
+- L'etichetta `RICOSTRUZIONE VISUALE · NON FONTE PRIMARIA` è visibile prima del titolo della scena.
+- La resa desktop è stata ispezionata visivamente: immagine, didascalia e apparato storico-critico mantengono gerarchia e leggibilità.
+- Il documento collega correttamente `manifest.webmanifest` e tutti gli asset visuali risultano raggiungibili dalla versione pubblica.
+- Nei log non risultano errori o avvisi originati dalla PWA; le sole segnalazioni osservate appartengono all'estensione tecnica del browser di verifica.
+
+## Controlli finali non bloccanti su dispositivo
+
+- Rendering su un iPad fisico, sia verticale sia orizzontale, e su un telefono reale.
+- Installazione da Safari e verifica offline dopo un primo caricamento completo.
 
 ## Limiti dichiarati
 
 - Le scene sono ricostruzioni storicamente qualificate, non fonti primarie e non ritratti autentici.
 - Alcune fonti iconografiche utilizzate per il confronto sono posteriori di alcuni decenni rispetto ai contesti più antichi rappresentati; questa distanza è dichiarata nell'apparato delle attribuzioni.
-- Il rendering automatico locale non è stato eseguito perché il pacchetto Playwright è presente ma non dispone del motore Chromium nell'ambiente corrente. Il controllo viene quindi ripetuto sull'anteprima pubblica.
+- Il controllo dell'anteprima pubblica è stato eseguito con un browser cloud alla viewport desktop 1363 × 936. Questo ambiente non espone l'emulazione di altre viewport né l'ispezione diretta del service worker; la verifica finale di installazione, cache offline e comportamento Safari resta quindi affidata a un iPad reale.
 
-## Stato provvisorio del Revisore
+## Verdetto del Revisore
 
-`APPROVATO CON VERIFICA LIVE PENDENTE`
+`APPROVATO CON MIGLIORIE NON BLOCCANTI`
 
-L'apparato visuale può essere caricato nell'anteprima di lavoro. Il verdetto finale dipende dal controllo dell'URL pubblico.
+L'apparato visuale è coerente con il percorso didattico, rende esplicito il proprio statuto ricostruttivo e non introduce problemi tecnici bloccanti. La prova su iPad reale potrà suggerire rifiniture responsive o di installazione, ma non impedisce l'uso e la valutazione della versione pubblicata.
