@@ -14,6 +14,15 @@
     "mappa_04_trobar_conflitto.svg", "mappa_05_desiderio_processo.svg", "mappa_06_trobairitz_autorita.svg",
     "mappa_07_traduzioni_italia.svg", "mappa_08_dante_responsabilita.svg", "mappa_09_eredita.svg"
   ];
+  const deepDives = {
+    3: {
+      eyebrow: "Approfondimento · un caso storico",
+      title: "Eloisa ed Abelardo, un caso concreto… ed eccezionale",
+      text: "La loro vicenda rende osservabili autorità intellettuale, asimmetria, reputazione, matrimonio segreto, consenso e scelta religiosa. È un caso eccezionalmente documentato: illumina le tensioni della società medievale, ma non rappresenta automaticamente tutte le relazioni del tempo.",
+      href: "../Eloisa-Abelardo/#storia",
+      cta: "Entra nella storia di Eloisa e Abelardo"
+    }
+  };
 
   const defaultState = {
     completed: [], lastRoute: "home", notes: {}, quotes: {}, quizHistory: {}, fontScale: 1, contrast: false
@@ -53,6 +62,18 @@
         </details>
       </figcaption>
     </figure>`;
+  }
+  function deepDiveTemplate(number) {
+    const deepDive = deepDives[Number(number)];
+    if (!deepDive) return "";
+    return `<aside class="deep-dive-card" aria-labelledby="deep-dive-${number}">
+      <div>
+        <span class="eyebrow">${esc(deepDive.eyebrow)}</span>
+        <h2 id="deep-dive-${number}">${esc(deepDive.title)}</h2>
+        <p>${esc(deepDive.text)}</p>
+      </div>
+      <a class="primary-button deep-dive-link" href="${deepDive.href}">${esc(deepDive.cta)} <span aria-hidden="true">→</span></a>
+    </aside>`;
   }
   function showToast(message) {
     toast.textContent = message; toast.hidden = false;
@@ -156,6 +177,7 @@
       <section class="connections"><h2>Collegamenti e approfondimento</h2><ul>${lesson.connections.map(x => `<li>${esc(x)}</li>`).join("")}</ul></section>
       <section class="notes-card"><span class="eyebrow">Taccuino personale</span><h2>Le tue note</h2><label for="lessonNote" class="sr-only">Note sulla lezione ${lesson.number}</label><textarea id="lessonNote" data-note="${lesson.number}" placeholder="Scrivi qui: le note restano su questo dispositivo.">${esc(note)}</textarea><span class="save-state" id="noteSaveState" aria-live="polite"></span></section>
       ${quizTemplate(`lesson-${lesson.number}`, `Verifica formativa · Lezione ${lesson.number}`, lesson.quiz)}
+      ${deepDiveTemplate(lesson.number)}
       <footer class="lesson-footer">
         <button class="primary-button complete-button ${state.completed.includes(lesson.number) ? "done" : ""}" type="button" data-complete="${lesson.number}">${state.completed.includes(lesson.number) ? "Lezione completata ✓" : "Segna come completata"}</button>
         <nav class="pager" aria-label="Lezioni precedente e successiva"><a class="secondary-button" href="${prev}">← Precedente</a><a class="primary-button" href="${next}">Successiva →</a></nav>
