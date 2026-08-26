@@ -58,7 +58,7 @@ img { max-width: 100%; }
     linear-gradient(90deg, rgba(19, 15, 16, .95) 0%, rgba(25, 19, 20, .8) 40%, rgba(25, 19, 20, .22) 75%),
     linear-gradient(0deg, rgba(20, 15, 16, .75), transparent 45%);
 }
-.topbar, .hero-copy, .hero-progress { position: relative; z-index: 2; }
+.topbar, .hero-copy, .hero-progress { position: relative; z-index: 2; }\n.top-links { display: flex; flex-wrap: wrap; align-items: flex-start; gap: .5rem; }
 .topbar {
   width: min(1220px, calc(100% - 2rem));
   margin: 0 auto;
@@ -676,7 +676,7 @@ footer button { border: 1px solid #5f5153; border-radius: 999px; padding: .55rem
 @media (max-width: 680px) {
   .hero { min-height: 92svh; }
   .hero-shade { background: linear-gradient(0deg, rgba(19,15,16,.96) 0%, rgba(19,15,16,.5) 70%, rgba(19,15,16,.68)); }
-  .topbar { align-items: flex-start; }
+  .topbar { align-items: flex-start; }\n  .top-links { flex-direction: column; }
   .icon-button span { display: none; }
   .hero-copy { padding-top: 7rem; }
   .hero-progress { grid-template-columns: 1fr; gap: .45rem; }
