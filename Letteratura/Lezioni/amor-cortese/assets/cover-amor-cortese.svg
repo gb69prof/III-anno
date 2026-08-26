@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 880" role="img" aria-labelledby="title desc">
+  <title id="title">La distanza dell'amor cortese</title>
+  <desc id="desc">Una corte medievale: un trovatore canta nel cortile e una dama lo osserva da una loggia, separata da una torre. La distanza diventa immagine del desiderio cortese.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#082b40"/><stop offset=".56" stop-color="#3b6370"/><stop offset="1" stop-color="#d49a54"/></linearGradient>
+    <linearGradient id="earth" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#866a47"/><stop offset="1" stop-color="#40362b"/></linearGradient>
+    <linearGradient id="dress" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d3a24f"/><stop offset="1" stop-color="#7a3e27"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8e9c2"/><stop offset="1" stop-color="#c79a55"/></linearGradient>
+    <pattern id="stone" width="90" height="48" patternUnits="userSpaceOnUse"><rect width="90" height="48" fill="#b79b6e"/><path d="M0 0h90M0 24h90M0 48h90M45 0v24M18 24v24M72 24v24" stroke="#756149" stroke-width="2" opacity=".35"/></pattern>
+    <pattern id="roof" width="38" height="25" patternUnits="userSpaceOnUse"><path d="M0 25L19 0l19 25Z" fill="#713b29"/><path d="M0 25L19 0l19 25" fill="none" stroke="#b86f43" stroke-width="2"/></pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1600" height="880" fill="url(#sky)"/>
+  <circle cx="1332" cy="135" r="68" fill="#f1d58c" opacity=".92"/><circle cx="1332" cy="135" r="102" fill="#f1d58c" opacity=".18" filter="url(#glow)"/>
+  <g fill="#f6d99b" opacity=".9"><circle cx="120" cy="90" r="3"/><circle cx="270" cy="120" r="2"/><circle cx="430" cy="72" r="2.5"/><circle cx="680" cy="132" r="3"/><circle cx="960" cy="82" r="2"/><circle cx="1160" cy="156" r="2.5"/><circle cx="1480" cy="92" r="3"/></g>
+  <path d="M0 505C170 420 306 427 430 478c145 59 280 29 394-29 139-71 272-72 405-10 150 70 250 22 371-3v444H0Z" fill="#243d43" opacity=".78"/>
+  <path d="M0 580c179-94 311-69 456-9 172 71 334 20 498-32 210-67 364 12 646 20v321H0Z" fill="url(#earth)"/>
+
+  <!-- castello sinistro -->
+  <g stroke="#403429" stroke-width="7">
+    <path d="M25 290h455v365H25Z" fill="url(#stone)"/>
+    <path d="M55 285V155h105v130M205 285V98h130v187M380 285V170h82v115" fill="url(#stone)"/>
+    <path d="M45 155h125l-24-59H70Z" fill="url(#roof)"/>
+    <path d="M192 98h156l-34-72h-88Z" fill="url(#roof)"/>
+    <path d="M370 170h102l-20-54h-62Z" fill="url(#roof)"/>
+  </g>
+  <g fill="#123448"><path d="M91 235v-48q0-28 22-28t22 28v48Z"/><path d="M247 210v-57q0-34 24-34t24 34v57Z"/><path d="M407 245v-38q0-23 17-23t17 23v38Z"/></g>
+  <path d="M58 655h390v-163q0-68-56-68t-56 68v163Z" fill="#5e4a37" stroke="#3b2f26" stroke-width="7"/>
+  <path d="M98 655h200v-105q0-65 100-65" fill="none" stroke="#8f7656" stroke-width="12" opacity=".55"/>
+
+  <!-- torre che separa -->
+  <g stroke="#45392d" stroke-width="8">
+    <path d="M704 175h246v521H704Z" fill="url(#stone)"/>
+    <path d="M684 175h286l-52-95H738Z" fill="url(#roof)"/>
+    <path d="M754 356h147v340H754v-220q0-74 73-74t74 74" fill="#614e39"/>
+  </g>
+  <g fill="#18394a"><rect x="760" y="247" width="38" height="72" rx="18"/><rect x="856" y="247" width="38" height="72" rx="18"/></g>
+
+  <!-- palazzo e loggia a destra -->
+  <g stroke="#46372c" stroke-width="7">
+    <path d="M1040 315h520v342h-520Z" fill="url(#stone)"/>
+    <path d="M1018 315h564l-65-92h-420Z" fill="url(#roof)"/>
+    <path d="M1112 435h352v157h-352Z" fill="#dec498"/>
+  </g>
+  <g fill="#17384a"><path d="M1140 558V466q0-46 39-46t39 46v92Z"/><path d="M1250 558V466q0-46 39-46t39 46v92Z"/><path d="M1360 558V466q0-46 39-46t39 46v92Z"/></g>
+  <path d="M1093 592h390" stroke="#764b31" stroke-width="18"/><g fill="#8b673e"><rect x="1138" y="570" width="12" height="69"/><rect x="1195" y="570" width="12" height="69"/><rect x="1252" y="570" width="12" height="69"/><rect x="1309" y="570" width="12" height="69"/><rect x="1366" y="570" width="12" height="69"/><rect x="1423" y="570" width="12" height="69"/></g>
+
+  <!-- dama -->
+  <g transform="translate(1274 425)">
+    <ellipse cx="0" cy="7" rx="28" ry="32" fill="#e3b58d"/>
+    <path d="M-28-5Q0-53 28-5l-7-27-18-12-21 12Z" fill="#725437"/>
+    <path d="M-55 150Q-42 45 0 38q42 7 55 112Z" fill="url(#dress)"/>
+    <path d="M-42 58Q0 84 42 58" fill="none" stroke="#edd088" stroke-width="7"/>
+    <path d="M-49 80l-38 38M49 80l36 30" stroke="#d6a57c" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="-9" cy="4" r="3" fill="#33271f"/><circle cx="9" cy="4" r="3" fill="#33271f"/>
+  </g>
+
+  <!-- trovatore -->
+  <g transform="translate(610 583)">
+    <ellipse cx="0" cy="-103" rx="30" ry="34" fill="#d6a77e"/>
+    <path d="M-31-113Q0-148 31-113l-12-26-29-8-24 18Z" fill="#332a25"/>
+    <path d="M-60 55Q-53-66 0-72q53 6 60 127Z" fill="#233d4a"/>
+    <path d="M-47-43Q0-15 47-43" fill="none" stroke="#ca9a4f" stroke-width="9"/>
+    <path d="M-18 55l-34 125M19 55l42 125" stroke="#342d29" stroke-width="22" stroke-linecap="round"/>
+    <path d="M-39-24l-45 33M45-24l54 22" stroke="#d2a077" stroke-width="12" stroke-linecap="round"/>
+    <ellipse cx="-88" cy="19" rx="46" ry="33" fill="#b9783e" stroke="#563821" stroke-width="6" transform="rotate(-12)"/>
+    <circle cx="-82" cy="17" r="13" fill="#e2ba72"/>
+    <path d="M-43 5L24-20" stroke="#6e4528" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-112 6l45 20M-110 16l43 17M-105 27l39 13" stroke="#f1d18d" stroke-width="2"/>
+  </g>
+
+  <!-- linee della distanza/desiderio -->
+  <path d="M680 478C820 397 1030 392 1255 470" fill="none" stroke="#e5b553" stroke-width="4" stroke-dasharray="11 13" opacity=".95"/>
+  <circle cx="680" cy="478" r="7" fill="#f0c66d"/><circle cx="1255" cy="470" r="7" fill="#f0c66d"/>
+  <path d="M792 415l35-24 37 19" fill="none" stroke="#f0c66d" stroke-width="4" opacity=".8"/>
+
+  <!-- manoscritto -->
+  <g transform="translate(160 694) rotate(-5)">
+    <path d="M0 0q115-28 225 15v132q-111-36-225-7Z" fill="url(#paper)" stroke="#644b31" stroke-width="5"/>
+    <path d="M225 15q113-30 220 14v132q-106-39-220-14Z" fill="url(#paper)" stroke="#644b31" stroke-width="5"/>
+    <path d="M225 14v133" stroke="#7b5b36" stroke-width="4"/>
+    <g stroke="#7c5f3d" stroke-width="3" opacity=".65"><path d="M31 35h154M31 57h165M31 79h143M31 101h159"/><path d="M260 46h148M260 68h132M260 90h151M260 112h125"/></g>
+    <circle cx="55" cy="34" r="18" fill="#a5532f"/><path d="M49 35l8-12 7 12-7 12Z" fill="#efd18a"/>
+  </g>
+
+  <!-- cornice -->
+  <rect x="18" y="18" width="1564" height="844" rx="18" fill="none" stroke="#e0ad52" stroke-width="5" opacity=".9"/>
+  <rect x="31" y="31" width="1538" height="818" rx="13" fill="none" stroke="#082d42" stroke-width="3" opacity=".75"/>
+</svg>
