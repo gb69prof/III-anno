@@ -1,6 +1,6 @@
-const CACHE = "amor-cortese-v1.2.0";
+const CACHE = "amor-cortese-v1.2.1";
 const CORE = [
-  "./", "./index.html", "./offline.html", "./styles.css", "./content.js", "./visuals.js", "./logic.js", "./app.js", "./manifest.webmanifest",
+  "./", "./index.html", "./offline.html", "./styles.css?v=1.2.0", "./content.js", "./visuals.js", "./logic.js", "./app.js?v=1.2.0", "./manifest.webmanifest",
   "./assets/icons/icon-192.png", "./assets/icons/icon-512.png", "./assets/icons/icon-maskable-512.png",
   "./assets/maps/hero_fili_desiderio_responsabilita.svg", "./assets/maps/timeline_reticolare_1070_1380.svg",
   "./assets/maps/mappa_01_desiderio_ordine.svg", "./assets/maps/mappa_02_costellazione.svg",
