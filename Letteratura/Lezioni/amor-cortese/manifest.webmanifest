@@ -1,0 +1,19 @@
+{
+  "name": "Amor cortese — Percorso didattico",
+  "short_name": "Amor cortese",
+  "description": "Percorso didattico interattivo sull'amor cortese, i trovatori e le trovatrici.",
+  "lang": "it",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4e7c7",
+  "theme_color": "#082c42",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
