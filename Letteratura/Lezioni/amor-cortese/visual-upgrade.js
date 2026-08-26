@@ -1,12 +1,12 @@
 (() => {
   const MAPS = {
-    'che-cos-e':'assets/maps/che-cos-e.jpg',
-    'famiglia-nobiliare':'assets/maps/famiglia-nobiliare.jpg',
-    'andrea-cappellano':'assets/maps/andrea-cappellano.jpg',
-    'trovatori-provenzali':'assets/maps/trovatori-provenzali.jpg',
-    'bernart-ventadorn':'assets/maps/bernart-ventadorn.jpg',
-    'trovatrici':'assets/maps/trovatrici.jpg',
-    'beatritz-de-dia':'assets/maps/beatritz-de-dia.jpg'
+    'che-cos-e':'assets/maps/che-cos-e.png',
+    'famiglia-nobiliare':'assets/maps/famiglia-nobiliare.png',
+    'andrea-cappellano':'assets/maps/andrea-cappellano.png',
+    'trovatori-provenzali':'assets/maps/trovatori-provenzali.png',
+    'bernart-ventadorn':'assets/maps/bernart-ventadorn.png',
+    'trovatrici':'assets/maps/trovatrici.png',
+    'beatritz-de-dia':'assets/maps/beatritz-de-dia.png'
   };
 
   const COVER_LINKS = [
@@ -36,7 +36,7 @@
     frame.innerHTML = `
       <section class="visual-cover" aria-label="Copertina interattiva dell’amor cortese">
         <div class="visual-cover-stage">
-          <img src="assets/cover-interactive.jpg" alt="Copertina illustrata dell’amor cortese con trovatore, dama, quattro sezioni e diramazioni del percorso.">
+          <img src="assets/cover-interactive.png" alt="Copertina illustrata dell’amor cortese con trovatore, dama, quattro sezioni e diramazioni del percorso.">
           ${COVER_LINKS.map(coverButton).join('')}
           <aside class="cover-index-note" aria-live="polite">La copertina è anche l’indice: tocca una scena, un riquadro o una tappa.</aside>
         </div>
@@ -79,8 +79,8 @@
     if (document.querySelector('.synthesis-visual')) return;
     const lead = document.querySelector('.synthesis-lead');
     if (!lead) return;
-    lead.insertAdjacentHTML('afterend', imageFigure('assets/maps/sintesi.jpg', 'Sintesi illustrata dell’intero percorso sull’amor cortese', 'synthesis-visual'));
-    document.querySelector('.synthesis-visual .map-image-button')?.addEventListener('click', () => openMap('assets/maps/sintesi.jpg'));
+    lead.insertAdjacentHTML('afterend', imageFigure('assets/maps/sintesi.png', 'Sintesi illustrata dell’intero percorso sull’amor cortese', 'synthesis-visual'));
+    document.querySelector('.synthesis-visual .map-image-button')?.addEventListener('click', () => openMap('assets/maps/sintesi.png'));
   }
 
   function openMap(src) {
