@@ -1,0 +1,50 @@
+name: Import high quality Amor cortese images
+
+on:
+  push:
+    branches: [ amor-cortese-hq ]
+    paths:
+      - '.github/workflows/import-amor-cortese-hq.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  import-images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: amor-cortese-hq
+          fetch-depth: 0
+      - name: Download HQ images
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p Letteratura/Lezioni/amor-cortese/assets/maps
+          curl -fL --retry 3 'https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeBXYSzh2su1BiKC9E5xhWG-JxOr8mJqjscXqVjMJMmR3d6-W9vznL_BT8kiYK2r5knkR8jVZGWG46e3Q_kfmP8Pkdfp-YqPryYHllbURKGyGqOgmMjfOJiQWFkjuP9PZKqErBdBVWsCz4ZdEwRHDOboP7HbrUf_eVm-T52P7QPHwj1hiuJLw=s2048?key=nR_cHX38JSBd_rIXzuLfrQ' -o Letteratura/Lezioni/amor-cortese/assets/cover-interactive.png
+          curl -fL --retry 3 'https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeJq55-lAF4Fx5Gr4rhWf5VF5IclIy7Z0-6cQE0LnJgFwUyU79wKuz-6ubJglrN-_g1ePPrYbvwmNiO3bdsC_nAOCgQpEb4L8J5M5yjW53uCPiyd2bF_eYR2PpoygER1u2uwD0zR1qEK_CzvOHeoEj0J4KYRJrG8iFC3A9vf5NisacARv8=s2048?key=nR_cHX38JSBd_rIXzuLfrQ' -o Letteratura/Lezioni/amor-cortese/assets/maps/che-cos-e.png
+          curl -fL --retry 3 'https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf3AL8ZI8PxqSqBFyqwUWt0AY8yArqYJANWezhutXDzNbYfc8EtfAOWn1LpCr-CKPbJIAEGDx1bVLBynaZ-6-nmDvgQEj0cZ9MKohzXlFJj4dBJRrfgYLa4h8aWxpCgeDwgmZCQnt7HsGUbvaICBpzqrzi1-7ri0beE55cHZCA8LKdhxym_KQ=s2048?key=nR_cHX38JSBd_rIXzuLfrQ' -o Letteratura/Lezioni/amor-cortese/assets/maps/famiglia-nobiliare.png
+          curl -fL --retry 3 'https://lh7-rt.googleusercontent.com/slidesz/AGV_vUejl6z9CVHutLxTtZRUJYcZtCBCk7X3JPAtR3ZsBBdYqA7lO-gw7VSXWuQm5Qf-isePj-Nysg9XVpb0Lqv-HVOzSp5w_jFtd0OQklkEmYQSzYh8NmJX5y3jjoR2QwciBflzj5dbMsgHjDPGs4c27krCwfB2pui0Or6VxX7BxAUfGfCaWus=s2048?key=nR_cHX38JSBd_rIXzuLfrQ' -o Letteratura/Lezioni/amor-cortese/assets/maps/andrea-cappellano.png
+          curl -fL --retry 3 'https://lh7-rt.googleusercontent.com/slidesz/AGV_vUc6_h40KaqA19WCbPN0uvvrzXrJSjO4O7iWVja1sXF_J46Cc0OCD7ZxLUKUheFBDrVHYS6uGWWOXWnumTr-GV7J85z82nEsJ7ojqm3W_1yp1Y1NfjsXFrLAD0JKmvxZtqdd0Qwe6E8znT2bnTA2EHwkOOKtf-xuzWPko8_hpaMO1hsZpiCmTQ=s2048?key=nR_cHX38JSBd_rIXzuLfrQ' -o Letteratura/Lezioni/amor-cortese/assets/maps/trovatori-provenzali.png
+          curl -fL --retry 3 'https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfdwbHYS3gvinP3cC_75pFDUOEZV734bvwNEE3bC43E6rgi4_Cffw-yqtHtnKoHMVFao565x4dtsbWt_7pDj6X8qkVSz4aaLrCDZN3AljLAVyZC2XLLcogSYNPqkHyTjvRG7pVkWnubb3zIFEc00p0BkJbyP0G8cO3pfdjAu95LeX29wWcdiQ=s2048?key=nR_cHX38JSBd_rIXzuLfrQ' -o Letteratura/Lezioni/amor-cortese/assets/maps/bernart-ventadorn.png
+          curl -fL --retry 3 'https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdLU_un4KKhC8RiVDESwuZG8qbyNa08-frVSV_eTXcooiiDphgO4JHBq9IjIL6bszbuXRXLE2sGGVc_KT1hlEaOaoL-o_d-YHwqEiKZNBOVfKvJEsyHm9RNzxRycvq5EocyNzAyLNY_cCERy0Hj_C0nkE4WqD0D49joSPDI_QCqunFk0tuK-Q=s2048?key=nR_cHX38JSBd_rIXzuLfrQ' -o Letteratura/Lezioni/amor-cortese/assets/maps/trovatrici.png
+          curl -fL --retry 3 'https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdVE3m0LbAEl3e7EibyipzkdTEuQNppA5k_APs2BrKRPsSjXAdMGkEZD8eNmNel-iqgIkcJFLUq2Cs1KsaOLKlr11IrOuPppJeWxPbWIwH5FhenYtVOm0__y-VdcGHipHh3rnKfUBLwkEWZAjetN0CTZmEOG7gNJ1tAV95JhgEKQu2AXjE9Ow=s2048?key=nR_cHX38JSBd_rIXzuLfrQ' -o Letteratura/Lezioni/amor-cortese/assets/maps/beatritz-de-dia.png
+          curl -fL --retry 3 'https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdVCdfy11CzJylwi2CR7onIHv8784GjHuOlSpTlzQKdLBlBnRzhQkOw666o0s2FOKi62e7MXFfyxmb16TGOhQKzYez5hsGA-WSLckPYKY2HwKAD3aGW8A1BXIwtyPQcpN44dMW9aYrbApO9ZZwXlQBgp5ash_SX_oqoMfzNi1LNUaXgEgM21w=s2048?key=nR_cHX38JSBd_rIXzuLfrQ' -o Letteratura/Lezioni/amor-cortese/assets/maps/sintesi.png
+          rm -f Letteratura/Lezioni/amor-cortese/assets/cover-interactive.jpg
+          rm -f Letteratura/Lezioni/amor-cortese/assets/maps/che-cos-e.jpg Letteratura/Lezioni/amor-cortese/assets/maps/famiglia-nobiliare.jpg Letteratura/Lezioni/amor-cortese/assets/maps/andrea-cappellano.jpg Letteratura/Lezioni/amor-cortese/assets/maps/trovatori-provenzali.jpg Letteratura/Lezioni/amor-cortese/assets/maps/bernart-ventadorn.jpg Letteratura/Lezioni/amor-cortese/assets/maps/trovatrici.jpg Letteratura/Lezioni/amor-cortese/assets/maps/beatritz-de-dia.jpg Letteratura/Lezioni/amor-cortese/assets/maps/sintesi.jpg
+          file Letteratura/Lezioni/amor-cortese/assets/cover-interactive.png Letteratura/Lezioni/amor-cortese/assets/maps/*.png
+          ls -lh Letteratura/Lezioni/amor-cortese/assets/cover-interactive.png Letteratura/Lezioni/amor-cortese/assets/maps/*.png
+      - name: Commit HQ images
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'gbprof automation'
+          git config user.email 'gb69prof@users.noreply.github.com'
+          git add -A Letteratura/Lezioni/amor-cortese/assets
+          if git diff --cached --quiet; then
+            echo 'No changes to commit'
+          else
+            git commit -m 'Replace Amor cortese images with high quality PNG versions'
+            git push origin HEAD:amor-cortese-hq
+          fi
