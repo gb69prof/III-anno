@@ -190,6 +190,11 @@ details[open] summary { margin-bottom: .7rem; }
 .recovery-box p { margin-bottom: .45rem; }
 .retest-button { margin-top: .8rem; }
 
+.deep-dive-card { width: min(100%, 76rem); margin: 3rem auto; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 1.5rem; border: 1px solid #c9a56e; border-left: .55rem solid var(--ochre); border-radius: var(--radius-lg); padding: clamp(1.15rem, 3vw, 1.65rem); background: linear-gradient(135deg, #fff9ed, #efe1cd); box-shadow: 0 .5rem 1.8rem rgb(86 57 29 / .09); }
+.deep-dive-card h2 { margin: .25rem 0 .55rem; font-size: clamp(1.35rem, 3vw, 1.85rem); }
+.deep-dive-card p { max-width: 52rem; margin: 0; color: var(--muted); }
+.deep-dive-link { white-space: nowrap; }
+
 .lesson-footer { width: min(100%, 76rem); margin: 4rem auto 0; padding-top: 1.5rem; border-top: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .complete-button.done { background: var(--green); }
 .pager { display: flex; gap: .6rem; flex-wrap: wrap; }
@@ -254,6 +259,8 @@ details[open] summary { margin-bottom: .7rem; }
   .lesson-hero { grid-template-columns: 1fr; }
   .hero-image { order: -1; }
   .lesson-grid, .study-grid, .lesson-meta, .notebook-layout { grid-template-columns: 1fr; }
+  .deep-dive-card { grid-template-columns: 1fr; align-items: start; }
+  .deep-dive-link { width: 100%; white-space: normal; }
   .scene-evidence { grid-template-columns: 1fr; }
   .scene-evidence dd { margin-bottom: .65rem; }
   .lesson-card { min-height: 12rem; }
