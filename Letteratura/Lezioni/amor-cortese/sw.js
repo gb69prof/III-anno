@@ -1,12 +1,22 @@
-const CACHE_NAME = 'amor-cortese-v1.0.0';
+const CACHE_NAME = 'amor-cortese-v1.1.0';
 const APP_SHELL = [
   './',
   './index.html',
   './styles.css',
+  './visual-upgrade.css',
   './app.js',
+  './visual-upgrade.js',
   './manifest.webmanifest',
   './assets/cover-amor-cortese.svg',
-  './assets/icon.svg'
+  './assets/cover-interactive.svg',
+  './assets/icon.svg',
+  './assets/maps/che-cos-e.svg',
+  './assets/maps/famiglia-nobiliare.svg',
+  './assets/maps/andrea-cappellano.svg',
+  './assets/maps/trovatori-provenzali.svg',
+  './assets/maps/bernart-ventadorn.svg',
+  './assets/maps/trovatrici.svg',
+  './assets/maps/beatritz-de-dia.svg'
 ];
 
 self.addEventListener('install', event => {
