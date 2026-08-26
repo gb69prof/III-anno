@@ -19,7 +19,7 @@
       eyebrow: "Approfondimento · un caso storico",
       title: "Eloisa ed Abelardo, un caso concreto… ed eccezionale",
       text: "La loro vicenda rende osservabili autorità intellettuale, asimmetria, reputazione, matrimonio segreto, consenso e scelta religiosa. È un caso eccezionalmente documentato: illumina le tensioni della società medievale, ma non rappresenta automaticamente tutte le relazioni del tempo.",
-      href: "../Eloisa-Abelardo/#storia",
+      href: "../Eloisa-Abelardo/?from=amor-cortese-v1.2#storia",
       cta: "Entra nella storia di Eloisa e Abelardo"
     }
   };
