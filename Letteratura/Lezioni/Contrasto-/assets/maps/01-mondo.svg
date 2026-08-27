@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">Il codice cortese</title>
+<desc id="desc">Fin’amor organizza servizio e distanza; Donna-signora richiede fedeltà dell’amante; Scuola siciliana trasforma eredità occitanica; Volgare illustre seleziona lingua poetica; Contrasto riprende formule alte; Ambiguità apre la frattura</desc>
+<defs><marker id="head" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#bf924f"/></marker>
+<style>.title{font:700 42px Georgia,serif;fill:#f6f0e5}.subtitle{font:600 16px system-ui,sans-serif;letter-spacing:3px;fill:#bf924f}.node{font:700 20px system-ui,sans-serif;fill:#172632}.node.dark{fill:#f6f0e5}.verb{font:600 15px system-ui,sans-serif;fill:#f6f0e5}.arrow{fill:none;stroke:#bf924f;stroke-width:3;marker-end:url(#head)}</style></defs>
+<rect width="1200" height="800" rx="30" fill="#0d1820"/>
+<text x="60" y="70" class="subtitle">MAPPA CONCETTUALE</text>
+<text x="60" y="125" class="title">Il codice cortese</text>
+<rect x="70" y="170" width="290" height="62" rx="18" fill="#f6f0e5" stroke="#bf924f" stroke-width="3"/>
+<text x="215" y="208" text-anchor="middle" class="node">Fin’amor</text>
+<path d="M 365 201 C 440 201, 450 201, 520 201" class="arrow"/>
+<text x="442" y="187" text-anchor="middle" class="verb">organizza</text>
+<rect x="530" y="170" width="600" height="62" rx="18" fill="#172632" stroke="#bf924f" stroke-width="3"/>
+<text x="830" y="208" text-anchor="middle" class="node dark">servizio e distanza</text>
+<rect x="70" y="265" width="290" height="62" rx="18" fill="#f6f0e5" stroke="#9c3f43" stroke-width="3"/>
+<text x="215" y="303" text-anchor="middle" class="node">Donna-signora</text>
+<path d="M 365 296 C 440 296, 450 296, 520 296" class="arrow"/>
+<text x="442" y="282" text-anchor="middle" class="verb">richiede</text>
+<rect x="530" y="265" width="600" height="62" rx="18" fill="#172632" stroke="#9c3f43" stroke-width="3"/>
+<text x="830" y="303" text-anchor="middle" class="node dark">fedeltà dell’amante</text>
+<rect x="70" y="360" width="290" height="62" rx="18" fill="#f6f0e5" stroke="#bf924f" stroke-width="3"/>
+<text x="215" y="398" text-anchor="middle" class="node">Scuola siciliana</text>
+<path d="M 365 391 C 440 391, 450 391, 520 391" class="arrow"/>
+<text x="442" y="377" text-anchor="middle" class="verb">trasforma</text>
+<rect x="530" y="360" width="600" height="62" rx="18" fill="#172632" stroke="#bf924f" stroke-width="3"/>
+<text x="830" y="398" text-anchor="middle" class="node dark">eredità occitanica</text>
+<rect x="70" y="455" width="290" height="62" rx="18" fill="#f6f0e5" stroke="#9c3f43" stroke-width="3"/>
+<text x="215" y="493" text-anchor="middle" class="node">Volgare illustre</text>
+<path d="M 365 486 C 440 486, 450 486, 520 486" class="arrow"/>
+<text x="442" y="472" text-anchor="middle" class="verb">seleziona</text>
+<rect x="530" y="455" width="600" height="62" rx="18" fill="#172632" stroke="#9c3f43" stroke-width="3"/>
+<text x="830" y="493" text-anchor="middle" class="node dark">lingua poetica</text>
+<rect x="70" y="550" width="290" height="62" rx="18" fill="#f6f0e5" stroke="#bf924f" stroke-width="3"/>
+<text x="215" y="588" text-anchor="middle" class="node">Contrasto</text>
+<path d="M 365 581 C 440 581, 450 581, 520 581" class="arrow"/>
+<text x="442" y="567" text-anchor="middle" class="verb">riprende</text>
+<rect x="530" y="550" width="600" height="62" rx="18" fill="#172632" stroke="#bf924f" stroke-width="3"/>
+<text x="830" y="588" text-anchor="middle" class="node dark">formule alte</text>
+<rect x="70" y="645" width="290" height="62" rx="18" fill="#f6f0e5" stroke="#9c3f43" stroke-width="3"/>
+<text x="215" y="683" text-anchor="middle" class="node">Ambiguità</text>
+<path d="M 365 676 C 440 676, 450 676, 520 676" class="arrow"/>
+<text x="442" y="662" text-anchor="middle" class="verb">apre</text>
+<rect x="530" y="645" width="600" height="62" rx="18" fill="#172632" stroke="#9c3f43" stroke-width="3"/>
+<text x="830" y="683" text-anchor="middle" class="node dark">la frattura</text>
+<text x="1140" y="760" text-anchor="end" class="subtitle">GBPROF · ROSA FRESCA AULENTISSIMA</text>
+</svg>
