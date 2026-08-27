@@ -1,0 +1,16 @@
+{
+  "name": "Il fiore e la rosa nel Medioevo",
+  "short_name": "Fiore e rosa",
+  "description": "Percorso storico interattivo sui molti significati medievali del fiore e della rosa.",
+  "start_url": "./#home",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4eedf",
+  "theme_color": "#6d1824",
+  "lang": "it",
+  "icons": [
+    {"src":"assets/icons/icon-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"assets/icons/icon-512.png","sizes":"512x512","type":"image/png"},
+    {"src":"assets/icons/icon-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ]
+}

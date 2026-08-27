@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#6d1824">
+  <meta name="description" content="Percorso storico interattivo sul fiore e sulla rosa nel Medioevo: materia, Bibbia, devozione, corte e letteratura.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Fiore e rosa">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <link rel="icon" href="assets/icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css?v=1.0.0">
+  <title>Il fiore e la rosa nel Medioevo</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="icon-button menu-button" id="menuButton" aria-controls="sidebar" aria-expanded="false" aria-label="Apri l'indice">☰</button>
+      <a class="brand" href="#home" aria-label="Il fiore e la rosa nel Medioevo, pagina iniziale">
+        <span class="brand-flower" aria-hidden="true">✽</span>
+        <span><strong>Fiore e rosa</strong><small>Segni medievali in contesto</small></span>
+      </a>
+      <div class="top-actions">
+        <button class="text-button" id="searchButton">Cerca</button>
+        <button class="text-button" id="installButton">Installa</button>
+        <button class="icon-button" id="settingsButton" aria-label="Preferenze di lettura">Aa</button>
+      </div>
+    </header>
+    <aside class="sidebar" id="sidebar" aria-label="Indice del percorso">
+      <div class="sidebar-inner">
+        <div class="progress-card">
+          <span class="eyebrow">Il tuo percorso</span>
+          <strong id="progressLabel">0 di 10 capitoli</strong>
+          <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
+          <button class="secondary-button" id="resumeButton">Riprendi</button>
+        </div>
+        <nav aria-label="Capitoli">
+          <a class="nav-link" href="#home" data-route="home"><span>00</span> Inizio</a>
+          <div id="chapterNav"></div>
+          <a class="nav-link" href="#confronto" data-route="confronto"><span>↔</span> Confronto</a>
+          <a class="nav-link" href="#verifica" data-route="verifica"><span>✓</span> Verifica</a>
+          <a class="nav-link" href="#taccuino" data-route="taccuino"><span>✦</span> Taccuino</a>
+          <a class="nav-link" href="#fonti" data-route="fonti"><span>§</span> Fonti</a>
+        </nav>
+        <p class="sidebar-note">Una rosa non “significa” da sola: conta chi la usa, dove, quando e per chi.</p>
+      </div>
+    </aside>
+    <div class="scrim" id="scrim" hidden></div>
+    <main id="main" tabindex="-1"></main>
+  </div>
+
+  <dialog id="searchDialog" class="app-dialog">
+    <form method="dialog" class="dialog-head"><div><span class="eyebrow">Ricerca</span><h2>Cerca nel percorso</h2></div><button class="icon-button" value="close" aria-label="Chiudi">×</button></form>
+    <label class="search-field"><span class="sr-only">Testo da cercare</span><input id="searchInput" type="search" autocomplete="off" placeholder="es. hortus, Cielo, candida"></label>
+    <div id="searchResults" class="search-results" aria-live="polite"></div>
+  </dialog>
+  <dialog id="settingsDialog" class="app-dialog compact-dialog">
+    <form method="dialog" class="dialog-head"><div><span class="eyebrow">Lettura</span><h2>Preferenze</h2></div><button class="icon-button" value="close" aria-label="Chiudi">×</button></form>
+    <fieldset class="settings-group"><legend>Dimensione del testo</legend><div class="segmented" id="fontScaleControls"><button type="button" data-scale="0.94">Piccolo</button><button type="button" data-scale="1">Normale</button><button type="button" data-scale="1.12">Grande</button></div></fieldset>
+    <label class="toggle-row"><input id="contrastToggle" type="checkbox"><span>Contrasto aumentato</span></label>
+    <button class="danger-button" id="resetButton" type="button">Azzera dati e progressi</button>
+  </dialog>
+  <dialog id="installDialog" class="app-dialog compact-dialog">
+    <form method="dialog" class="dialog-head"><div><span class="eyebrow">iPad e iPhone</span><h2>Installa la PWA</h2></div><button class="icon-button" value="close" aria-label="Chiudi">×</button></form>
+    <ol class="install-steps"><li>Apri la pagina in Safari.</li><li>Tocca <strong>Condividi</strong>.</li><li>Scegli <strong>Aggiungi alla schermata Home</strong>.</li><li>Conferma con <strong>Aggiungi</strong>.</li></ol>
+    <p>Dopo il primo caricamento il percorso resta consultabile offline.</p>
+  </dialog>
+  <dialog id="mapDialog" class="map-dialog">
+    <form method="dialog" class="dialog-head"><div><span class="eyebrow">Mappa</span><h2 id="mapDialogTitle">Mappa concettuale</h2></div><button class="icon-button" value="close" aria-label="Chiudi">×</button></form>
+    <div class="map-stage"><img id="mapDialogImage" src="" alt=""></div>
+    <details class="long-description"><summary>Descrizione testuale</summary><p id="mapDialogDescription"></p></details>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <div class="network-status" id="networkStatus" role="status" hidden>Modalità offline</div>
+  <script src="content.js"></script>
+  <script src="logic.js"></script>
+  <script src="app.js?v=1.0.0"></script>
+</body>
+</html>
