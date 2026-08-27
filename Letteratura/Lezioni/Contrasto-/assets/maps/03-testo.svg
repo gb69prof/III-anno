@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">Il testo davanti a noi</title>
+<desc id="desc">Vat. lat. 3793 trasmette testo anonimo; Colocci attribuisce a Cielo; Augustali fissano termine 1231; Federico II fissa termine 1250; Dante cita siciliano non illustre; Indizi sostengono ipotesi scenica</desc>
+<defs><marker id="head" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#bf924f"/></marker>
+<style>.title{font:700 42px Georgia,serif;fill:#f6f0e5}.subtitle{font:600 16px system-ui,sans-serif;letter-spacing:3px;fill:#bf924f}.node{font:700 20px system-ui,sans-serif;fill:#172632}.node.dark{fill:#f6f0e5}.verb{font:600 15px system-ui,sans-serif;fill:#f6f0e5}.arrow{fill:none;stroke:#bf924f;stroke-width:3;marker-end:url(#head)}</style></defs>
+<rect width="1200" height="800" rx="30" fill="#0d1820"/>
+<text x="60" y="70" class="subtitle">MAPPA CONCETTUALE</text>
+<text x="60" y="125" class="title">Il testo davanti a noi</text>
+<rect x="70" y="170" width="290" height="62" rx="18" fill="#f6f0e5" stroke="#bf924f" stroke-width="3"/>
+<text x="215" y="208" text-anchor="middle" class="node">Vat. lat. 3793</text>
+<path d="M 365 201 C 440 201, 450 201, 520 201" class="arrow"/>
+<text x="442" y="187" text-anchor="middle" class="verb">trasmette</text>
+<rect x="530" y="170" width="600" height="62" rx="18" fill="#172632" stroke="#bf924f" stroke-width="3"/>
+<text x="830" y="208" text-anchor="middle" class="node dark">testo anonimo</text>
+<rect x="70" y="265" width="290" height="62" rx="18" fill="#f6f0e5" stroke="#9c3f43" stroke-width="3"/>
+<text x="215" y="303" text-anchor="middle" class="node">Colocci</text>
+<path d="M 365 296 C 440 296, 450 296, 520 296" class="arrow"/>
+<text x="442" y="282" text-anchor="middle" class="verb">attribuisce a</text>
+<rect x="530" y="265" width="600" height="62" rx="18" fill="#172632" stroke="#9c3f43" stroke-width="3"/>
+<text x="830" y="303" text-anchor="middle" class="node dark">Cielo</text>
+<rect x="70" y="360" width="290" height="62" rx="18" fill="#f6f0e5" stroke="#bf924f" stroke-width="3"/>
+<text x="215" y="398" text-anchor="middle" class="node">Augustali</text>
+<path d="M 365 391 C 440 391, 450 391, 520 391" class="arrow"/>
+<text x="442" y="377" text-anchor="middle" class="verb">fissano</text>
+<rect x="530" y="360" width="600" height="62" rx="18" fill="#172632" stroke="#bf924f" stroke-width="3"/>
+<text x="830" y="398" text-anchor="middle" class="node dark">termine 1231</text>
+<rect x="70" y="455" width="290" height="62" rx="18" fill="#f6f0e5" stroke="#9c3f43" stroke-width="3"/>
+<text x="215" y="493" text-anchor="middle" class="node">Federico II</text>
+<path d="M 365 486 C 440 486, 450 486, 520 486" class="arrow"/>
+<text x="442" y="472" text-anchor="middle" class="verb">fissa</text>
+<rect x="530" y="455" width="600" height="62" rx="18" fill="#172632" stroke="#9c3f43" stroke-width="3"/>
+<text x="830" y="493" text-anchor="middle" class="node dark">termine 1250</text>
+<rect x="70" y="550" width="290" height="62" rx="18" fill="#f6f0e5" stroke="#bf924f" stroke-width="3"/>
+<text x="215" y="588" text-anchor="middle" class="node">Dante</text>
+<path d="M 365 581 C 440 581, 450 581, 520 581" class="arrow"/>
+<text x="442" y="567" text-anchor="middle" class="verb">cita</text>
+<rect x="530" y="550" width="600" height="62" rx="18" fill="#172632" stroke="#bf924f" stroke-width="3"/>
+<text x="830" y="588" text-anchor="middle" class="node dark">siciliano non illustre</text>
+<rect x="70" y="645" width="290" height="62" rx="18" fill="#f6f0e5" stroke="#9c3f43" stroke-width="3"/>
+<text x="215" y="683" text-anchor="middle" class="node">Indizi</text>
+<path d="M 365 676 C 440 676, 450 676, 520 676" class="arrow"/>
+<text x="442" y="662" text-anchor="middle" class="verb">sostengono</text>
+<rect x="530" y="645" width="600" height="62" rx="18" fill="#172632" stroke="#9c3f43" stroke-width="3"/>
+<text x="830" y="683" text-anchor="middle" class="node dark">ipotesi scenica</text>
+<text x="1140" y="760" text-anchor="end" class="subtitle">GBPROF · ROSA FRESCA AULENTISSIMA</text>
+</svg>
