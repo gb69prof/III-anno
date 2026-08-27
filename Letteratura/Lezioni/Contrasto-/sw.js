@@ -1,4 +1,4 @@
-const VERSION = 'rosa-fresca-v1.0.0';
+const VERSION = 'rosa-fresca-v1.1.0';
 const CORE = [
   './','./index.html','./offline.html','./styles.css','./scene.css','./app.js','./content.js','./poem.js','./logic.js','./manifest.webmanifest',
   './assets/icons/icon.svg',
