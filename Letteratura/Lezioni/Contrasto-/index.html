@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0d1820">
+  <meta name="description" content="Lezione interattiva su Rosa fresca aulentissima: il linguaggio cortese diventa duello, desiderio e teatro sociale.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Rosa fresca">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/icons/icon.svg">
+  <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=1.0.0">
+  <link rel="stylesheet" href="scene.css?v=1.0.0">
+  <title>Rosa fresca aulentissima · L’amore cortese scende in strada</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+  <div class="reading-progress" aria-hidden="true"><span id="readingProgress"></span></div>
+  <header class="topbar">
+    <button class="icon-button menu-button" id="menuButton" aria-controls="sidebar" aria-expanded="false" aria-label="Apri l’indice">☰</button>
+    <a class="brand" href="#home">
+      <span class="brand-rose" aria-hidden="true">✦</span>
+      <span><strong>Rosa fresca</strong><small>desiderio · parola · potere</small></span>
+    </a>
+    <div class="top-actions">
+      <button class="text-button" id="teacherButton" aria-pressed="false">Docente</button>
+      <button class="text-button" id="searchButton" aria-haspopup="dialog">Cerca</button>
+      <button class="text-button install-button" id="installButton" hidden>Installa</button>
+      <button class="icon-button" id="settingsButton" aria-haspopup="dialog" aria-label="Preferenze di lettura">Aa</button>
+    </div>
+  </header>
+
+  <aside class="sidebar" id="sidebar" aria-label="Indice della lezione">
+    <div class="sidebar-inner">
+      <div class="progress-card">
+        <span class="eyebrow">Il tuo percorso</span>
+        <strong id="progressLabel">0 di 6 movimenti</strong>
+        <div class="progress-track"><span id="progressBar"></span></div>
+        <button class="secondary-button" id="resumeButton">Riprendi</button>
+      </div>
+      <nav id="mainNav" aria-label="Percorso">
+        <a href="#home" data-route="home"><span>00</span> Domanda</a>
+        <div id="sectionNav"></div>
+        <a href="#testo" data-route="testo"><span>✦</span> Testo integrale</a>
+        <a href="#finale" data-route="finale"><span>07</span> Verifica finale</a>
+        <a href="#taccuino" data-route="taccuino"><span>☷</span> Taccuino</a>
+        <a href="#fonti" data-route="fonti"><span>↗</span> Fonti e crediti</a>
+      </nav>
+      <p class="sidebar-note">Non una morale pronta: due voci, un conflitto, la responsabilità di leggere.</p>
+    </div>
+  </aside>
+  <button class="scrim" id="scrim" hidden aria-label="Chiudi l’indice"></button>
+
+  <main id="main" tabindex="-1"></main>
+
+  <dialog id="searchDialog" class="app-dialog">
+    <form method="dialog" class="dialog-head">
+      <div><span class="eyebrow">Ricerca interna</span><h2>Cerca parole, versi e concetti</h2></div>
+      <button class="icon-button" value="close" aria-label="Chiudi">×</button>
+    </form>
+    <label class="search-field"><span class="sr-only">Testo da cercare</span><input id="searchInput" type="search" autocomplete="off" placeholder="es. augustali, frutto, madonna"></label>
+    <div id="searchResults" class="search-results" aria-live="polite"></div>
+  </dialog>
+
+  <dialog id="settingsDialog" class="app-dialog compact-dialog">
+    <form method="dialog" class="dialog-head">
+      <div><span class="eyebrow">Lettura</span><h2>Preferenze</h2></div>
+      <button class="icon-button" value="close" aria-label="Chiudi">×</button>
+    </form>
+    <fieldset>
+      <legend>Dimensione del testo</legend>
+      <div class="segmented" id="fontScaleControls">
+        <button type="button" data-scale="0.94">Piccolo</button>
+        <button type="button" data-scale="1">Normale</button>
+        <button type="button" data-scale="1.13">Grande</button>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Tema</legend>
+      <div class="segmented" id="themeControls">
+        <button type="button" data-theme="light">Chiaro</button>
+        <button type="button" data-theme="dark">Scuro</button>
+        <button type="button" data-theme="contrast">Alto contrasto</button>
+      </div>
+    </fieldset>
+    <button class="danger-button" id="resetButton" type="button">Azzera dati e progressi</button>
+  </dialog>
+
+  <dialog id="mapDialog" class="map-dialog">
+    <form method="dialog" class="dialog-head">
+      <div><span class="eyebrow">Mappa concettuale</span><h2 id="mapDialogTitle">Mappa</h2></div>
+      <button class="icon-button" value="close" aria-label="Chiudi">×</button>
+    </form>
+    <div class="map-stage"><img id="mapDialogImage" src="" alt=""></div>
+    <details class="long-description"><summary>Descrizione equivalente</summary><p id="mapDialogDescription"></p></details>
+  </dialog>
+
+  <dialog id="sceneDialog" class="app-dialog">
+    <form method="dialog" class="dialog-head">
+      <div><span class="eyebrow">Trasparenza visuale</span><h2 id="sceneDialogTitle">Ricostruzione</h2></div>
+      <button class="icon-button" value="close" aria-label="Chiudi">×</button>
+    </form>
+    <dl class="scene-method">
+      <div><dt>Base documentaria</dt><dd id="sceneDialogBase"></dd></div>
+      <div><dt>Scelta visuale</dt><dd id="sceneDialogChoice"></dd></div>
+      <div><dt>Riferimenti</dt><dd id="sceneDialogRefs"></dd></div>
+    </dl>
+  </dialog>
+
+  <dialog id="installDialog" class="app-dialog compact-dialog">
+    <form method="dialog" class="dialog-head">
+      <div><span class="eyebrow">Installazione iPad</span><h2>Aggiungi alla schermata Home</h2></div>
+      <button class="icon-button" value="close" aria-label="Chiudi">×</button>
+    </form>
+    <ol class="install-steps">
+      <li>Apri la pagina in Safari.</li>
+      <li>Tocca <strong>Condividi</strong>.</li>
+      <li>Scegli <strong>Aggiungi alla schermata Home</strong>.</li>
+      <li>Conferma con <strong>Aggiungi</strong>.</li>
+    </ol>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <div class="network-status" id="networkStatus" role="status" hidden>Modalità offline</div>
+
+  <script src="content.js"></script>
+  <script src="poem.js"></script>
+  <script src="logic.js"></script>
+  <script src="app.js?v=1.0.0"></script>
+</body>
+</html>
