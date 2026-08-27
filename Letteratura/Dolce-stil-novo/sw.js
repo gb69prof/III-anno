@@ -1,6 +1,6 @@
-const CACHE = "dolce-stil-novo-v1.0.0";
+const CACHE = "dolce-stil-novo-v1.0.1";
 const CORE = [
-  "./", "./index.html", "./offline.html", "./styles.css?v=1.0.0", "./content.js", "./visuals.js", "./logic.js", "./app.js?v=1.0.0", "./manifest.webmanifest",
+  "./", "./index.html", "./offline.html", "./styles.css?v=1.0.0", "./content.js", "./visuals.js", "./logic.js", "./app.js?v=1.0.1", "./manifest.webmanifest",
   "./assets/icons/icon-192.png", "./assets/icons/icon-512.png",
   "./assets/hero/dolce-stil-novo-hero-v2.jpg", "./assets/hero/dolce-stil-novo-hero-v2-1600.webp", "./assets/hero/dolce-stil-novo-hero-v2-960.webp",
   "./assets/maps/mappa-01-mondo-precedente.svg", "./assets/maps/mappa-02-fratture.svg",

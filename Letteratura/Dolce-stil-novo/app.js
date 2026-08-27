@@ -211,12 +211,17 @@
     return `<section class="quiz" id="quiz-${id}" data-quiz-id="${id}">
       <span class="eyebrow">Autovalutazione</span><h2>${esc(title)}</h2>
       <p class="quiz-intro">Tre opzioni, una sola corretta. Dopo l'invio vedrai spiegazione, errori e recupero mirato. Il retest ripropone soltanto gli errori.</p>
-      ${history.length ? `<details class="quiz-history"><summary>Cronologia dei tentativi (${history.length})</summary><ol>${history.map(h => `<li>${new Date(h.at).toLocaleString("it-IT")} · ${h.correct}/${h.total} · ${h.percent}% · voto ${h.grade}/10</li>`).join("")}</ol></details>` : ""}
+      ${quizHistoryTemplate(history)}
       <form class="quiz-form" data-quiz-id="${id}" data-indices="${indices.join(",")}">
         ${indices.map((idx,pos) => questionTemplate(questions[idx], idx, pos)).join("")}
         <button class="primary-button" type="submit">Correggi le risposte</button>
       </form><div class="quiz-results" hidden aria-live="polite"></div>
     </section>`;
+  }
+
+  function quizHistoryTemplate(history) {
+    if (!history.length) return "";
+    return `<details class="quiz-history"><summary>Cronologia dei tentativi (${history.length})</summary><ol>${history.map(h => `<li>${new Date(h.at).toLocaleString("it-IT")} · ${h.correct}/${h.total} · ${h.percent}% · voto ${h.grade}/10</li>`).join("")}</ol></details>`;
   }
 
   function questionTemplate(q, originalIndex, position) {
@@ -319,6 +324,10 @@
     state.quizHistory[id] ||= [];
     state.quizHistory[id].push({ at: new Date().toISOString(), indices, correct: correctCount, total: results.length, percent, grade, wrong });
     saveState();
+    const historyMarkup = quizHistoryTemplate(state.quizHistory[id]);
+    const currentHistory = form.parentElement.querySelector(".quiz-history");
+    if (currentHistory) currentHistory.outerHTML = historyMarkup;
+    else form.insertAdjacentHTML("beforebegin", historyMarkup);
     const box = form.parentElement.querySelector(".quiz-results");
     box.hidden = false;
     const visibleResults = id === "final" ? results.filter(result => !result.correct) : results;
@@ -339,7 +348,7 @@
     const recoveryKey = `${id}:${result.idx}`;
     const status = state.recoveryStatus[recoveryKey];
     const reentryOptions = shuffle(result.q.reentry.options.map((option,i)=>({option,key:letters[i]})));
-    return `<article class="answer-feedback ${result.correct ? "" : "wrong"}"><h3>${result.correct ? "Corretta" : "Da recuperare"} · ${esc(result.q.q)}</h3><p><strong>Hai risposto:</strong> ${esc(selectedText)}.</p><p><strong>Risposta corretta:</strong> ${esc(correctText)}.</p><p>${esc(result.q.feedback)}</p>${result.correct ? "" : `<div class="recovery-box"><p><strong>Concetto da riparare.</strong> ${esc(concept)}.</p><p><strong>Chiarimento.</strong> ${esc(result.q.feedback)}</p><p><strong>Punto della lezione ed esempio.</strong> ${esc(result.q.recovery)}</p><fieldset class="reentry" data-reentry="${esc(recoveryKey)}"><legend><strong>Nuova domanda breve.</strong> ${esc(result.q.reentry.q)}</legend>${reentryOptions.map((item,i)=>`<label class="quiz-option"><input type="radio" name="re-${id}-${result.idx}" value="${item.key}"><span><strong>${letters[i]}.</strong> ${esc(item.option)}</span></label>`).join("")}<button class="secondary-button" type="button" data-check-reentry="${id}" data-index="${result.idx}">Verifica il recupero</button><p class="reentry-status ${status === "recuperato" ? "ok" : ""}" aria-live="polite">${status === "recuperato" ? "✓ Concetto recuperato" : status === "da_rivedere" ? "Da rivedere: prova di nuovo dopo il chiarimento." : ""}</p></fieldset></div>`}</article>`;
+    return `<article class="answer-feedback ${result.correct ? "" : "wrong"}"><h3>${result.correct ? "Corretta" : "Da recuperare"} · ${esc(result.q.q)}</h3><p><strong>Hai risposto:</strong> ${esc(selectedText)}</p><p><strong>Risposta corretta:</strong> ${esc(correctText)}</p><p>${esc(result.q.feedback)}</p>${result.correct ? "" : `<div class="recovery-box"><p><strong>Concetto da riparare.</strong> ${esc(concept)}.</p><p><strong>Chiarimento.</strong> ${esc(result.q.feedback)}</p><p><strong>Punto della lezione ed esempio.</strong> ${esc(result.q.recovery)}</p><fieldset class="reentry" data-reentry="${esc(recoveryKey)}"><legend><strong>Nuova domanda breve.</strong> ${esc(result.q.reentry.q)}</legend>${reentryOptions.map((item,i)=>`<label class="quiz-option"><input type="radio" name="re-${id}-${result.idx}" value="${item.key}"><span><strong>${letters[i]}.</strong> ${esc(item.option)}</span></label>`).join("")}<button class="secondary-button" type="button" data-check-reentry="${id}" data-index="${result.idx}">Verifica il recupero</button><p class="reentry-status ${status === "recuperato" ? "ok" : ""}" aria-live="polite">${status === "recuperato" ? "✓ Concetto recuperato" : status === "da_rivedere" ? "Da rivedere: prova di nuovo dopo il chiarimento." : ""}</p></fieldset></div>`}</article>`;
   }
 
   function checkReentry(event) {
