@@ -14,7 +14,7 @@ Aprire `http://localhost:8765/Letteratura/Lezioni/Contrasto-/` quando il progett
 
 - 6 movimenti didattici, ciascuno con lezione estesa, sintesi, 6 saperi irrinunciabili, lessico, mappa e test;
 - testo integrale in 32 strofe con parafrasi affiancata e filtro per atto;
-- 8 ricostruzioni visuali IA dichiarate e documentate;
+- 8 ricostruzioni visuali IA dichiarate e documentate, costruite come una sequenza continua attorno al pozzo della piazza;
 - verifica finale di 15 item, recupero mirato e timer per l’orale;
 - taccuino, segnalibri, ricerca, sintesi vocale, temi e dimensione testo;
 - PWA installabile e funzionante offline dopo il primo caricamento;
