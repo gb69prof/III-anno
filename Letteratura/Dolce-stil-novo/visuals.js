@@ -1,0 +1,1 @@
+window.PWA_VISUALS = [];

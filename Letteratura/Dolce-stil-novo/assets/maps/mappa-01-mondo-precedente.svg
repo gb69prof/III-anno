@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">La novità nasce da una tradizione plurale</title>
+  <desc id="desc">Continuità + trasformazione: il nuovo non coincide con la creazione dal nulla.</desc>
+  <defs>
+    <pattern id="paper" width="80" height="80" patternUnits="userSpaceOnUse"><rect width="80" height="80" fill="#f5eedf"/><path d="M0 18 C20 12 42 26 80 15 M0 58 C28 50 48 66 80 55" fill="none" stroke="#d9caa9" stroke-width="1" opacity="0.22"/></pattern>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#bf8b35"/></marker>
+    <style>
+      .kicker{font:700 22px Inter,Arial,sans-serif;letter-spacing:3px;fill:#7c3343}
+      .title{font:700 47px Georgia,serif;fill:#172436}
+      .subtitle{font:400 22px Inter,Arial,sans-serif;fill:#667080}
+      .edge{stroke:#bf8b35;stroke-width:5;opacity:.92}
+      .edge-label-bg{fill:#fffaf0;stroke:#bf8b35;stroke-width:2}
+      .edge-label{font:700 16px Inter,Arial,sans-serif;fill:#172436;text-anchor:middle}
+      .node{}
+      .node-inner{fill:none;stroke:#fffaf0;stroke-width:2;opacity:.58}
+      .node-main{font:700 27px Georgia,serif;fill:white;text-anchor:middle}
+      .node-sub{font:500 19px Inter,Arial,sans-serif;fill:#fffaf0;text-anchor:middle}
+      .center{}
+      .center-main{font:800 35px Inter,Arial,sans-serif;letter-spacing:1px;fill:white;text-anchor:middle}
+      .center-sub{font:500 24px Georgia,serif;font-style:italic;fill:#fff3ce;text-anchor:middle}
+      .footer{font:500 21px Georgia,serif;fill:#172436;text-anchor:middle}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#paper)"/>
+  <rect x="0" y="0" width="1600" height="18" fill="#243b61"/>
+  <text x="90" y="72" class="kicker">01 · IL MONDO PRECEDENTE</text>
+  <text x="90" y="130" class="title">La novità nasce da una tradizione plurale</text>
+  <text x="90" y="169" class="subtitle">Mappa concettuale · le relazioni sono espresse dai verbi sulle frecce</text>
+  <g>
+      <line x1="375" y1="313" x2="800" y2="495" class="edge" marker-end="url(#arrow)"/>
+      <rect x="454.8" y="381.36" width="248.39999999999998" height="38" rx="19" class="edge-label-bg"/>
+      <text x="579" y="406.36" class="edge-label">offrono lessico e relazione</text>
+      <line x1="800" y1="248" x2="800" y2="495" class="edge" marker-end="url(#arrow)"/>
+      <rect x="721.8" y="347.56" width="156.39999999999998" height="38" rx="19" class="edge-label-bg"/>
+      <text x="800" y="372.56" class="edge-label">media e trasmette</text>
+      <line x1="1225" y1="313" x2="800" y2="495" class="edge" marker-end="url(#arrow)"/>
+      <rect x="915.2" y="381.36" width="211.6" height="38" rx="19" class="edge-label-bg"/>
+      <text x="1021" y="406.36" class="edge-label">moltiplicano gli scambi</text>
+      <line x1="375" y1="688" x2="800" y2="495" class="edge" marker-end="url(#arrow)"/>
+      <rect x="468.6" y="576.36" width="220.79999999999998" height="38" rx="19" class="edge-label-bg"/>
+      <text x="579" y="601.36" class="edge-label">rende reale il conflitto</text>
+      <line x1="800" y1="783" x2="800" y2="495" class="edge" marker-end="url(#arrow)"/>
+      <rect x="694.2" y="625.76" width="211.6" height="38" rx="19" class="edge-label-bg"/>
+      <text x="800" y="650.76" class="edge-label">contesta la complessità</text>
+      <line x1="800" y1="495" x2="1225" y2="688" class="edge" marker-end="url(#arrow)"/>
+      <rect x="875.2" y="568.64" width="257.59999999999997" height="38" rx="19" class="edge-label-bg"/>
+      <text x="1004" y="593.64" class="edge-label">diventa analisi del soggetto</text></g>
+  <g class="center">
+    <rect x="550" y="420" width="500" height="150" rx="34" fill="#243b61"/>
+    <rect x="559" y="429" width="482" height="132" rx="27" fill="none" stroke="#bf8b35" stroke-width="4"/>
+    <text x="800" y="480" class="center-main">STIL NOVO</text>
+    <text x="800" y="523" class="center-sub">trasforma ciò che riceve</text>
+  </g>
+  
+    <g class="node">
+      <rect x="215" y="250" width="320" height="126" rx="24" fill="#426981"/>
+      <rect x="223" y="258" width="304" height="110" rx="18" class="node-inner"/>
+      <text x="375" y="299" class="node-main">Trovatori</text>
+      <text x="375" y="334" class="node-sub">fin’amor e servizio</text>
+    </g>
+    <g class="node">
+      <rect x="640" y="185" width="320" height="126" rx="24" fill="#243b61"/>
+      <rect x="648" y="193" width="304" height="110" rx="18" class="node-inner"/>
+      <text x="800" y="234" class="node-main">Scuola siciliana</text>
+      <text x="800" y="269" class="node-sub">lingua e forme</text>
+    </g>
+    <g class="node">
+      <rect x="1065" y="250" width="320" height="126" rx="24" fill="#49665a"/>
+      <rect x="1073" y="258" width="304" height="110" rx="18" class="node-inner"/>
+      <text x="1225" y="299" class="node-main">Comuni toscani</text>
+      <text x="1225" y="334" class="node-sub">reti e corrispondenze</text>
+    </g>
+    <g class="node">
+      <rect x="215" y="625" width="320" height="126" rx="24" fill="#62517d"/>
+      <rect x="223" y="633" width="304" height="110" rx="18" class="node-inner"/>
+      <text x="375" y="674" class="node-main">Guittone</text>
+      <text x="375" y="709" class="node-sub">autorità duecentesca</text>
+    </g>
+    <g class="node">
+      <rect x="640" y="720" width="320" height="126" rx="24" fill="#7c3343"/>
+      <rect x="648" y="728" width="304" height="110" rx="18" class="node-inner"/>
+      <text x="800" y="769" class="node-main">Bonagiunta</text>
+      <text x="800" y="804" class="node-sub">critica la sottigliansa</text>
+    </g>
+    <g class="node">
+      <rect x="1065" y="625" width="320" height="126" rx="24" fill="#a56f2d"/>
+      <rect x="1073" y="633" width="304" height="110" rx="18" class="node-inner"/>
+      <text x="1225" y="674" class="node-main">Interiorità</text>
+      <text x="1225" y="709" class="node-sub">nuovo problema</text>
+    </g>
+  <rect x="90" y="920" width="1420" height="2" fill="#bf8b35" opacity=".55"/>
+  <text x="800" y="962" class="footer">Continuità + trasformazione: il nuovo non coincide con la creazione dal nulla.</text>
+</svg>

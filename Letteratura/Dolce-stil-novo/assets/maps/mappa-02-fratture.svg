@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Le fratture cambiano il luogo dell’amore</title>
+  <desc id="desc">La frattura non è un evento unico: più spostamenti modificano insieme il problema poetico.</desc>
+  <defs>
+    <pattern id="paper" width="80" height="80" patternUnits="userSpaceOnUse"><rect width="80" height="80" fill="#f5eedf"/><path d="M0 18 C20 12 42 26 80 15 M0 58 C28 50 48 66 80 55" fill="none" stroke="#d9caa9" stroke-width="1" opacity="0.22"/></pattern>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#bf8b35"/></marker>
+    <style>
+      .kicker{font:700 22px Inter,Arial,sans-serif;letter-spacing:3px;fill:#7c3343}
+      .title{font:700 47px Georgia,serif;fill:#172436}
+      .subtitle{font:400 22px Inter,Arial,sans-serif;fill:#667080}
+      .edge{stroke:#bf8b35;stroke-width:5;opacity:.92}
+      .edge-label-bg{fill:#fffaf0;stroke:#bf8b35;stroke-width:2}
+      .edge-label{font:700 16px Inter,Arial,sans-serif;fill:#172436;text-anchor:middle}
+      .node{}
+      .node-inner{fill:none;stroke:#fffaf0;stroke-width:2;opacity:.58}
+      .node-main{font:700 27px Georgia,serif;fill:white;text-anchor:middle}
+      .node-sub{font:500 19px Inter,Arial,sans-serif;fill:#fffaf0;text-anchor:middle}
+      .center{}
+      .center-main{font:800 35px Inter,Arial,sans-serif;letter-spacing:1px;fill:white;text-anchor:middle}
+      .center-sub{font:500 24px Georgia,serif;font-style:italic;fill:#fff3ce;text-anchor:middle}
+      .footer{font:500 21px Georgia,serif;fill:#172436;text-anchor:middle}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#paper)"/>
+  <rect x="0" y="0" width="1600" height="18" fill="#243b61"/>
+  <text x="90" y="72" class="kicker">02 · LE FRATTURE</text>
+  <text x="90" y="130" class="title">Le fratture cambiano il luogo dell’amore</text>
+  <text x="90" y="169" class="subtitle">Mappa concettuale · le relazioni sono espresse dai verbi sulle frecce</text>
+  <g>
+      <line x1="375" y1="313" x2="800" y2="495" class="edge" marker-end="url(#arrow)"/>
+      <rect x="477.8" y="381.36" width="202.39999999999998" height="38" rx="19" class="edge-label-bg"/>
+      <text x="579" y="406.36" class="edge-label">cambia la circolazione</text>
+      <line x1="1225" y1="313" x2="800" y2="495" class="edge" marker-end="url(#arrow)"/>
+      <rect x="906" y="381.36" width="229.99999999999997" height="38" rx="19" class="edge-label-bg"/>
+      <text x="1021" y="406.36" class="edge-label">ridefinisce la gentilezza</text>
+      <line x1="250" y1="498" x2="800" y2="495" class="edge" marker-end="url(#arrow)"/>
+      <rect x="435.8" y="477.56" width="156.39999999999998" height="38" rx="19" class="edge-label-bg"/>
+      <text x="514" y="502.56" class="edge-label">sposta lo sguardo</text>
+      <line x1="1350" y1="498" x2="800" y2="495" class="edge" marker-end="url(#arrow)"/>
+      <rect x="1011" y="477.56" width="150" height="38" rx="19" class="edge-label-bg"/>
+      <text x="1086" y="502.56" class="edge-label">rende pensabile</text>
+      <line x1="800" y1="495" x2="800" y2="783" class="edge" marker-end="url(#arrow)"/>
+      <rect x="721.8" y="614.24" width="156.39999999999998" height="38" rx="19" class="edge-label-bg"/>
+      <text x="800" y="639.24" class="edge-label">Dante ordina dopo</text></g>
+  <g class="center">
+    <rect x="550" y="420" width="500" height="150" rx="34" fill="#243b61"/>
+    <rect x="559" y="429" width="482" height="132" rx="27" fill="none" stroke="#bf8b35" stroke-width="4"/>
+    <text x="800" y="480" class="center-main">TRASFORMAZIONE</text>
+    <text x="800" y="523" class="center-sub">storica e concettuale</text>
+  </g>
+  
+    <g class="node">
+      <rect x="215" y="250" width="320" height="126" rx="24" fill="#426981"/>
+      <rect x="223" y="258" width="304" height="110" rx="18" class="node-inner"/>
+      <text x="375" y="299" class="node-main">Corte</text>
+      <text x="375" y="334" class="node-sub">→ rete urbana</text>
+    </g>
+    <g class="node">
+      <rect x="1065" y="250" width="320" height="126" rx="24" fill="#49665a"/>
+      <rect x="1073" y="258" width="304" height="110" rx="18" class="node-inner"/>
+      <text x="1225" y="299" class="node-main">Sangue</text>
+      <text x="1225" y="334" class="node-sub">→ virtù interiore</text>
+    </g>
+    <g class="node">
+      <rect x="90" y="435" width="320" height="126" rx="24" fill="#62517d"/>
+      <rect x="98" y="443" width="304" height="110" rx="18" class="node-inner"/>
+      <text x="250" y="484" class="node-main">Codice esterno</text>
+      <text x="250" y="519" class="node-sub">→ processo interno</text>
+    </g>
+    <g class="node">
+      <rect x="1190" y="435" width="320" height="126" rx="24" fill="#a56f2d"/>
+      <rect x="1198" y="443" width="304" height="110" rx="18" class="node-inner"/>
+      <text x="1350" y="484" class="node-main">Retorica</text>
+      <text x="1350" y="519" class="node-sub">→ conoscenza</text>
+    </g>
+    <g class="node">
+      <rect x="640" y="720" width="320" height="126" rx="24" fill="#7c3343"/>
+      <rect x="648" y="728" width="304" height="110" rx="18" class="node-inner"/>
+      <text x="800" y="769" class="node-main">Opere</text>
+      <text x="800" y="804" class="node-sub">→ nome retrospettivo</text>
+    </g>
+  <rect x="90" y="920" width="1420" height="2" fill="#bf8b35" opacity=".55"/>
+  <text x="800" y="962" class="footer">La frattura non è un evento unico: più spostamenti modificano insieme il problema poetico.</text>
+</svg>
