@@ -1,36 +1,35 @@
-# Prompt delle ricostruzioni visuali
+# Prompt delle ricostruzioni visuali · versione 2
 
-Tutte le immagini usano il caso “historical-scene”, sono destinate a una PWA didattica e condividono i protagonisti descritti in “docs/VISUAL_BIBLE.md”. Nessuna immagine deve contenere testo o watermark.
+Tutte le immagini usano il caso `historical-scene` e sono destinate alla PWA didattica. Condividono identità, abiti, piazza e pozzo definiti in `docs/VISUAL_BIBLE.md`. La ragazza deve apparire inequivocabilmente una giovane adulta di circa 18 anni, mai una donna di 25–35 anni. Nessuna immagine contiene testo o watermark.
 
-## 01 — Il borgo
+## 01 — L’incontro al pozzo
 
-Veduta ampia di un borgo siciliano nella prima metà del XIII secolo, vita quotidiana discreta, pietra calcarea, intonaco, cortili e vegetazione mediterranea. La giovane compare presso una soglia e il corteggiatore più lontano nello spazio pubblico. Fotografia storica ricostruita, luce mattutina, 35 mm, realismo documentario.
+Veduta ampia di una piazza in un borgo siciliano della prima metà del XIII secolo. Un pozzo comunitario circolare in muratura occupa esattamente il centro. La ragazza diciottenne arriva con una brocca; il corteggiatore la nota dal lato opposto. I due non hanno ancora iniziato a parlare. Fotorealismo documentario, luce mediterranea del tardo pomeriggio.
 
 ## 02 — La rosa e lo sguardo
 
-Il corteggiatore vede la giovane presso una soglia e le parla con enfasi cortese; lei lo osserva con attenzione, non ancora coinvolta. Piano medio ambientato, luce mediterranea, texture naturali, distanza leggibile, nessun fiore gigante o simbolismo kitsch.
+La giovane posa la brocca sulla vera del pozzo; il corteggiatore apre una mano e comincia la lode dall’altro lato. Il pozzo mantiene la distanza cortese. Volto della ragazza ben visibile e chiaramente giovanile; abitanti occupati sullo sfondo.
 
 ## 03 — Il primo rifiuto
 
-La giovane risponde dalla soglia con controllo e ironia, una mano sullo stipite; il corteggiatore resta un gradino più in basso. La soglia è il confine sociale e personale. Fotorealismo sobrio, luce laterale, gesti anatomici naturali.
+La ragazza diciottenne alza un palmo in un rifiuto fermo e controllato, tenendo la brocca con l’altra mano. Il giovane si arresta sul lato opposto. La vera del pozzo funziona come limite personale. Nessuna caricatura o aggressione.
 
 ## 04 — Parenti e augustali
 
-Dialogo irrigidito: il corteggiatore mostra poche monete dorate nella mano aperta mentre sullo sfondo, lontani e non minacciosi, si intravedono parenti maschi. La giovane non arretra. Nessuna moneta con testo leggibile; niente sacche di tesoro o lusso fiabesco.
+Il corteggiatore mostra tre piccole monete medievali nel palmo; due parenti adulti osservano dal margine della piazza. La ragazza non è impressionata. Il pozzo resta al centro e separa le posizioni. Niente tesori fiabeschi o monete moderne.
 
 ## 05 — Il duello verbale
 
-I due si fronteggiano nello spazio del borgo con gesti espressivi e distanza ravvicinata; alcuni abitanti formano una “bona jente” sullo sfondo. Sensazione di scena teatrale spontanea senza palco. Nessuna violenza fisica.
+I due discutono intelligentemente dai lati opposti del pozzo, con gesti naturali e attivi. Alcuni abitanti si fermano a distanza: la parola privata diventa teatro pubblico. Nessun palco, nessuna violenza fisica.
 
-## 06 — Il frutto nel giardino
+## 06 — Il frutto evocato
 
-Piccolo giardino murato con melograno e rose; i due parlano ai lati opposti di un basso muro. Sensualità affidata a sguardi, luce e simboli botanici, mai esplicita. Il frutto deve essere naturale, non surreale.
+La ragazza appoggia una mano sulla vera e governa lo scambio; il giovane risponde dall’altro lato. Su un banco del mercato sullo sfondo è visibile un solo melograno naturale, richiamo discreto alla metafora del frutto. Nessuna posa sessualizzata.
 
 ## 07 — Il Vangelo inatteso
 
-Sotto una loggia semplice, il corteggiatore estrae un piccolo codice medievale rilegato in cuoio; la giovane guarda il libro e poi lui. Luce raccolta, tensione insieme comica e sacrale. Mani corrette, libro senza scritte leggibili, niente chiesa monumentale.
+Al crepuscolo, il giovane dispone un piccolo codice medievale aperto sulla vera del pozzo e propone il giuramento. La ragazza guarda lui e il libro con cautela. Il pozzo diventa il tavolo pubblico dell’accordo. Libro senza scritte leggibili, niente luce miracolosa.
 
 ## 08 — La conclusione ambigua
 
-I due sono finalmente vicini dentro una stanza semplice aperta sul cortile; non si baciano e non si abbracciano. Lei mantiene lo sguardo consapevole, lui abbassa l’enfasi. La porta resta aperta e il quadro conserva desiderio, teatralità e incertezza. Nessuna posa romantica moderna.
-
+Al tramonto i due sono più vicini, sullo stesso lato del pozzo, ma non si toccano. La brocca e il libro chiuso restano sulla vera. Il volto della giovane esprime insieme desiderio, decisione e cautela; la piazza e gli abitanti restano percepibili. Nessun abbraccio, nessuna camera da letto, nessuna posa di vittoria.
