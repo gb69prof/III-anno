@@ -1,6 +1,6 @@
 # Audit automatico PWA
 
-HTML: 20 · manifest: 10
+HTML: 20 · manifest: 10 · service worker: 10
 Errori automatici: 0 · avvisi: 0
 
 ## Errori rilevati
