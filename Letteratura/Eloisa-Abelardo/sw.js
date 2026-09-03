@@ -1,5 +1,9 @@
 const CACHE = "eloisa-abelardo-v6";
 const ASSETS = [
+  "../../pwa-common/gbprof-accessibility.css?v=1",
+  "../../pwa-common/gbprof-accessibility.js?v=1",
+  "../../privacy.html",
+  "../../accessibilita.html",
   "./",
   "./index.html",
   "./styles.css?v=4",
@@ -30,7 +34,7 @@ self.addEventListener("install", event => {
 });
 
 self.addEventListener("activate", event => {
-  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim()));
+  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE && key.startsWith(String(CACHE).includes("-v") ? String(CACHE).replace(/-v.*$/i, "-") : String(CACHE))).map(key => caches.delete(key)))).then(() => self.clients.claim()));
 });
 
 self.addEventListener("fetch", event => {

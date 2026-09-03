@@ -1,5 +1,9 @@
 const CACHE = "amor-cortese-v1.2.2";
 const CORE = [
+  "../../pwa-common/gbprof-accessibility.css?v=1",
+  "../../pwa-common/gbprof-accessibility.js?v=1",
+  "../../privacy.html",
+  "../../accessibilita.html",
   "./", "./index.html", "./offline.html", "./styles.css?v=1.2.0", "./content.js", "./visuals.js", "./logic.js", "./app.js?v=1.2.1", "./manifest.webmanifest",
   "./assets/icons/icon-192.png", "./assets/icons/icon-512.png", "./assets/icons/icon-maskable-512.png",
   "./assets/maps/hero_fili_desiderio_responsabilita.svg", "./assets/maps/timeline_reticolare_1070_1380.svg",
@@ -20,7 +24,7 @@ self.addEventListener("install", event => {
 });
 
 self.addEventListener("activate", event => {
-  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim()));
+  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE && key.startsWith(String(CACHE).includes("-v") ? String(CACHE).replace(/-v.*$/i, "-") : String(CACHE))).map(key => caches.delete(key)))).then(() => self.clients.claim()));
 });
 
 self.addEventListener("fetch", event => {

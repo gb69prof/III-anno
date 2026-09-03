@@ -1,5 +1,9 @@
 const CACHE = "dolce-stil-novo-v1.0.1";
 const CORE = [
+  "../../pwa-common/gbprof-accessibility.css?v=1",
+  "../../pwa-common/gbprof-accessibility.js?v=1",
+  "../../privacy.html",
+  "../../accessibilita.html",
   "./", "./index.html", "./offline.html", "./styles.css?v=1.0.0", "./content.js", "./visuals.js", "./logic.js", "./app.js?v=1.0.1", "./manifest.webmanifest",
   "./assets/icons/icon-192.png", "./assets/icons/icon-512.png",
   "./assets/hero/dolce-stil-novo-hero-v2.jpg", "./assets/hero/dolce-stil-novo-hero-v2-1600.webp", "./assets/hero/dolce-stil-novo-hero-v2-960.webp",
@@ -14,7 +18,7 @@ self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", event => {
-  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim()));
+  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE && key.startsWith(String(CACHE).includes("-v") ? String(CACHE).replace(/-v.*$/i, "-") : String(CACHE))).map(key => caches.delete(key)))).then(() => self.clients.claim()));
 });
 self.addEventListener("fetch", event => {
   if (event.request.method !== "GET") return;
