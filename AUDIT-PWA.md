@@ -1,10 +1,10 @@
 # Audit automatico PWA
 
 HTML: 20 · manifest: 10
-Errori automatici: 1 · avvisi: 5
+Errori automatici: 0 · avvisi: 5
 
 ## Errori rilevati
-- storia/Palazzo-Federico-II-Foggia/js/app.js: possibile tracker/cookie
+- Nessun errore rilevato dai controlli automatici.
 
 ## Avvisi
 - Letteratura/Dolce-stil-novo/index.html: H1 non rilevato staticamente
