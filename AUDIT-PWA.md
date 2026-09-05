@@ -1,10 +1,11 @@
 # Audit automatico PWA
 
-HTML: 20 · manifest: 10 · service worker: 10
-Errori automatici: 0 · avvisi: 0
+HTML: 21 · manifest: 11 · service worker: 11
+Errori automatici: 2 · avvisi: 0
 
 ## Errori rilevati
-- Nessun errore rilevato dai controlli automatici.
+- Foggia/XV-secolo/manifest.json: icone assenti
+- Foggia/XV-secolo/sw.js: pulizia cache potenzialmente globale; manca un filtro per il prefisso della PWA
 
 ## Avvisi
 - Nessun avviso.
