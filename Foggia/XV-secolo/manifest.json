@@ -1,0 +1,10 @@
+{
+  "name": "Foggia 1450 — città esplorabile",
+  "short_name": "Foggia 1450",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#17120d",
+  "theme_color": "#17120d",
+  "orientation": "landscape",
+  "description": "Ricostruzione 3D esplorabile della Foggia medievale intorno al 1450."
+}
