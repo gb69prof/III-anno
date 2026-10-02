@@ -1,169 +1,19 @@
-<!doctype html>
-<html lang="it" data-theme="light">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#111719">
-  <meta name="description" content="Mostra digitale sul palatium di Federico II a Foggia: prove, fonti e limiti della ricostruzione storica.">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="Palatium Foggia">
-  <title>Il palatium di Federico II a Foggia</title>
-  <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="./assets/icon-192.png">
-  <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="../../pwa-common/gbprof-accessibility.css?v=1">
-</head>
-<body>
-  <a class="skip-link" href="#main">Vai al contenuto</a>
-
-  <header class="topbar" id="topbar">
-    <a class="brand" href="#inizio" aria-label="Torna all'inizio">
-      <span class="brand-mark" aria-hidden="true">∅</span>
-      <span><strong>PALATIUM</strong><small>Foggia · 1223</small></span>
-    </a>
-    <nav class="mode-nav" aria-label="Sezioni principali">
-      <button class="mode-button is-active" data-view="story" aria-pressed="true">Racconto</button>
-      <button class="mode-button" data-view="evidence" aria-pressed="false">Prove</button>
-      <button class="mode-button" data-view="lab" aria-pressed="false">Laboratorio</button>
-      <button class="mode-button" data-view="sources" aria-pressed="false">Fonti</button>
-    </nav>
-    <div class="top-actions">
-      <button class="icon-button" id="themeToggle" aria-label="Attiva tema scuro" title="Tema chiaro o scuro">◐</button>
-      <button class="install-button" id="installButton" hidden>Installa</button>
-      <button class="icon-button mobile-only" id="menuToggle" aria-label="Apri navigazione" aria-expanded="false">☰</button>
-    </div>
-  </header>
-
-  <main id="main">
-    <section class="view is-active" id="storyView" data-view-panel="story">
-      <section class="hero" id="inizio" aria-labelledby="heroTitle">
-        <div class="hero-grid" aria-hidden="true"></div>
-        <div class="absence" aria-hidden="true">
-          <span class="absence-arch"></span>
-          <span class="absence-label">forma non documentata</span>
-        </div>
-        <div class="hero-content">
-          <p class="eyebrow">Foggia · tracce di una sede imperiale</p>
-          <h1 id="heroTitle">Il <em>palatium</em><br>di Federico II</h1>
-          <p class="hero-deck">Un palazzo perduto, le tracce rimaste, il confine tra storia e ricostruzione.</p>
-          <blockquote>Di uno dei luoghi più importanti della corte federiciana resta quasi nulla. Eppure possiamo sapere molto.</blockquote>
-          <div class="first-proof">
-            <span class="date">GIUGNO 1223</span>
-            <span class="certainty certainty-a"><b>A</b> prova primaria diretta</span>
-            <strong>Questo lo sappiamo.</strong>
-          </div>
-          <a class="primary-cta" href="#metodo">Scopri come <span aria-hidden="true">↓</span></a>
-        </div>
-        <p class="hero-note">Questo disegno rappresenta un'assenza, non una ricostruzione.</p>
-      </section>
-
-      <section class="method-intro section-shell" id="metodo">
-        <div>
-          <p class="kicker">La domanda generatrice</p>
-          <h2>Come si ricostruisce la storia di un palazzo che non esiste quasi più?</h2>
-        </div>
-        <div class="method-copy">
-          <p>Non riempiendo i vuoti. La ricerca mette in relazione epigrafi, documenti, resti, immagini tarde e studi; poi assegna a ogni conclusione un grado di attendibilità.</p>
-          <p class="method-rule">Ogni prova deve dire anche <strong>che cosa non dimostra</strong>.</p>
-        </div>
-      </section>
-
-      <section class="scale-panel section-shell" aria-labelledby="scaleTitle">
-        <header>
-          <p class="kicker">Legenda epistemica</p>
-          <h2 id="scaleTitle">Cinque gradi, nessuna scorciatoia</h2>
-        </header>
-        <div class="certainty-scale" id="certaintyScale"></div>
-      </section>
-
-      <div class="story-layout section-shell">
-        <aside class="chapter-rail" id="chapterRail" aria-label="Indice del racconto">
-          <p class="rail-label">8 capitoli</p>
-          <ol id="chapterNav"></ol>
-          <div class="progress-box">
-            <span><b id="progressCount">0</b>/8 letti</span>
-            <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
-          </div>
-        </aside>
-        <article class="chapter-stage" id="chapterStage" aria-live="polite"></article>
-      </div>
-
-      <section class="finale section-shell">
-        <p class="kicker">Conclusione</p>
-        <h2>Il vuoto non autorizza l'invenzione.<br>È parte del documento.</h2>
-        <p>Sappiamo quando l'opera fu iniziata, chi la ordinò, quale messaggio politico affidò alla pietra e quale ruolo ebbe Foggia nella geografia mobile del potere. Non sappiamo abbastanza per disegnarne la pianta. La storia più rigorosa non è quella che mostra di più: è quella che rende visibile il confine tra prova e desiderio.</p>
-        <button class="primary-button" data-switch="evidence">Apri l'archivio delle prove</button>
-      </section>
-    </section>
-
-    <section class="view evidence-view" id="evidenceView" data-view-panel="evidence" hidden>
-      <header class="view-hero section-shell">
-        <p class="eyebrow">Archivio consultabile</p>
-        <h1>Le prove</h1>
-        <p>Documenti, oggetti e inferenze. Ogni scheda separa ciò che la fonte attesta da ciò che non può attestare.</p>
-      </header>
-      <div class="evidence-toolbar section-shell">
-        <label class="search-box"><span class="sr-only">Cerca nelle prove</span><input id="evidenceSearch" type="search" placeholder="Cerca: epigrafe, 1225, capitello…"><span aria-hidden="true">⌕</span></label>
-        <div class="filter-group" id="evidenceFilters" role="group" aria-label="Filtra per livello di attendibilità"></div>
-      </div>
-      <div class="evidence-grid section-shell" id="evidenceGrid"></div>
-      <p class="empty-state section-shell" id="evidenceEmpty" hidden>Nessuna prova corrisponde ai filtri scelti.</p>
-    </section>
-
-    <section class="view lab-view" id="labView" data-view-panel="lab" hidden>
-      <header class="view-hero section-shell">
-        <p class="eyebrow">Laboratorio delle fonti</p>
-        <h1>Tu che cosa concluderesti?</h1>
-        <p>Tre casi in cui i dati non bastano da soli. Costruisci una conclusione, salvala e poi confrontala con il verdetto scientifico.</p>
-      </header>
-      <div class="lab-list section-shell" id="labList"></div>
-    </section>
-
-    <section class="view sources-view" id="sourcesView" data-view-panel="sources" hidden>
-      <header class="view-hero section-shell">
-        <p class="eyebrow">Apparato critico</p>
-        <h1>Fonti e bibliografia</h1>
-        <p>La bibliografia distingue fonti primarie, studi specialistici e risorse istituzionali. Le citazioni abbreviate nelle schede rimandano a questo repertorio.</p>
-      </header>
-      <div class="sources-layout section-shell">
-        <nav class="sources-index" id="sourcesIndex" aria-label="Sezioni della bibliografia"></nav>
-        <div class="sources-list" id="sourcesList"></div>
-      </div>
-      <aside class="responsibility section-shell">
-        <h2>Nota di responsabilità</h2>
-        <p>Le immagini del capitello conservato nel Museo Civico di Foggia non sono riprodotte: la licenza editoriale della fotografia citata nel paper non è verificata. Mappe e visualizzazioni di questa PWA sono elaborazioni grafiche originali e non pretendono di restituire confini, strade o piante medievali.</p>
-      </aside>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div><strong>Il palatium di Federico II a Foggia</strong><span>Ricerca storica, mostra digitale, laboratorio delle fonti.</span></div>
-    <div><span>Progetto didattico gbprof · 2026</span><a href="../">Indice di Storia</a></div>
-  </footer>
-
-  <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
-  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Navigazione mobile" aria-hidden="true">
-    <button class="drawer-close" id="drawerClose" aria-label="Chiudi navigazione">×</button>
-    <p class="kicker">Naviga</p>
-    <button data-drawer-view="story">Racconto</button>
-    <button data-drawer-view="evidence">Prove</button>
-    <button data-drawer-view="lab">Laboratorio</button>
-    <button data-drawer-view="sources">Fonti</button>
-    <hr>
-    <a href="../">← Indice di Storia</a>
-  </aside>
-
-  <dialog class="evidence-dialog" id="evidenceDialog" aria-labelledby="dialogTitle">
-    <button class="dialog-close" id="dialogClose" aria-label="Chiudi">×</button>
-    <div id="dialogContent"></div>
-  </dialog>
-
-  <div class="offline-status" id="offlineStatus" role="status" aria-live="polite"></div>
-
-  <script src="./js/data.js"></script>
-  <script src="./js/app.js"></script>
-  <script src="../../pwa-common/gbprof-accessibility.js?v=1"></script>
-</body>
-</html>
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#09284e"><meta name="description" content="Il palazzo di Federico II a Foggia: lezione integrale, mappe, timeline e quiz per la classe terza."><meta name="gbprof-storage-prefixes" content="gbprof-storia-Palazzo-Federico-II-Foggia-"><meta name="apple-mobile-web-app-capable" content="yes"><title>Il palazzo di Federico II a Foggia · gbprof e Libera</title><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png"><link rel="stylesheet" href="../_shared/storia.css"><link rel="stylesheet" href="../../pwa-common/gbprof-accessibility.css?v=1"></head>
+<body data-lesson="Palazzo-Federico-II-Foggia"><a class="skip" href="#main">Vai al contenuto</a><header class="topbar"><a class="brand" href="../"><span class="brand-mark" aria-hidden="true">S</span><span>STORIA<span class="brand-sub">III anno · gbprof e Libera</span></span></a><nav aria-label="Sezioni del percorso"><a href="#copertina">Home</a><a href="#lezione">Lezione</a><a href="#collegamenti">Collegamenti</a><a href="#mappe">Mappe</a><a href="#protagonisti">Protagonisti</a><a href="#timeline">Timeline</a><a href="#quiz">Quiz</a></nav><button class="install button small" type="button">Installa</button></header>
+<main id="main" tabindex="-1"><section id="copertina" class="view home-view"><div class="hero"><div class="hero-inner"><a class="back" href="../">← Tutte le lezioni di storia</a><div class="hero-grid"><div><p class="eyebrow">approfondimento · classe terza</p><h1>Il palazzo di Federico II a Foggia</h1><p class="period">XIII secolo</p><p class="hero-lead">Un palazzo quasi scomparso può raccontare una parte importante della storia di una città. A Foggia i frammenti architettonici e l’iscrizione legati alla residenza di Federico II permettono di studiare il rapporto fra il sovrano, la Capitanata e la rappresentazione del potere. Richiedono però di distinguere ciò che è documentato da ciò che resta ipotetico.</p><a class="button gold" href="#lezione">Inizia la lettura <span aria-hidden="true">→</span></a></div><div class="hero-art" aria-hidden="true"><div class="orb"><div class="orb-ring"></div><span>32</span></div><p>COMPRENDERE<br>IL CAMBIAMENTO</p></div></div></div></div><div class="home-content"><p class="eyebrow ink">Il tuo percorso di studio</p><div class="feature-grid"><a class="feature" href="#lezione"><span class="feature-no">01</span><h2>La lezione</h2><p>Il testo integrale, con fonti, tabelle e attività della dispensa.</p><span>Leggi e studia →</span></a><a class="feature" href="#mappe"><span class="feature-no">02</span><h2>La mappa</h2><p>Cinque rami per vedere relazioni, passaggi ed esiti.</p><span>Guarda i collegamenti →</span></a><a class="feature" href="#quiz"><span class="feature-no">03</span><h2>Mettiti alla prova</h2><p>10 domande, correzione motivata e ritorno ai punti da ripassare.</p><span>Avvia il quiz →</span></a></div><div class="home-bottom"><div><p class="eyebrow ink">Per orientarti</p><h2>Tempi, persone e connessioni</h2><p>Segui la timeline, incontra i protagonisti e passa agli approfondimenti collegati.</p><div class="inline-actions"><a class="button ghost" href="#timeline">Timeline</a><a class="button ghost" href="#protagonisti">Protagonisti</a></div><a class="button ghost" href="esplora.html">Esplora la mostra digitale sul palazzo →</a></div><a href="#mappe" class="map-preview"><img src="mappa.png" alt="Anteprima della mappa concettuale di Il palazzo di Federico II a Foggia" loading="lazy"></a></div><div class="related-grid"><a class="related-card" href="../Federico-II/"><span class="eyebrow">lezione · XIII secolo</span><strong>Federico II</strong><span class="go">Apri il percorso →</span></a></div></div></section>
+<section id="lezione" class="view reading-view"><div class="section-heading"><p class="eyebrow ink">Leggere per comprendere</p><h2>Il palazzo di Federico II a Foggia</h2><p>Testo integrale della dispensa · a cura di gbprof e Libera</p></div><div class="reading-toolbar"><label for="font-size">Dimensione del testo</label><input id="font-size" type="range" min="17" max="28" step="1" value="20"><button class="button ghost small" id="focus-reading" type="button" aria-pressed="false">Lettura concentrata</button><button class="button ghost small" id="print-lesson" type="button">Stampa</button><a class="button ghost small" href="dispensa.pdf" download>Scarica la dispensa PDF</a></div><div class="reading-layout"><aside class="outline"><details open><summary>Indice della lezione</summary><nav aria-label="Capitoli della lezione"><a href="#sezione-1">FOGGIA E LA CAPITANATA • IL DUECENTO E LA MEMORIA DELLA CITTÀ</a><a href="#sezione-2">Il palazzo di Federico II a Foggia</a><a href="#sezione-3">0. Domanda generatrice</a><a href="#sezione-4">1. Il mondo precedente</a><a href="#sezione-5">2. Le fratture</a><a href="#sezione-6">3. Attori, gruppi e conflitti</a><a href="#sezione-7">4. Il processo storico</a><a href="#sezione-8">Una residenza nella rete del governo</a><a href="#sezione-9">La pietra come linguaggio politico</a><a href="#sezione-10">Trasformazioni, rovine e ipotesi</a><a href="#sezione-11">5. Le fonti in dialogo</a><a href="#sezione-12">L’iscrizione del 1223: costruire e celebrare</a><a href="#sezione-13">6. Conseguenze e nuovo assetto</a><a href="#sezione-14">7. Conclusione</a><a href="#sezione-15">Per studiare e collegare</a><a href="#sezione-16">Coordinate essenziali</a><a href="#sezione-17">Saperi irrinunciabili</a><a href="#sezione-18">Mappa concettuale</a><a href="#sezione-19">Strumenti e attività</a><a href="#sezione-20">Linea del tempo ragionata</a><a href="#sezione-21">Vocabolario essenziale</a><a href="#sezione-22">Attività di comprensione</a></nav></details></aside><article class="lesson-paper" id="integral-text"><section class="source-page" aria-label="Pagina 1 della dispensa"><h3 id="sezione-1">FOGGIA E LA CAPITANATA • IL DUECENTO E LA MEMORIA DELLA CITTÀ</h3><h3 id="sezione-2">Il palazzo di Federico II a Foggia</h3><p class="">Un palazzo quasi scomparso può raccontare una parte importante della storia di una città. A Foggia i frammenti architettonici e l’iscrizione legati alla residenza di Federico II permettono di studiare il rapporto fra il sovrano, la Capitanata e la rappresentazione del potere. Richiedono però di distinguere ciò che è documentato da ciò che resta ipotetico.</p><h3 id="sezione-3">0. Domanda generatrice</h3><p class="">Come possiamo ricostruire il significato di un palazzo quando non possediamo più l’edificio nella sua interezza?</p><p class="summary">In sintesi  Materiali, iscrizioni e documenti si completano a vicenda: nessuna singola fonte restituisce da sola il palazzo originario.</p><h3 id="sezione-4">1. Il mondo precedente</h3><p class="">Foggia esisteva prima di Federico II. Il suo sviluppo si collegava alle risorse agricole del Tavoliere, agli scambi e alle vie di comunicazione della Capitanata. La presenza del sovrano si inserì dunque nella storia di un centro già formato: non trasformò un luogo vuoto in una città.</p><p class="pdf-table-text">Federico, re di Sicilia dal 1198 e imperatore dal 1220, governava territori differenti. Il Regno di Sicilia<br>comprendeva anche il Mezzogiorno continentale. La sua corte si spostava fra più sedi: per capire il ruolo di<br>Foggia bisogna pensare a una rete di residenze e centri di governo, non a una capitale unica e stabilmente<br>organizzata come quelle degli Stati contemporanei.</p><p class="summary">In sintesi  L’importanza di Foggia nasce dall’incontro fra risorse del territorio, posizione della città e scelte della monarchia.</p></section>
+<section class="source-page" aria-label="Pagina 2 della dispensa"><h3 id="sezione-5">2. Le fratture</h3><p class="pdf-table-text">L’apparato epigrafico del palazzo ricorda l’avvio dell’impresa nel giugno 1223, per volontà di Federico. È<br>una testimonianza più precisa di una generica attribuzione tradizionale: collega il cantiere a una data, a un<br>committente e a un progetto di rappresentazione della sovranità.</p><p class="pdf-table-text">L’iscrizione nomina anche Bartolomeo, qualificato come protomagister. Il titolo indica una responsabilità<br>nell’organizzazione dell’opera, ma non va tradotto automaticamente nella figura dell’architetto moderno,<br>unico autore del progetto. Dietro il nome ricordato sulla pietra lavoravano maestranze e figure che la fonte<br>non elenca.</p><p class="summary">In sintesi  Il 1223 documenta una scelta politica e un cantiere; non prova che l’intero complesso fosse già terminato o rimasto poi immutato.</p><h3 id="sezione-6">3. Attori, gruppi e conflitti</h3><p class="">La residenza mette in relazione chi ordinava e finanziava l’opera, chi la realizzava e chi ne ha conservato la memoria.</p><div class="table-wrap"><table><tr><th>Attori</th><th>Obiettivi e interessi</th></tr><tr><td>Federico II</td><td>Utilizzava la residenza per la presenza della corte e per rendere visibile l’autorità regia e imperiale.</td></tr><tr><td>Bartolomeo e maestranze</td><td>Organizzavano e svolgevano il lavoro del cantiere; l’epigrafe ricorda il protomagister.</td></tr><tr><td>Corte e funzionari</td><td>Accompagnavano il sovrano e svolgevano attività politiche e amministrative.</td></tr><tr><td>Città e territorio</td><td>Fornivano risorse, servizi e collegamenti; la presenza regia rafforzava il rilievo di Foggia.</td></tr><tr><td>Studiosi e istituzioni culturali</td><td>Confrontano frammenti, iscrizioni e documenti per ricostruire e tutelare il patrimonio.</td></tr></table></div><p class="summary">In sintesi  Il palazzo non era soltanto la casa di un individuo: faceva parte delle relazioni fra monarchia, corte e città.</p></section>
+<section class="source-page" aria-label="Pagina 3 della dispensa"><h3 id="sezione-7">4. Il processo storico</h3><h3 id="sezione-8">Una residenza nella rete del governo</h3><p class="">Foggia ebbe un ruolo importante nella presenza di Federico in Capitanata. Il territorio offriva risorse e collegamenti utili a una corte itinerante. La caccia rientrava nelle pratiche del sovrano, ma non basta a spiegare la scelta della sede: contavano anche governo, economia e controllo dello spazio.</p><p class="">Le residenze accoglievano persone, incontri e attività che seguivano il sovrano. Perciò il termine “palazzo” non deve far immaginare soltanto appartamenti privati. La documentazione successiva alla morte di Federico parla di un edificio principale e di più costruzioni: il complesso poteva comprendere spazi con funzioni diverse.</p><h3 id="sezione-9">La pietra come linguaggio politico</h3><p class="pdf-table-text">Gli elementi superstiti del portale, oggi reimpiegati nel muro di Palazzo Arpi, comprendono un arco con<br>decorazione vegetale e sostegni figurati con aquile, insieme all’apparato epigrafico. La loro disposizione<br>attuale non restituisce automaticamente quella originaria: osservare un frammento significa anche<br>studiarne spostamenti e riusi.</p><p class="">Le aquile richiamano il linguaggio della sovranità imperiale; la decorazione e la scrittura celebrativa danno prestigio all’opera. Il riferimento alla sede imperiale esalta il legame con Federico. Non dimostra però che Foggia fosse l’unico centro del suo potere, né consente di ricostruire il numero di sale o l’aspetto completo delle facciate.</p><h3 id="sezione-10">Trasformazioni, rovine e ipotesi</h3><p class="">Un documento del 1273, ormai in età angioina, attesta l’uso del complesso per nozze dinastiche; sono ricordati interventi nel 1281 e nel 1328. Nel Cinquecento il palazzo risultava già in rovina. Il terremoto del 1731, che trasformò profondamente Foggia, non può quindi essere indicato come l’unica causa della sua scomparsa.</p><p class="pdf-table-text">Un disegno cinquecentesco e i documenti scritti aiutano la ricerca, ma sono posteriori al cantiere<br>federiciano. Ogni ricostruzione deve dichiarare quali parti siano certe e quali congetturali. Inoltre il palazzo<br>urbano va distinto dalle residenze extraurbane, come la domus Pantani: non possiamo trasferire dall’una<br>all’altro edifici, giardini o paesaggi.</p><p class="summary">In sintesi  Il complesso ebbe una storia lunga: fondazione, usi successivi, trasformazioni e riusi dei frammenti.</p><p class="">Lo snodo decisivo</p><p class="">Il passaggio decisivo è dal monumento immaginato al monumento documentato: una ricostruzione suggestiva diventa conoscenza storica solo quando rende riconoscibili le prove e i loro limiti.</p></section>
+<section class="source-page" aria-label="Pagina 4 della dispensa"><h3 id="sezione-11">5. Le fonti in dialogo</h3><h3 id="sezione-12">L’iscrizione del 1223: costruire e celebrare</h3><p class="">L’apparato epigrafico associato al portale è una fonte materiale e scritta. Ricorda il sovrano, l’avvio dell’opera e Bartolomeo; celebra inoltre la dignità della sede.</p><p class="">Contenuto — sintesi didattica: Il testo presenta Federico come Cesare e collega l’edificio alla sua volontà. L’espressione latina “sedes imperialis”, cioè sede imperiale, mostra che la costruzione doveva comunicare prestigio politico, oltre a svolgere funzioni pratiche.</p><p class="">Interpretazione e limiti: Un’iscrizione celebrativa mette in risalto il committente e seleziona ciò che vuole tramandare. Non è una pianta dell’edificio né un resoconto neutrale. Gli studiosi confrontano scrittura, materiali e formulazioni per discutere anche le diverse fasi dell’apparato epigrafico.</p><p class="">Domanda di lettura: Quali informazioni ricavi dall’iscrizione? Quali domande sull’aspetto e sull’uso del palazzo rimangono aperte?</p><p class="">Fonte e contesto: Ministero della Cultura, Palazzo di Federico II a Foggia</p><p class="summary">In sintesi  La fonte documenta l’opera e, nello stesso tempo, il modo in cui il potere voleva essere ricordato.</p><h3 id="sezione-13">6. Conseguenze e nuovo assetto</h3><p class="">La presenza del palazzo rafforzò il legame fra la città e la monarchia federiciana. La residenza contribuiva a rendere visibile un’autorità che governava attraverso una pluralità di luoghi e persone. Foggia entrava così nella geografia politica di un regno più ampio.</p><p class="">La perdita dell’edificio ha trasformato i frammenti in luoghi di memoria. Il loro valore non diminuisce perché manca una ricostruzione completa: proprio il confronto fra ciò che resta e ciò che non sappiamo insegna a leggere il patrimonio con attenzione, evitando di scambiare una tradizione o un’immagine moderna per una prova.</p><p class="summary">In sintesi  Il palazzo appartiene sia alla storia del potere medievale sia alla storia della memoria cittadina.</p><h3 id="sezione-14">7. Conclusione</h3><p class="">Possiamo ricostruire con sicurezza il legame della residenza con Federico, la data ricordata dall’epigrafe e alcuni elementi della sua storia. L’aspetto complessivo resta invece oggetto di ricerca. Questa distinzione rende il patrimonio di Foggia più comprensibile, senza inventare ciò che è andato perduto.</p><p class="">Sintesi finale Foggia era un centro già esistente e importante per il territorio. Federico inserì la città nella rete delle proprie sedi. L’epigrafe ricorda l’avvio dell’opera nel giugno 1223. Frammenti e documenti attestano una storia di usi, trasformazioni e perdite. La ricostruzione distingue dati certi, interpretazioni e ipotesi.</p></section>
+<section class="source-page" aria-label="Pagina 5 della dispensa"><h3 id="sezione-15">Per studiare e collegare</h3><h3 id="sezione-16">Coordinate essenziali</h3><p class="">Spazio: Foggia, Capitanata, Regno di Sicilia. Tempo centrale: XIII secolo. Metodo: confronto fra epigrafia, resti architettonici e documenti successivi.</p><h3 id="sezione-17">Saperi irrinunciabili</h3><p class="">1. Foggia non fu fondata da Federico II.</p><p class="">2. Il Regno di Sicilia comprendeva anche il Mezzogiorno continentale.</p><p class="">3. La corte federiciana si spostava fra più sedi.</p><p class="">4. L’epigrafe ricorda l’avvio del palazzo nel giugno 1223.</p><p class="">5. Bartolomeo è nominato con il titolo di protomagister.</p><p class="">6. Il palazzo aveva funzioni pratiche e un valore politico e simbolico.</p><p class="">7. Gli elementi del portale sono conservati attraverso un successivo reimpiego.</p><p class="">8. Il complesso era già in rovina prima del terremoto del 1731.</p><p class="">9. Il palazzo urbano non va confuso con le residenze extraurbane.</p><p class="">10. Nessuna ricostruzione completa può essere presentata come certa senza prove.</p><h3 id="sezione-18">Mappa concettuale</h3><figure class="source-figure"><img src="originale-1.png" alt="Schema presente nella dispensa, pagina 5" loading="lazy"><figcaption>Schema della dispensa originale · pagina 5</figcaption></figure><p class="">Le tre serie di fonti rispondono a domande diverse. Il loro confronto permette una ricostruzione critica.</p></section>
+<section class="source-page" aria-label="Pagina 6 della dispensa"><h3 id="sezione-19">Strumenti e attività</h3><h3 id="sezione-20">Linea del tempo ragionata</h3><div class="table-wrap"><table><tr><th>Quando</th><th>Che cosa cambia</th></tr><tr><td>1198 / 1220</td><td>Federico diventa re di Sicilia e poi imperatore.</td></tr><tr><td>Giugno 1223</td><td>Data di avvio dell’opera ricordata dall’epigrafe.</td></tr><tr><td>Età federiciana</td><td>Foggia è una sede importante della presenza regia.</td></tr><tr><td>1273</td><td>Il complesso ospita nozze dinastiche in età angioina.</td></tr><tr><td>1281 / 1328</td><td>Sono documentati interventi sul palazzo.</td></tr><tr><td>XVI secolo / 1731</td><td>Rovine già nel Cinquecento; il terremoto modifica in seguito la città.</td></tr></table></div><h3 id="sezione-21">Vocabolario essenziale</h3><p class="">Epigrafe. Iscrizione realizzata su un supporto durevole, come la pietra.</p><p class="">Committente. Chi ordina e promuove la realizzazione di un’opera.</p><p class="">Corte itinerante. Corte che si sposta fra diverse sedi insieme al sovrano.</p><p class="">Reimpiego. Utilizzo di elementi di un edificio in una sistemazione successiva.</p><h3 id="sezione-22">Attività di comprensione</h3><p class="">1. Dividi in “documentato” e “ipotetico”: data del cantiere, numero originario delle sale, nome ricordato dall’epigrafe. Motiva.</p><p class="">2. Spiega perché sede imperiale non significa necessariamente capitale unica.</p><p class="">3. Prepara una scheda dei frammenti conservati: descrizione, messaggio politico, tre domande ancora aperte.</p><p class="">Fonti e approfondimenti</p><p class="">Approfondimento di storia per la classe terza. Fonti e studi per verificare e ampliare la lettura.</p><p class="">Ministero della Cultura • Palazzo di Federico II a Foggia</p><p class="">Treccani, Federiciana • Foggia</p><p class="">Treccani, Federiciana • Palatia</p><p class="">Francesco Gangemi • La testimonianza epigrafica (2014)</p></section>
+<aside class="original-links"><h3>Collegamenti della dispensa</h3><ul><li><a href="https://catalogo.cultura.gov.it/approfondimento/puglia-provincia-foggia/palazzo-federico-ii-foggia">Pagina 4 · https://catalogo.cultura.gov.it/approfondimento/puglia-provincia-foggia/palazzo-federico-ii-foggia</a></li><li><a href="https://www.academia.edu/14555518/Il_palazzo_di_Federico_II_a_Foggia_la_testimonianza_epigrafica">Pagina 6 · https://www.academia.edu/14555518/Il_palazzo_di_Federico_II_a_Foggia_la_testimonianza_epigrafica</a></li><li><a href="https://www.treccani.it/enciclopedia/palatia_(Federiciana)/">Pagina 6 · https://www.treccani.it/enciclopedia/palatia_(Federiciana)/</a></li><li><a href="https://www.treccani.it/enciclopedia/foggia_(Federiciana)/">Pagina 6 · https://www.treccani.it/enciclopedia/foggia_(Federiciana)/</a></li><li><a href="https://catalogo.cultura.gov.it/approfondimento/puglia-provincia-foggia/palazzo-federico-ii-foggia">Pagina 6 · https://catalogo.cultura.gov.it/approfondimento/puglia-provincia-foggia/palazzo-federico-ii-foggia</a></li></ul></aside></article></div><div class="section-end"><a class="button gold" href="#quiz">Verifica quello che hai compreso →</a><a class="button ghost" href="#collegamenti">Continua con i collegamenti</a></div></section>
+<section id="mappe" class="view study-view"><div class="section-heading"><p class="eyebrow ink">Vedere le relazioni</p><h2>La mappa concettuale</h2><p>Parti dal nodo centrale, segui i rami e arriva alla conclusione.</p></div><div class="inline-actions"><button class="button gold" id="zoom-map" type="button">Ingrandisci la mappa</button><a class="button ghost" href="mappa.png" download>Scarica PNG</a><a class="button ghost" href="mappa.svg" download>Scarica SVG</a></div><figure class="map-full"><img src="mappa.png" alt="Mappa concettuale di Il palazzo di Federico II a Foggia. Alternativa testuale disponibile sotto l’immagine."><figcaption>Ricostruire attraverso le prove</figcaption></figure><details class="panel"><summary>Leggi la mappa in forma testuale</summary><ol class="map-text"><li><strong>Contesto</strong><ul><li>Foggia già esistente</li><li>Corte itinerante</li></ul></li><li><strong>Cantiere</strong><ul><li>Giugno 1223</li><li>Bartolomeo protomagister</li></ul></li><li><strong>Funzioni</strong><ul><li>Governo e residenza</li><li>Messaggio del potere</li></ul></li><li><strong>Resti</strong><ul><li>Epigrafe e portale</li><li>Successivo reimpiego</li></ul></li><li><strong>Limiti</strong><ul><li>Rovine prima del 1731</li><li>Pianta completa incerta</li></ul></li></ol><p>I frammenti documentano il palazzo; una ricostruzione completa resta un’ipotesi da motivare.</p></details></section>
+<section id="protagonisti" class="view study-view"><div class="section-heading"><p class="eyebrow ink">Persone dentro i processi</p><h2>Protagonisti</h2><p>Profili ricavati dalle informazioni presenti nella lezione.</p></div><div class="people-grid"><article class="person"><div class="monogram" aria-hidden="true">FI</div><h3>Federico II</h3><p>FOGGIA E LA CAPITANATA • IL DUECENTO E LA MEMORIA DELLA CITTÀ
+Il palazzo di Federico II a Foggia
+Un palazzo quasi scomparso può raccontare una parte importante della storia di una città.</p><a href="#lezione">Leggi nel contesto →</a></article><article class="person"><div class="monogram" aria-hidden="true">B</div><h3>Bartolomeo</h3><p>Bartolomeo e maestranze
+Organizzavano e svolgevano il lavoro del cantiere; l’epigrafe ricorda il protomagister.</p><a href="#lezione">Leggi nel contesto →</a></article></div></section>
+<section id="timeline" class="view study-view"><div class="section-heading"><p class="eyebrow ink">Date che spiegano i passaggi</p><h2>Linea del tempo ragionata</h2><p>Leggi insieme l’evento e ciò che cambia.</p></div><ol class="timeline-list"><li><span>1198 / 1220</span><p>Federico diventa re di Sicilia e poi imperatore.</p></li><li><span>Giugno 1223</span><p>Data di avvio dell’opera ricordata dall’epigrafe.</p></li><li><span>Età federiciana</span><p>Foggia è una sede importante della presenza regia.</p></li><li><span>1273</span><p>Il complesso ospita nozze dinastiche in età angioina.</p></li><li><span>1281 / 1328</span><p>Sono documentati interventi sul palazzo.</p></li><li><span>XVI secolo / 1731</span><p>Rovine già nel Cinquecento; il terremoto modifica in seguito la città.</p></li></ol></section>
+<section id="collegamenti" class="view study-view"><div class="section-heading"><p class="eyebrow ink">Mettere in relazione</p><h2>Torna alle lezioni principali</h2><p>Ogni approfondimento permette di tornare alle lezioni da cui nasce. Per usarlo offline, aprilo almeno una volta con una connessione attiva.</p></div><div class="related-grid"><a class="related-card" href="../Federico-II/"><span class="eyebrow">Lezione principale · XIII secolo</span><strong>Federico II</strong><span class="go">Apri il percorso →</span></a></div><a class="button ghost" href="esplora.html">Esplora la mostra digitale sul palazzo →</a><h3 class="next-label">Nel percorso cronologico</h3><div class="related-grid"></div><a class="button ghost" href="../">Apri l’indice generale →</a></section>
+<section id="quiz" class="view study-view"><div class="section-heading"><p class="eyebrow ink">Verifica e recupero</p><h2>Metti in gioco la comprensione</h2><p>10 domande con tre risposte. Al termine trovi correzioni e collegamenti per ripassare.</p></div><div class="quiz-shell" id="quiz-root"><noscript>Attiva JavaScript per usare il quiz interattivo. Il testo della lezione resta disponibile.</noscript></div></section></main><footer class="site-footer"><p>Storia III anno · a cura di gbprof e Libera</p><a href="../">Indice delle lezioni</a><p id="offline-status" role="status" aria-live="polite">Preparazione della lettura offline…</p></footer>
+<dialog id="map-dialog" aria-labelledby="map-dialog-title"><div class="dialog-bar"><h2 id="map-dialog-title">Il palazzo di Federico II a Foggia</h2><label>Zoom <input id="map-scale" type="range" min="50" max="180" step="10" value="100"></label><button class="button ghost" id="close-map" type="button">Chiudi</button></div><div class="map-viewport"><img src="mappa.png" alt="Mappa concettuale ingrandita"></div></dialog><script src="data.js"></script><script src="../_shared/storia.js"></script><script src="../../pwa-common/gbprof-accessibility.js?v=1"></script></body></html>

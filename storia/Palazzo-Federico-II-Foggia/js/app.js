@@ -387,7 +387,7 @@
   }
 
   function setupPWA() {
-    if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js").catch(() => {});
+    if ("serviceWorker" in navigator) navigator.serviceWorker.register("./service-worker.js").catch(() => {});
     const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
     const isStandalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
     if (isIOS && !isStandalone) $("#installButton").hidden = false;
