@@ -1,0 +1,13 @@
+{
+  "id":"./",
+  "name":"Alle origini dell'italiano — gbprof e Libera",
+  "short_name":"Origini italiano",
+  "description":"Lezione e approfondimento sulla nascita della lingua italiana",
+  "lang":"it",
+  "start_url":"./index.html",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#f2eadb",
+  "theme_color":"#17241f",
+  "icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]
+}
