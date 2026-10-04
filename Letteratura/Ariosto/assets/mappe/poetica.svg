@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="960" viewBox="0 0 1200 960" role="img" aria-labelledby="title desc">
+<title id="title">La poetica</title>
+<desc id="desc">Ariosto ordina con la scrittura una materia mobile e varia. L’intreccio, o entrelacement, interrompe e riprende i fili narrativi, producendo attesa e confronti fra vicende. L’ottava di otto endecasillabi, con schema ABABABCC, organizza ritmo e svolte: il distico finale può chiudere o cambiare il tono. Commenti, apostrofi e ironia della voce narrante richiedono una lettura critica che distingua eventi, giudizi e interpretazioni.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L9,5 L0,10 Z" fill="#b5824a"/></marker></defs>
+<rect width="1200" height="960" fill="#f5f1e7"/>
+<rect width="1200" height="8" fill="#b5824a"/>
+<text x="600" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="33" fill="#173c3b">La poetica</text>
+<text x="600" y="83" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#51645d">La forma organizza una materia mobile e molteplice</text>
+<path d="M600,247 L600,275 L215,275 L215,344" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="50" y="284" width="330" height="44" fill="#f5f1e7"/>
+<text x="215" y="301" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">si costruisce con</text>
+<path d="M215,540 L215,694" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="52" y="596" width="326" height="44" fill="#f5f1e7"/>
+<text x="215" y="614" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">produce</text>
+<path d="M600,247 L600,275 L600,275 L600,344" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="435" y="284" width="330" height="44" fill="#f5f1e7"/>
+<text x="600" y="301" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">prende forma nella</text>
+<path d="M600,540 L600,694" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="437" y="596" width="326" height="44" fill="#f5f1e7"/>
+<text x="600" y="614" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">favorisce</text>
+<path d="M600,247 L600,275 L985,275 L985,344" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="820" y="284" width="330" height="44" fill="#f5f1e7"/>
+<text x="985" y="301" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">si orienta attraverso</text>
+<path d="M985,540 L985,694" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="822" y="596" width="326" height="44" fill="#f5f1e7"/>
+<text x="985" y="614" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">richiede</text>
+<rect x="400" y="112" width="400" height="135" rx="18" fill="#173c3b" stroke="#b5824a" stroke-width="2"/>
+<text x="600.0" y="155.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#fffdf7" font-weight="700">Raccontare il movimento</text>
+<text x="600.0" y="197.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#e7d3b1">Ordine della scrittura, varietà</text>
+<text x="600.0" y="222.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#e7d3b1">delle vicende</text>
+<rect x="50" y="350" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="215.0" y="421.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Intreccio</text>
+<text x="215.0" y="463.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Fili interrotti e ripresi:</text>
+<text x="215.0" y="488.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">entrelacement</text>
+<rect x="50" y="700" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="215.0" y="771.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Attesa e confronto</text>
+<text x="215.0" y="813.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Il lettore collega storie e</text>
+<text x="215.0" y="838.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">punti di vista</text>
+<rect x="435" y="350" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="600.0" y="433.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Ottava</text>
+<text x="600.0" y="475.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Otto endecasillabi: ABABABCC</text>
+<rect x="435" y="700" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="600.0" y="771.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Ritmo e svolte</text>
+<text x="600.0" y="813.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Il distico può chiudere o</text>
+<text x="600.0" y="838.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">mutare il tono</text>
+<rect x="820" y="350" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="985.0" y="433.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Voce narrante</text>
+<text x="985.0" y="475.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Commenti, apostrofi e ironia</text>
+<rect x="820" y="700" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="985.0" y="771.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Lettura critica</text>
+<text x="985.0" y="813.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Distinguere eventi, giudizi</text>
+<text x="985.0" y="838.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">e interpretazioni</text>
+<path d="M50,915 H1150" stroke="#d6cab4"/>
+<text x="50" y="942" font-family="Arial,sans-serif" font-size="16" fill="#51645d">ARIOSTO · Percorso di letteratura · gbprof</text>
+<text x="1150" y="942" text-anchor="end" font-family="Arial,sans-serif" font-size="16" fill="#51645d">Leggi i legami fra i concetti</text>
+</svg>

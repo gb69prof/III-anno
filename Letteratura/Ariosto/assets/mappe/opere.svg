@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="960" viewBox="0 0 1200 960" role="img" aria-labelledby="title desc">
+<title id="title">Le opere</title>
+<desc id="desc">La scrittura di Ariosto si esprime nel poema, nelle satire e nel teatro. Il Furioso intreccia amore, guerra e mito genealogico estense, mettendo in tensione ideali e passioni: Angelica sceglie e Orlando perde il senno. Le sette Satire discutono lavoro, desideri e autonomia, elaborando una misura personale che difende tempo, legami e libertà di giudizio. Le commedie, fra cui Cassaria del 1508 e Suppositi del 1509, portano in scena interessi e inganni attraverso modelli classici per il pubblico di corte.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L9,5 L0,10 Z" fill="#b5824a"/></marker></defs>
+<rect width="1200" height="960" fill="#f5f1e7"/>
+<rect width="1200" height="8" fill="#b5824a"/>
+<text x="600" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="33" fill="#173c3b">Le opere</text>
+<text x="600" y="83" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#51645d">Tre forme mettono in scena desideri e rapporti sociali</text>
+<path d="M600,247 L600,275 L215,275 L215,344" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="50" y="284" width="330" height="44" fill="#f5f1e7"/>
+<text x="215" y="301" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">intreccia le vicende nel</text>
+<path d="M215,540 L215,694" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="52" y="596" width="326" height="44" fill="#f5f1e7"/>
+<text x="215" y="614" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">mette in tensione</text>
+<path d="M600,247 L600,275 L600,275 L600,344" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="435" y="284" width="330" height="44" fill="#f5f1e7"/>
+<text x="600" y="301" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">discute le scelte nelle</text>
+<path d="M600,540 L600,694" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="437" y="596" width="326" height="44" fill="#f5f1e7"/>
+<text x="600" y="614" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">elabora una</text>
+<path d="M600,247 L600,275 L985,275 L985,344" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="820" y="284" width="330" height="44" fill="#f5f1e7"/>
+<text x="985" y="301" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">rappresenta la società nelle</text>
+<path d="M985,540 L985,694" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="822" y="596" width="326" height="44" fill="#f5f1e7"/>
+<text x="985" y="614" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">porta in scena</text>
+<rect x="400" y="112" width="400" height="135" rx="18" fill="#173c3b" stroke="#b5824a" stroke-width="2"/>
+<text x="600.0" y="168.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#fffdf7" font-weight="700">La scrittura di Ariosto</text>
+<text x="600.0" y="210.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#e7d3b1">Poema, satire e teatro dialogano</text>
+<rect x="50" y="350" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="215.0" y="421.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Orlando furioso</text>
+<text x="215.0" y="463.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Amore, guerra e mito</text>
+<text x="215.0" y="488.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">genealogico estense</text>
+<rect x="50" y="700" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="215.0" y="771.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Ideale e passione</text>
+<text x="215.0" y="813.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Angelica sceglie; Orlando</text>
+<text x="215.0" y="838.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">perde il senno</text>
+<rect x="435" y="350" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="600.0" y="421.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Satire</text>
+<text x="600.0" y="463.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Sette testi: lavoro,</text>
+<text x="600.0" y="488.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">desideri, autonomia</text>
+<rect x="435" y="700" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="600.0" y="771.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Misura personale</text>
+<text x="600.0" y="813.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Difendere tempo, legami e</text>
+<text x="600.0" y="838.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">libertà di giudizio</text>
+<rect x="820" y="350" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="985.0" y="421.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Commedie</text>
+<text x="985.0" y="463.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Cassaria (1508), Suppositi</text>
+<text x="985.0" y="488.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">(1509)</text>
+<rect x="820" y="700" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="985.0" y="771.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Interessi e inganni</text>
+<text x="985.0" y="813.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Modelli classici per un</text>
+<text x="985.0" y="838.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">pubblico di corte</text>
+<path d="M50,915 H1150" stroke="#d6cab4"/>
+<text x="50" y="942" font-family="Arial,sans-serif" font-size="16" fill="#51645d">ARIOSTO · Percorso di letteratura · gbprof</text>
+<text x="1150" y="942" text-anchor="end" font-family="Arial,sans-serif" font-size="16" fill="#51645d">Leggi i legami fra i concetti</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="960" viewBox="0 0 1200 960" role="img" aria-labelledby="title desc">
+<title id="title">Approfondimento · Angelica</title>
+<desc id="desc">Angelica, ereditata da Boiardo, è già attiva nel canto I. I cavalieri la inseguono e le assegnano un ruolo secondo i propri desideri; lei può eluderli con la fuga e con l’anello, che in bocca la rende invisibile. Soccorre Medoro, soldato saraceno fedele a Dardin, prende iniziativa amorosa nel canto XIX, ottava 30, e lo sposa nelle ottave 33–34. Nell’ottava 37 progetta il ritorno nel Catai e l’incoronazione di Medoro: conserva il rango. Il rango non impedisce la caduta sul sabbione del canto XXIX, ottava 65, un episodio corporeo e ironico.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L9,5 L0,10 Z" fill="#b5824a"/></marker></defs>
+<rect width="1200" height="960" fill="#f5f1e7"/>
+<rect width="1200" height="8" fill="#b5824a"/>
+<text x="600" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="33" fill="#173c3b">Approfondimento · Angelica</text>
+<text x="600" y="83" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#51645d">Dall’oggetto della ricerca alla scelta: senza perdere il rango</text>
+<path d="M600,247 L600,275 L215,275 L215,344" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="50" y="284" width="330" height="44" fill="#f5f1e7"/>
+<text x="215" y="301" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">viene inseguita dai</text>
+<path d="M215,540 L215,694" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="52" y="596" width="326" height="44" fill="#f5f1e7"/>
+<text x="215" y="614" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">che lei può eludere con</text>
+<path d="M600,247 L600,275 L600,275 L600,344" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="435" y="284" width="330" height="44" fill="#f5f1e7"/>
+<text x="600" y="301" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">sceglie di soccorrere</text>
+<path d="M600,540 L600,694" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="437" y="596" width="326" height="44" fill="#f5f1e7"/>
+<text x="600" y="614" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">e prende iniziativa per</text>
+<path d="M600,247 L600,275 L985,275 L985,344" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="820" y="284" width="330" height="44" fill="#f5f1e7"/>
+<text x="985" y="301" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">progetta il ritorno nel</text>
+<path d="M985,540 L985,694" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="822" y="596" width="326" height="44" fill="#f5f1e7"/>
+<text x="985" y="614" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">il rango non evita la</text>
+<rect x="400" y="112" width="400" height="135" rx="18" fill="#173c3b" stroke="#b5824a" stroke-width="2"/>
+<text x="600.0" y="155.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#fffdf7" font-weight="700">Angelica tra sguardi e azioni</text>
+<text x="600.0" y="197.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#e7d3b1">Ereditata da Boiardo, già attiva</text>
+<text x="600.0" y="222.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#e7d3b1">nel canto I</text>
+<rect x="50" y="350" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="215.0" y="421.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Cavalieri</text>
+<text x="215.0" y="463.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">I loro desideri le assegnano</text>
+<text x="215.0" y="488.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">un ruolo</text>
+<rect x="50" y="700" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="215.0" y="771.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Fuga e anello</text>
+<text x="215.0" y="813.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">L’anello in bocca la rende</text>
+<text x="215.0" y="838.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">invisibile</text>
+<rect x="435" y="350" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="600.0" y="421.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Medoro</text>
+<text x="600.0" y="463.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Soldato saraceno fedele a</text>
+<text x="600.0" y="488.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Dardin</text>
+<rect x="435" y="700" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="600.0" y="771.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Amore e nozze</text>
+<text x="600.0" y="813.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">XIX, 30 e 33–34: desiderio e</text>
+<text x="600.0" y="838.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">matrimonio</text>
+<rect x="820" y="350" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="985.0" y="421.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Catai</text>
+<text x="985.0" y="463.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">XIX, 37: intende incoronare</text>
+<text x="985.0" y="488.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Medoro</text>
+<rect x="820" y="700" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="985.0" y="771.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Caduta sul sabbione</text>
+<text x="985.0" y="813.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">XXIX, 65: episodio corporeo</text>
+<text x="985.0" y="838.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">e ironico</text>
+<path d="M50,915 H1150" stroke="#d6cab4"/>
+<text x="50" y="942" font-family="Arial,sans-serif" font-size="16" fill="#51645d">ARIOSTO · Percorso di letteratura · gbprof</text>
+<text x="1150" y="942" text-anchor="end" font-family="Arial,sans-serif" font-size="16" fill="#51645d">Leggi i legami fra i concetti</text>
+</svg>

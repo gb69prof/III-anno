@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="960" viewBox="0 0 1200 960" role="img" aria-labelledby="title desc">
+<title id="title">Il mondo precedente</title>
+<desc id="desc">Ariosto eredita una tradizione cavalleresca che comprende già fedeltà, amore, orgoglio e contraddizioni. Continua il poema di Boiardo, con Angelica, Orlando innamorato e molte storie intrecciate, e sviluppa nel Furioso desideri molteplici e distanza ironica. Lavora nella corte estense: il mecenatismo sostiene la scrittura ma impone vincoli, creando una tensione fra sostegno e autonomia.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L9,5 L0,10 Z" fill="#b5824a"/></marker></defs>
+<rect width="1200" height="960" fill="#f5f1e7"/>
+<rect width="1200" height="8" fill="#b5824a"/>
+<text x="600" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="33" fill="#173c3b">Il mondo precedente</text>
+<text x="600" y="83" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#51645d">Una tradizione cavalleresca dentro la corte rinascimentale</text>
+<path d="M600,247 L600,275 L215,275 L215,344" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="50" y="284" width="330" height="44" fill="#f5f1e7"/>
+<text x="215" y="301" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">riprende dalla</text>
+<path d="M215,540 L215,694" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="52" y="596" width="326" height="44" fill="#f5f1e7"/>
+<text x="215" y="614" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">già presenta</text>
+<path d="M600,247 L600,275 L600,275 L600,344" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="435" y="284" width="330" height="44" fill="#f5f1e7"/>
+<text x="600" y="301" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">continua il poema di</text>
+<path d="M600,540 L600,694" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="437" y="596" width="326" height="44" fill="#f5f1e7"/>
+<text x="600" y="614" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">sviluppa in</text>
+<path d="M600,247 L600,275 L985,275 L985,344" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="820" y="284" width="330" height="44" fill="#f5f1e7"/>
+<text x="985" y="301" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">lavora nella</text>
+<path d="M985,540 L985,694" fill="none" stroke="#b5824a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="822" y="596" width="326" height="44" fill="#f5f1e7"/>
+<text x="985" y="614" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#78512d">impone una tensione fra</text>
+<rect x="400" y="112" width="400" height="135" rx="18" fill="#173c3b" stroke="#b5824a" stroke-width="2"/>
+<text x="600.0" y="168.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#fffdf7" font-weight="700">Ariosto eredita e trasforma</text>
+<text x="600.0" y="210.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#e7d3b1">Ferrara, cultura e conflitti</text>
+<rect x="50" y="350" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="215.0" y="421.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Tradizione cavalleresca</text>
+<text x="215.0" y="463.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Epica carolingia e romanzo</text>
+<text x="215.0" y="488.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">bretone</text>
+<rect x="50" y="700" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="215.0" y="771.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Valori e conflitti</text>
+<text x="215.0" y="813.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Fedeltà, amore, orgoglio e</text>
+<text x="215.0" y="838.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">contraddizioni</text>
+<rect x="435" y="350" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="600.0" y="421.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Boiardo</text>
+<text x="600.0" y="463.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Angelica, Orlando</text>
+<text x="600.0" y="488.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">innamorato, intreccio</text>
+<rect x="435" y="700" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="600.0" y="771.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Orlando furioso</text>
+<text x="600.0" y="813.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Desideri molteplici e</text>
+<text x="600.0" y="838.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">distanza ironica</text>
+<rect x="820" y="350" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="985.0" y="421.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Corte estense</text>
+<text x="985.0" y="463.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">Mecenatismo, spettacoli e</text>
+<text x="985.0" y="488.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">incarichi</text>
+<rect x="820" y="700" width="330" height="190" rx="18" fill="#fffdf7" stroke="#b5824a" stroke-width="2"/>
+<text x="985.0" y="771.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#173c3b" font-weight="700">Sostegno e autonomia</text>
+<text x="985.0" y="813.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">La protezione sostiene ma</text>
+<text x="985.0" y="838.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#51645d">vincola il poeta</text>
+<path d="M50,915 H1150" stroke="#d6cab4"/>
+<text x="50" y="942" font-family="Arial,sans-serif" font-size="16" fill="#51645d">ARIOSTO · Percorso di letteratura · gbprof</text>
+<text x="1150" y="942" text-anchor="end" font-family="Arial,sans-serif" font-size="16" fill="#51645d">Leggi i legami fra i concetti</text>
+</svg>
