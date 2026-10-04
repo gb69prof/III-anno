@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="960" viewBox="0 0 1200 960" role="img" aria-labelledby="title desc">
+<title id="title">Le opere e i loro conflitti</title>
+<desc id="desc">Dal mondo pastorale al poema e alla sua riscrittura. Mappa concettuale con relazioni esplicite.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L9,5 L0,10 Z" fill="#ab813b"/></marker></defs>
+<rect width="1200" height="960" fill="#f6f0e4"/>
+<rect x="0" y="0" width="1200" height="8" fill="#bd944f"/>
+<text x="600" y="52" text-anchor="middle" font-family="Georgia,serif" font-size="34" fill="#172b45">Le opere e i loro conflitti</text>
+<text x="600" y="83" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#49596a">Dal mondo pastorale al poema e alla sua riscrittura</text>
+<path d="M600,247 L600,278 L215,278 L215,351" fill="none" stroke="#ab813b" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="57" y="284" width="316" height="30" fill="#f6f0e4"/>
+<text x="215" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#715324">esplorano il desiderio in</text>
+<path d="M215,512 L215,696" fill="none" stroke="#ab813b" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="55" y="571" width="320" height="34" fill="#f6f0e4"/>
+<text x="215" y="593" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#715324">rappresenta</text>
+<path d="M600,247 L600,278 L600,278 L600,351" fill="none" stroke="#ab813b" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="442" y="284" width="316" height="30" fill="#f6f0e4"/>
+<text x="600" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#715324">intrecciano i conflitti in</text>
+<path d="M600,512 L600,696" fill="none" stroke="#ab813b" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="440" y="571" width="320" height="34" fill="#f6f0e4"/>
+<text x="600" y="593" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#715324">si articola in</text>
+<path d="M600,247 L600,278 L985,278 L985,351" fill="none" stroke="#ab813b" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="827" y="284" width="316" height="30" fill="#f6f0e4"/>
+<text x="985" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#715324">ritornano sul poema con</text>
+<path d="M985,512 L985,696" fill="none" stroke="#ab813b" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="825" y="571" width="320" height="34" fill="#f6f0e4"/>
+<text x="985" y="593" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#715324">risponde a esigenze di</text>
+<rect x="420" y="112" width="360" height="135" rx="18" fill="#172b45" stroke="#bd944f" stroke-width="2"/>
+<text x="600.0" y="156.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#ffffff">Le opere di Tasso</text>
+<text x="600.0" y="196.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#e5cfaa">Forme diverse interrogano</text>
+<text x="600.0" y="222.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#e5cfaa">desiderio e norma</text>
+<rect x="50" y="357" width="330" height="155" rx="18" fill="#fffdf8" stroke="#bd944f" stroke-width="2"/>
+<text x="215.0" y="411.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#172b45">Aminta · 1573</text>
+<text x="215.0" y="451.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">Favola pastorale: amore e</text>
+<text x="215.0" y="477.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">vita di corte</text>
+<rect x="435" y="357" width="330" height="155" rx="18" fill="#fffdf8" stroke="#bd944f" stroke-width="2"/>
+<text x="600.0" y="411.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#172b45">Liberata · 1581</text>
+<text x="600.0" y="451.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">Poema in 20 canti, composto</text>
+<text x="600.0" y="477.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">in ottave</text>
+<rect x="820" y="357" width="330" height="155" rx="18" fill="#fffdf8" stroke="#bd944f" stroke-width="2"/>
+<text x="985.0" y="411.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#172b45">Conquistata · 1593</text>
+<text x="985.0" y="451.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">Riscrittura in 24 canti, con</text>
+<text x="985.0" y="477.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">nuovi criteri</text>
+<rect x="50" y="702" width="330" height="155" rx="18" fill="#fffdf8" stroke="#bd944f" stroke-width="2"/>
+<text x="215.0" y="756.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#172b45">Lo spazio pastorale</text>
+<text x="215.0" y="796.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">Il desiderio si confronta con</text>
+<text x="215.0" y="822.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">le convenzioni</text>
+<rect x="435" y="702" width="330" height="155" rx="18" fill="#fffdf8" stroke="#bd944f" stroke-width="2"/>
+<text x="600.0" y="756.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#172b45">Tre vicende esemplari</text>
+<text x="600.0" y="796.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">Tancredi–Clorinda;</text>
+<text x="600.0" y="822.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">Rinaldo–Armida; Erminia</text>
+<rect x="820" y="702" width="330" height="155" rx="18" fill="#fffdf8" stroke="#bd944f" stroke-width="2"/>
+<text x="985.0" y="756.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#172b45">Revisione letteraria</text>
+<text x="985.0" y="796.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">Maggiore rigore epico e</text>
+<text x="985.0" y="822.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">orientamento religioso</text>
+<path d="M50,911 H1150" stroke="#d9c6a4"/>
+<text x="50" y="940" font-family="Arial,sans-serif" font-size="16" fill="#596676">TASSO · Percorso di letteratura · gbprof</text>
+<text x="1150" y="940" text-anchor="end" font-family="Arial,sans-serif" font-size="16" fill="#596676">Leggi i legami fra i concetti</text>
+</svg>

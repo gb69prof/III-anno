@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="960" viewBox="0 0 1200 960" role="img" aria-labelledby="title desc">
+<title id="title">Le fratture biografiche</title>
+<desc id="desc">Date e condizioni: senza ridurre l’opera alla malattia. Mappa concettuale con relazioni esplicite.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L9,5 L0,10 Z" fill="#ab813b"/></marker></defs>
+<rect width="1200" height="960" fill="#f6f0e4"/>
+<rect x="0" y="0" width="1200" height="8" fill="#bd944f"/>
+<text x="600" y="52" text-anchor="middle" font-family="Georgia,serif" font-size="34" fill="#172b45">Le fratture biografiche</text>
+<text x="600" y="83" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#49596a">Date e condizioni: senza ridurre l’opera alla malattia</text>
+<path d="M600,247 L600,278 L215,278 L215,351" fill="none" stroke="#ab813b" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="57" y="284" width="316" height="30" fill="#f6f0e4"/>
+<text x="215" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#715324">si costruisce attraverso</text>
+<path d="M215,512 L215,696" fill="none" stroke="#ab813b" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="55" y="571" width="320" height="34" fill="#f6f0e4"/>
+<text x="215" y="593" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#715324">si colloca nella vita</text>
+<path d="M600,247 L600,278 L600,278 L600,351" fill="none" stroke="#ab813b" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="442" y="284" width="316" height="30" fill="#f6f0e4"/>
+<text x="600" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#715324">trova protezione a</text>
+<path d="M600,512 L600,696" fill="none" stroke="#ab813b" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="440" y="559" width="320" height="58" fill="#f6f0e4"/>
+<text x="600" y="581" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#715324">il soggiorno include la</text>
+<text x="600" y="605" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#715324">reclusione</text>
+<path d="M600,247 L600,278 L985,278 L985,351" fill="none" stroke="#ab813b" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="827" y="284" width="316" height="30" fill="#f6f0e4"/>
+<text x="985" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#715324">dedica anni alla</text>
+<path d="M985,512 L985,696" fill="none" stroke="#ab813b" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="825" y="571" width="320" height="34" fill="#f6f0e4"/>
+<text x="985" y="593" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#715324">produce due esiti</text>
+<rect x="420" y="112" width="360" height="135" rx="18" fill="#172b45" stroke="#bd944f" stroke-width="2"/>
+<text x="600.0" y="156.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#ffffff">Torquato Tasso</text>
+<text x="600.0" y="196.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#e5cfaa">Una vita fra formazione,</text>
+<text x="600.0" y="222.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#e5cfaa">corte e revisione</text>
+<rect x="50" y="357" width="330" height="155" rx="18" fill="#fffdf8" stroke="#bd944f" stroke-width="2"/>
+<text x="215.0" y="411.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#172b45">Formazione</text>
+<text x="215.0" y="451.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">Studio dei classici e</text>
+<text x="215.0" y="477.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">instabilità degli affetti</text>
+<rect x="435" y="357" width="330" height="155" rx="18" fill="#fffdf8" stroke="#bd944f" stroke-width="2"/>
+<text x="600.0" y="411.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#172b45">Ferrara, dal 1565</text>
+<text x="600.0" y="451.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">Servizio presso la corte</text>
+<text x="600.0" y="477.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">degli Este</text>
+<rect x="820" y="357" width="330" height="155" rx="18" fill="#fffdf8" stroke="#bd944f" stroke-width="2"/>
+<text x="985.0" y="411.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#172b45">Revisione del poema</text>
+<text x="985.0" y="451.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">Dubbi letterari e religiosi</text>
+<text x="985.0" y="477.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">accompagnano il lavoro</text>
+<rect x="50" y="702" width="330" height="155" rx="18" fill="#fffdf8" stroke="#bd944f" stroke-width="2"/>
+<text x="215.0" y="756.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#172b45">1544–1595</text>
+<text x="215.0" y="796.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">Nasce a Sorrento; muore a</text>
+<text x="215.0" y="822.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">Roma</text>
+<rect x="435" y="702" width="330" height="155" rx="18" fill="#fffdf8" stroke="#bd944f" stroke-width="2"/>
+<text x="600.0" y="756.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#172b45">Sant’Anna, 1579–1586</text>
+<text x="600.0" y="796.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">Reclusione a Ferrara; la</text>
+<text x="600.0" y="822.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">scrittura continua</text>
+<rect x="820" y="702" width="330" height="155" rx="18" fill="#fffdf8" stroke="#bd944f" stroke-width="2"/>
+<text x="985.0" y="756.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#172b45">1581 → 1593</text>
+<text x="985.0" y="796.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">Liberata: 20 canti;</text>
+<text x="985.0" y="822.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#4b5968">Conquistata: 24 canti</text>
+<path d="M50,911 H1150" stroke="#d9c6a4"/>
+<text x="50" y="940" font-family="Arial,sans-serif" font-size="16" fill="#596676">TASSO · Percorso di letteratura · gbprof</text>
+<text x="1150" y="940" text-anchor="end" font-family="Arial,sans-serif" font-size="16" fill="#596676">Leggi i legami fra i concetti</text>
+</svg>
