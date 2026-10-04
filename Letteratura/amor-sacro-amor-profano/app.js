@@ -1,0 +1,60 @@
+/* Contenuti e dati dello studente restano locali. */
+(()=>{'use strict';
+const $=s=>document.querySelector(s), KEY='gbprof-amor-sacro-v1', D=window.COURSE;
+const empty=()=>({chapter:0,view:'lesson',read:[],notes:{},quizzes:{},font:'normal'});
+let state=empty(), persistent=true, timer, installPrompt, retry=null;
+try{state={...state,...JSON.parse(localStorage.getItem(KEY)||'{}')}}catch(e){persistent=false}
+if(!D||!Array.isArray(D.sections)){$('#panel').textContent='Impossibile caricare i contenuti. Ricarica la pagina.';return}
+if(!Number.isInteger(state.chapter)||state.chapter<0||state.chapter>=D.sections.length)state.chapter=0;
+if(!Array.isArray(state.read))state.read=[];
+const views={lesson:'Lezione',summary:'Sintesi',map:'Mappa',quiz:'Test',notes:'Appunti'};
+if(!views[state.view])state.view='lesson';
+function notify(s){$('#notice').textContent=s;clearTimeout(timer);timer=setTimeout(()=>$('#notice').textContent='',4500)}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state));persistent=true}catch(e){persistent=false;$('#storage-status').textContent='Il browser non consente il salvataggio: i dati resteranno disponibili solo durante questa apertura.'}}
+function escape(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+const s=()=>D.sections[state.chapter];
+function nav(){
+$('#chapter-list').innerHTML=D.sections.map((v,i)=>`<button data-chapter="${i}" class="${i===state.chapter?'active':''}" ${i===state.chapter?'aria-current="step"':''}><span class="num">${String(i+1).padStart(2,'0')}</span>${escape(v.title)}${state.read.includes(i)?' <span aria-label="letta">✓</span>':''}</button>`).join('');
+$('#progress').value=state.read.length;$('#progress-text').textContent=`${state.read.length} di 8 tappe lette`;$('#resume').hidden=state.read.length===0&&state.chapter===0;
+$('#previous').disabled=state.chapter===0;$('#next').disabled=state.chapter===7;$('#mark').textContent=state.read.includes(state.chapter)?'Letta ✓ · annulla':'Segna come letta';
+}
+function heading(){const v=s();$('#chapter-heading').innerHTML=`<p class="eyebrow">Tappa ${state.chapter+1} / 8 · ${escape(v.kicker)}</p><h2 tabindex="-1" id="chapter-title">${escape(v.title)}</h2><p class="chapter-lead">${escape(v.lead)}</p><p class="question">${escape(v.question)}</p>`;$('#views').innerHTML=Object.entries(views).map(([k,v])=>`<button data-view="${k}" class="${k===state.view?'active':''}" aria-pressed="${k===state.view}">${v}</button>`).join('')}
+function render(focus=false){nav();heading();renderPanel();save();if(focus){$('#chapter-title').focus({preventScroll:true});$('.reader').scrollIntoView({block:'start'})}}
+function renderPanel(){const v=s();$('#panel').setAttribute('aria-label',views[state.view]);
+if(state.view==='lesson')$('#panel').innerHTML=`<article class="lesson">${v.blocks.map(b=>`<section aria-labelledby="${v.id}-${b.id}"><h3 id="${v.id}-${b.id}" tabindex="-1">${escape(b.title)}</h3>${b.html}</section>`).join('')}</article>`;
+if(state.view==='summary')$('#panel').innerHTML=`<section><h3>Il filo in poche parole</h3><p class="summary">${escape(v.summary)}</p><h3>Saperi irrinunciabili</h3><ul class="essentials">${v.essentials.map(e=>`<li>${escape(e)}</li>`).join('')}</ul><h3>Vocabolario essenziale</h3><dl class="glossary">${v.glossary.map(g=>`<div><dt>${escape(g.term)}</dt><dd>${escape(g.definition)}</dd></div>`).join('')}</dl></section>`;
+if(state.view==='map'){$('#panel').innerHTML=`<section><h3>Vedere i nessi</h3><figure style="margin:0"><img class="map-image" src="assets/mappe/${v.id}.svg" alt="${escape(v.map.alt)}" width="820" height="1080"><figcaption class="map-caption">${escape(v.map.alt)}</figcaption></figure><p class="map-actions"><a href="assets/mappe/${v.id}.svg" target="_blank" rel="noopener">Apri la mappa a piena pagina</a><a href="assets/mappe/${v.id}.svg" download>Scarica la mappa</a></p>${(v.interactions||[]).map((x,i)=>`<details class="map-details"><summary>${escape(x.title)}</summary><p>${escape(x.text)}</p><button data-anchor="${escape(x.anchor)}">Ritrova il nesso nella lezione</button></details>`).join('')}</section>`}
+if(state.view==='notes'){$('#panel').innerHTML='<h3>Il tuo taccuino</h3><p>Scrivi una domanda, un collegamento o una spiegazione con parole tue. Gli appunti si salvano mentre scrivi.</p><label class="notes-label" for="notes">Appunti di questa tappa</label><textarea id="notes" placeholder="Quale rapporto hai ricostruito? Che cosa rimane da chiarire?"></textarea><p id="notes-status" role="status" class="small"></p>';$('#notes').value=state.notes[v.id]||'';$('#notes').addEventListener('input',e=>{state.notes[v.id]=e.target.value;save();$('#notes-status').textContent=persistent?'Appunti salvati sul dispositivo.':'Appunti disponibili solo per questa apertura.'})}
+if(state.view==='quiz')renderQuiz();}
+function quizState(){return state.quizzes[s().id]||{answers:{},attempts:[],recoveries:[]}}
+function wrong(q){return s().quiz.map((v,i)=>i).filter(i=>q.answers[i]!==s().quiz[i].correct)}
+function score(q){return s().quiz.length-wrong(q).length}
+function options(opts,name,selected){return opts.map((o,i)=>`<label class="option"><input type="radio" name="${name}" value="${i}" ${selected===i?'checked':''}><span>${escape(o)}</span></label>`).join('')}
+function renderQuiz(){const v=s(),q=quizState();const indices=retry||v.quiz.map((x,i)=>i);let html='<h3>Metti alla prova i nessi</h3><p>5 domande, tre alternative ciascuna. Dopo la correzione vedrai le spiegazioni e il recupero dei soli errori. Il risultato non viene inviato al docente.</p>';
+if(retry)html+='<p class="inline-note">Stai rifacendo soltanto le domande sbagliate. Il primo tentativo resta nello storico.</p>';
+if(!q.attempts.length||retry){html+=`<form id="quiz-form" class="quiz">${indices.map(i=>`<fieldset><legend>${i+1}. ${escape(v.quiz[i].question)}</legend>${options(v.quiz[i].options,'q'+i,retry?undefined:q.answers[i])}</fieldset>`).join('')}<p id="quiz-warning" role="alert"></p><button class="primary" type="submit">Correggi ${retry?'il recupero':'il test'}</button></form>`}
+else{const n=score(q),pct=n/5*100,grade=Math.max(1,Math.round(pct/10));html+=`<div class="score" role="status"><strong>${n}/5 · ${pct}% · voto ${grade}/10</strong><p>Voto = massimo tra 1 e percentuale × 10 arrotondata (percentuale espressa tra 0 e 1).</p><p>Il risultato attuale include le correzioni dei tentativi di recupero.</p></div><h4>Correzione ragionata</h4>`;
+html+=v.quiz.map((x,i)=>`<div class="feedback ${q.answers[i]===x.correct?'ok':''}"><strong>${i+1}. ${q.answers[i]===x.correct?'Corretta ✓':'Da rivedere'}</strong><p>${escape(x.explanation)}</p></div>`).join('');
+const errors=wrong(q);if(errors.length){html+='<h3>I nessi da ricostruire</h3>';html+=errors.map(i=>{const x=v.quiz[i],r=x.recovery;return `<section class="recovery"><h4>${i+1}. ${escape(r.concept)}</h4><p><strong>La tua risposta:</strong> ${escape(x.options[q.answers[i]])}</p><p><strong>La risposta corretta:</strong> ${escape(x.options[x.correct])}</p><p>${escape(r.clarification)}</p><p><strong>Un esempio:</strong> ${escape(r.example)}</p><button data-anchor="${escape(x.anchor)}">Rileggi il passaggio preciso</button><form data-recovery="${i}"><fieldset><legend>${escape(r.question)}</legend>${options(r.options,'r'+i)}</fieldset><button type="submit">Controlla il nuovo nesso</button><p class="recovery-status" role="status"></p></form></section>`}).join('');html+='<button id="retry" class="primary">Rifai soltanto le domande sbagliate</button>'}else html+='<p>Tutti i nessi di questa tappa sono stati riconosciuti. Prova ora a spiegarli senza guardare le alternative.</p>';
+html+=`<details class="history"><summary>Storico dei tentativi (${q.attempts.length})</summary><ol>${q.attempts.map(t=>`<li>${escape(new Date(t.date).toLocaleString('it-IT'))} · ${t.type==='initial'?'Test completo':'Solo errori'} · ${t.score}/5 · ${t.indices.length} domande affrontate</li>`).join('')}</ol><p>Domande brevi di recupero affrontate: ${q.recoveries.length}.</p></details>`}
+$('#panel').innerHTML=html;
+$('#quiz-form')?.addEventListener('submit',e=>{e.preventDefault();const form=new FormData(e.currentTarget);if(indices.some(i=>!form.has('q'+i))){$('#quiz-warning').textContent='Scegli una risposta per ciascuna domanda prima di correggere.';$('#quiz-warning').scrollIntoView({block:'center'});return}for(const i of indices)q.answers[i]=Number(form.get('q'+i));q.attempts.push({date:new Date().toISOString(),type:retry?'retry':'initial',indices:[...indices],answers:{...q.answers},score:score(q)});state.quizzes[v.id]=q;retry=null;save();renderQuiz();$('#panel').scrollIntoView({block:'start'})});
+$('#retry')?.addEventListener('click',()=>{retry=wrong(q);renderQuiz()});
+document.querySelectorAll('[data-recovery]').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();const i=Number(f.dataset.recovery),r=v.quiz[i].recovery,form=new FormData(f);if(!form.has('r'+i)){f.querySelector('.recovery-status').textContent='Seleziona una risposta.';return}const a=Number(form.get('r'+i));q.recoveries.push({question:i,answer:a,correct:a===r.correct,date:new Date().toISOString()});state.quizzes[v.id]=q;save();f.querySelector('.recovery-status').textContent=a===r.correct?'Nesso riconosciuto ✓. '+r.clarification:'Il nesso va riletto. '+r.clarification}));
+}
+function anchor(id){state.view='lesson';retry=null;render();const target=document.getElementById(s().id+'-'+id);target?.scrollIntoView({block:'start'});target?.focus({preventScroll:true})}
+$('#chapter-list').addEventListener('click',e=>{const b=e.target.closest('[data-chapter]');if(b){state.chapter=Number(b.dataset.chapter);state.view='lesson';retry=null;render(true)}});
+$('#views').addEventListener('click',e=>{const b=e.target.closest('[data-view]');if(b){state.view=b.dataset.view;retry=null;render();}});
+$('#panel').addEventListener('click',e=>{const b=e.target.closest('[data-anchor]');if(b)anchor(b.dataset.anchor)});
+$('#previous').onclick=()=>{if(state.chapter>0){state.chapter--;state.view='lesson';retry=null;render(true)}};
+$('#next').onclick=()=>{if(state.chapter<7){state.chapter++;state.view='lesson';retry=null;render(true)}};
+$('#mark').onclick=()=>{const i=state.chapter;state.read=state.read.includes(i)?state.read.filter(v=>v!==i):[...state.read,i];save();nav();notify(state.read.includes(i)?'Tappa segnata come letta.':'Segno di lettura rimosso.')};
+$('#start').onclick=()=>{state.chapter=0;state.view='lesson';retry=null;render(true)};$('#resume').onclick=()=>render(true);
+$('#font-size').value=state.font;document.body.classList.toggle('large',state.font==='large');$('#font-size').onchange=e=>{state.font=e.target.value;document.body.classList.toggle('large',state.font==='large');save()};
+$('#reset').onclick=()=>{if(!confirm('Azzerare soltanto appunti, lettura e risultati di Amor sacro e amor profano?'))return;try{localStorage.removeItem(KEY)}catch(e){}state=empty();retry=null;document.body.classList.remove('large');$('#font-size').value='normal';render();$('#storage-status').textContent='Dati di questo percorso azzerati.'};
+$('#sources-content').innerHTML=D.sourcesHtml;
+$('#install').onclick=()=>$('#install-dialog').showModal();$('#close-install').onclick=()=>$('#install-dialog').close();
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installPrompt=e;$('#native-install').hidden=false});$('#native-install').onclick=async()=>{if(installPrompt){await installPrompt.prompt();installPrompt=null;$('#native-install').hidden=true}};
+if('serviceWorker'in navigator){navigator.serviceWorker.register('service-worker.js',{scope:'./'}).then(()=>navigator.serviceWorker.ready).then(()=>{$('#offline-status').textContent='Contenuti salvati: lezioni, mappe e test sono pronti per l’uso offline.'}).catch(()=>{$('#offline-status').textContent='Salvataggio offline non riuscito. Riapri con connessione su HTTPS.'})}else $('#offline-status').textContent='Questo browser non supporta il salvataggio offline.';
+render();
+})();
