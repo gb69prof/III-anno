@@ -1,5 +1,7 @@
 const CACHE='gbprof-lingua-20261005-v1';
 const FILES=[
+  "../../privacy.html",
+  "../../accessibilita.html",
   './','index.html','style.css','data.js','app.js','manifest.webmanifest','icon.svg',
   '../../pwa-common/gbprof-accessibility.css?v=1','../../pwa-common/gbprof-accessibility.js?v=1'
 ];
