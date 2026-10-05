@@ -1,5 +1,21 @@
-const CACHE='gbprof-rinascimento-20261005-v4';
-const ASSETS=['./','index.html','style.css?v=4','app.js?v=4','copertina-v4.svg?v=4','manifest.webmanifest','../../pwa-common/gbprof-accessibility.css?v=1','../../pwa-common/gbprof-accessibility.js?v=1','../../privacy.html','../../accessibilita.html'];
+const CACHE='gbprof-rinascimento-20261005-v5';
+const ASSETS=[
+  './',
+  'index.html',
+  'style.css?v=5',
+  'app.js?v=5',
+  'cover-user-1.js?v=5',
+  'cover-user-2.js?v=5',
+  'cover-user-3.js?v=5',
+  'cover-user-4.js?v=5',
+  'cover-user-5.js?v=5',
+  'cover-user-6.js?v=5',
+  'manifest.webmanifest',
+  '../../pwa-common/gbprof-accessibility.css?v=1',
+  '../../pwa-common/gbprof-accessibility.js?v=1',
+  '../../privacy.html',
+  '../../accessibilita.html'
+];
 
 self.addEventListener('install',e=>{
   e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()));
