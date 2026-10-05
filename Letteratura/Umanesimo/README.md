@@ -40,4 +40,4 @@ Il percorso parte dalla vecchia lezione di gbprof **L'Umanesimo** (7 pagine), ma
 7. Umanesimi, al plurale
 8. Verso il Rinascimento
 
-La copertina è un'illustrazione SVG originale costruita come uno studiolo umanistico.
+La copertina utilizza l'immagine scelta da gbprof: l'umanista è rappresentato fra classici, arti, scienze, Firenze e strumenti della conoscenza.
