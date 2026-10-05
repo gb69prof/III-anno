@@ -42,4 +42,4 @@ Sezioni autonome:
 - Confronto Machiavelli / Guicciardini
 - Verifica finale
 
-La copertina SVG originale rappresenta geometria rinascimentale e frattura politica.
+La copertina è stata ridisegnata in SVG: prospettiva, geometria e città rinascimentale sono attraversate da una frattura, immagine della tensione fra perfezione formale e crisi politica.
