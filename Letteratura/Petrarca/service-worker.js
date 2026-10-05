@@ -1,4 +1,4 @@
-const CACHE='gbprof-petrarca-20261005-v1';const ASSETS=[
+const CACHE='gbprof-petrarca-20261005-v2';const ASSETS=[
   "../../pwa-common/gbprof-accessibility.css?v=1",
   "../../pwa-common/gbprof-accessibility.js?v=1",
   "../../privacy.html",
