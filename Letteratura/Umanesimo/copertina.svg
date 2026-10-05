@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-labelledby="t d">
+<title id="t">Studiolo umanistico</title><desc id="d">Copertina originale con libro aperto, architettura prospettica, busto classico e cielo geometrico.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d8c59c"/><stop offset="1" stop-color="#879da0"/></linearGradient>
+<linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8d684f"/><stop offset="1" stop-color="#3d2d27"/></linearGradient>
+<radialGradient id="sun"><stop stop-color="#f5d78c"/><stop offset="1" stop-color="#d49b44"/></radialGradient>
+</defs>
+<rect width="900" height="1100" fill="url(#bg)"/>
+<circle cx="690" cy="190" r="110" fill="url(#sun)" opacity=".9"/>
+<g stroke="#f7ecd1" stroke-width="5" fill="none" opacity=".7"><circle cx="690" cy="190" r="150"/><circle cx="690" cy="190" r="195"/><path d="M495 190h390M690 -5v390"/></g>
+<path d="M80 930 L450 560 L820 930 Z" fill="url(#floor)"/>
+<g stroke="#d4b486" stroke-width="3" opacity=".5"><path d="M450 560v370"/><path d="M80 930l370-370 370 370"/><path d="M190 930l260-370 260 370"/><path d="M300 930l150-370 150 370"/><path d="M410 930l40-370 40 370"/><path d="M140 860h620M205 790h490M270 720h360M335 650h230"/></g>
+<g transform="translate(110 190)">
+<rect x="0" y="0" width="150" height="520" rx="12" fill="#eee1c4"/><rect x="22" y="40" width="106" height="420" fill="#b58a5d"/><path d="M15 0h120l-22 38H37z" fill="#e5d3af"/>
+<path d="M20 520h110l28 45H-8z" fill="#e5d3af"/>
+</g>
+<g transform="translate(595 435)"><ellipse cx="95" cy="95" rx="64" ry="80" fill="#d8c09b"/><path d="M35 170h120l55 155H-20z" fill="#6f7b73"/><path d="M70 30q35-35 70 0" stroke="#6a5345" stroke-width="18" fill="none"/><path d="M45 75q50-35 100 0" stroke="#6a5345" stroke-width="13" fill="none"/></g>
+<g transform="translate(175 770)">
+<path d="M0 90 Q135 10 275 70 Q410 5 545 90 L500 215 Q380 150 275 205 Q160 150 45 215 Z" fill="#f3e6c9" stroke="#78533e" stroke-width="7"/>
+<path d="M275 70v135" stroke="#9c7355" stroke-width="4"/>
+<g stroke="#ad8c69" stroke-width="3"><path d="M45 112q110-45 205-20"/><path d="M55 135q105-40 195-18"/><path d="M300 92q100-25 200 18"/><path d="M300 118q105-20 190 18"/></g>
+<text x="275" y="255" text-anchor="middle" font-family="Georgia,serif" font-size="36" fill="#f4e8ce" letter-spacing="10">HUMANITAS</text>
+</g>
+<g fill="#293e45" font-family="Georgia,serif"><text x="450" y="90" text-anchor="middle" font-size="35" letter-spacing="8">AD FONTES</text><text x="450" y="140" text-anchor="middle" font-size="20" letter-spacing="4">LEGERE · COMPARARE · INTELLEGERE</text></g>
+</svg>
