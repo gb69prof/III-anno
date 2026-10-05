@@ -1,12 +1,13 @@
 # Audit automatico PWA
 
-HTML: 60 · manifest: 49 · service worker: 50
-Errori automatici: 4 · avvisi: 0
+HTML: 61 · manifest: 50 · service worker: 51
+Errori automatici: 5 · avvisi: 0
 
 ## Errori rilevati
 - Foggia/XV-secolo/manifest.json: icone assenti
 - Letteratura/Boccaccio/manifest.webmanifest: icone assenti
 - Letteratura/Petrarca/manifest.webmanifest: icone assenti
+- Letteratura/Rinascimento/manifest.webmanifest: icone assenti
 - Letteratura/Umanesimo/manifest.webmanifest: icone assenti
 
 ## Avvisi
