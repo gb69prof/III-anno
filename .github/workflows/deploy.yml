@@ -4,10 +4,16 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-III-anno-main
+  cancel-in-progress: true
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
       - name: Deploy via SSH
@@ -17,9 +23,23 @@ jobs:
           username: ${{ secrets.DEPLOY_USER }}
           key: ${{ secrets.DEPLOY_SSH_KEY }}
           script: |
-            set -e
+            set -euo pipefail
             cd /opt/gbprof/projects/III-anno
-            git fetch origin
+
+            echo "Aggiorno il repository..."
+            git fetch --prune origin
             git reset --hard origin/main
-            echo "Deploy III-anno completato"
+
+            LOCAL_SHA="$(git rev-parse HEAD)"
+            REMOTE_SHA="$(git rev-parse origin/main)"
+
+            echo "Server:  $LOCAL_SHA"
+            echo "GitHub:  $REMOTE_SHA"
+
+            if [ "$LOCAL_SHA" != "$REMOTE_SHA" ]; then
+              echo "ERRORE: il server non coincide con origin/main"
+              exit 1
+            fi
+
+            echo "Deploy III-anno verificato con successo"
             git log -1 --oneline
