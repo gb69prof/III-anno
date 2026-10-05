@@ -1,15 +1,18 @@
-const CACHE='gbprof-rinascimento-20261005-v5';
+const CACHE='gbprof-rinascimento-20261005-v6';
 const ASSETS=[
   './',
   'index.html',
-  'style.css?v=5',
-  'app.js?v=5',
-  'cover-user-1.js?v=5',
-  'cover-user-2.js?v=5',
-  'cover-user-3.js?v=5',
-  'cover-user-4.js?v=5',
-  'cover-user-5.js?v=5',
-  'cover-user-6.js?v=5',
+  'style.css?v=6',
+  'app.js?v=6',
+  'cover-v5-1.js?v=6',
+  'cover-v5-2.js?v=6',
+  'cover-v5-3.js?v=6',
+  'cover-v5-4.js?v=6',
+  'cover-v5-5.js?v=6',
+  'cover-v5-6.js?v=6',
+  'cover-v5-7.js?v=6',
+  'cover-v5-8.js?v=6',
+  'cover-v5-9.js?v=6',
   'manifest.webmanifest',
   '../../pwa-common/gbprof-accessibility.css?v=1',
   '../../pwa-common/gbprof-accessibility.js?v=1',
@@ -31,7 +34,6 @@ self.addEventListener('activate',e=>{
 
 self.addEventListener('fetch',e=>{
   if(e.request.method!=='GET') return;
-
   if(e.request.mode==='navigate'){
     e.respondWith(
       fetch(e.request,{cache:'no-store'})
@@ -44,10 +46,9 @@ self.addEventListener('fetch',e=>{
     );
     return;
   }
-
   e.respondWith(
     caches.match(e.request).then(cached=>{
-      const network=fetch(e.request).then(resp=>{
+      const network=fetch(e.request,{cache:'no-store'}).then(resp=>{
         const copy=resp.clone();
         caches.open(CACHE).then(c=>c.put(e.request,copy));
         return resp;
