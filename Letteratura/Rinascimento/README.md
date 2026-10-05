@@ -42,4 +42,4 @@ Sezioni autonome:
 - Confronto Machiavelli / Guicciardini
 - Verifica finale
 
-La copertina usa l’immagine scelta e allegata da gbprof, ottimizzata nel peso per la PWA senza modificarne il contenuto visivo: mette a confronto la stagione rinascimentale pre-conciliare e quella successiva al Concilio di Trento.
+La copertina usa esattamente l’immagine allegata da gbprof; è stata soltanto ridimensionata e compressa in WebP per la PWA, senza reinterpretarne o modificarne il contenuto visivo.
