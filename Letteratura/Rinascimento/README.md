@@ -42,4 +42,4 @@ Sezioni autonome:
 - Confronto Machiavelli / Guicciardini
 - Verifica finale
 
-La copertina è stata ridisegnata in SVG: prospettiva, geometria e città rinascimentale sono attraversate da una frattura, immagine della tensione fra perfezione formale e crisi politica.
+La copertina usa l’immagine scelta e allegata da gbprof, ottimizzata nel peso per la PWA senza modificarne il contenuto visivo: mette a confronto la stagione rinascimentale pre-conciliare e quella successiva al Concilio di Trento.
